@@ -1713,4 +1713,234 @@ LogInit: Object subsystem initialized
 [2016.05.27-23.45.17:884][706]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
 [2016.05.27-23.45.17:885][706]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
 [2016.05.27-23.45.23:199][790]LogSavePackage: Save=259.01ms
-[2016.05.27-23.45.23:199][790]LogSavePackage: Moving '../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMapFD676C714ED7B8D02090318BE68B3979.tmp' to '../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExamp
+[2016.05.27-23.45.23:199][790]LogSavePackage: Moving '../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMapFD676C714ED7B8D02090318BE68B3979.tmp' to '../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap.umap'
+[2016.05.27-23.45.23:201][790]LogSavePackage: Total save time: 271.59ms
+[2016.05.27-23.45.23:201][790]LogSavePackage:Display: Finished SavePackage ../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap.umap
+[2016.05.27-23.45.23:218][790]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.340
+[2016.05.27-23.45.23:666][790]LogSavePackage: Save=418.97ms
+[2016.05.27-23.45.23:666][790]LogSavePackage: Moving '../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonCharacterE9B5C325464108FAA9F30EA73354FEE2.tmp' to '../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonCharacter.uasset'
+[2016.05.27-23.45.23:668][790]LogSavePackage: Total save time: 425.22ms
+[2016.05.27-23.45.23:668][790]LogSavePackage:Display: Finished SavePackage ../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonCharacter.uasset
+[2016.05.27-23.47.51:288][534]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.27-23.47.51:288][534]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.05.27-23.47.55:511][777]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.05.27-23.47.55:511][777]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_C_1) Not registered. Aborting.
+[2016.05.27-23.47.55:865][777]LogSavePackage: Save=261.56ms
+[2016.05.27-23.47.55:865][777]LogSavePackage: Moving '../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMap9D97D8A54F000A46728ED485B8A1DDF2.tmp' to '../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap.umap'
+[2016.05.27-23.47.55:867][777]LogSavePackage: Total save time: 266.84ms
+[2016.05.27-23.47.55:867][777]LogSavePackage:Display: Finished SavePackage ../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap.umap
+[2016.05.27-23.47.55:884][777]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.334
+[2016.05.27-23.47.56:339][777]LogSavePackage: Save=432.05ms
+[2016.05.27-23.47.56:339][777]LogSavePackage: Moving '../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonCharacterC92A30A549BF8EA9AAAF6185EE9429EA.tmp' to '../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonCharacter.uasset'
+[2016.05.27-23.47.56:340][777]LogSavePackage: Total save time: 436.78ms
+[2016.05.27-23.47.56:340][777]LogSavePackage:Display: Finished SavePackage ../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonCharacter.uasset
+[2016.05.27-23.48.32:080][922]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.27-23.48.32:080][922]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.05.27-23.48.32:092][922]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.27-23.48.32:092][922]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.05.27-23.48.32:131][922]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2016.05.27-23.48.32:252][922]ImportText (Location): Missing opening parenthesis: 
+[2016.05.27-23.48.32:324][922]LogPlayLevel: PlayLevel: Blueprint regeneration took 243 ms (2 blueprints)
+[2016.05.27-23.48.32:324][922]LogPlayLevel: [PlayLevel] Compiling DummyOrbRotate before play...
+[2016.05.27-23.48.32:395][922]LogPlayLevel: PlayLevel: Blueprint regeneration took 314 ms (2 blueprints)
+[2016.05.27-23.48.32:418][922]PIE: New page: PIE session: ThirdPersonExampleMap (May 27, 2016, 2:48:32 PM)
+[2016.05.27-23.48.32:418][922]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.27-23.48.32:440][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021876s)
+[2016.05.27-23.48.32:441][922]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.27-23.48.32:441][922]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2016.05.27-23.48.32:441][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022802s)
+[2016.05.27-23.48.32:459][922]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.27-23.48.32:469][922]LogInit: FAudioDevice initialized.
+[2016.05.27-23.48.32:499][922]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.27-23.48.32:503][922]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.05.27-19.48.32
+[2016.05.27-23.48.32:503][922]LogWorld: Bringing up level for play took: 0.003333
+[2016.05.27-23.48.32:504][922]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap 0.784
+[2016.05.27-23.48.32:504][922]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.27-23.48.34:986][ 48]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Pressed
+[2016.05.27-23.48.34:986][ 48]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.34:987][ 48]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:003][ 49]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:019][ 50]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:036][ 51]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:053][ 52]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:069][ 53]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:086][ 54]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:103][ 55]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:119][ 56]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:136][ 57]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:153][ 58]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:169][ 59]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:186][ 60]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:203][ 61]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:219][ 62]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:236][ 63]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:253][ 64]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:270][ 65]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:286][ 66]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:303][ 67]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:319][ 68]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:336][ 69]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:353][ 70]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:369][ 71]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:386][ 72]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:403][ 73]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:420][ 74]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:436][ 75]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:453][ 76]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:470][ 77]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:486][ 78]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:503][ 79]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:520][ 80]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:536][ 81]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:553][ 82]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:570][ 83]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:586][ 84]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:603][ 85]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:620][ 86]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:636][ 87]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:653][ 88]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:670][ 89]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:686][ 90]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:703][ 91]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:720][ 92]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:736][ 93]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:753][ 94]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:770][ 95]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:787][ 96]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:810][ 97]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:832][ 98]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:854][ 99]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:876][100]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:898][101]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:920][102]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:941][103]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:963][104]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.35:985][105]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:007][106]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:030][107]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:052][108]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:082][109]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:100][110]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:121][111]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:144][112]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:165][113]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:186][114]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:207][115]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:229][116]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:250][117]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:271][118]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:294][119]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:315][120]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:337][121]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:359][122]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:380][123]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:402][124]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:423][125]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:444][126]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:466][127]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:488][128]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:510][129]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:532][130]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:554][131]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:577][132]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:598][133]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:620][134]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:641][135]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:663][136]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:684][137]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:705][138]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.36:728][139]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Sphere_3
+[2016.05.27-23.48.37:076][159]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.05.27-23.48.37:960][212]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Pressed
+[2016.05.27-23.48.37:961][212]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.37:961][212]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.37:977][213]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.37:994][214]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:010][215]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:027][216]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:044][217]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:060][218]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:077][219]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:094][220]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:110][221]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:127][222]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:144][223]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:160][224]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:177][225]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:194][226]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:210][227]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:227][228]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:244][229]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:260][230]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:277][231]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:294][232]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:310][233]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:327][234]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:345][235]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:361][236]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:378][237]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:395][238]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:411][239]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:428][240]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:445][241]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:461][242]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:478][243]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:495][244]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:511][245]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:528][246]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:545][247]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:562][248]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:578][249]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:595][250]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:611][251]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:628][252]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:645][253]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:661][254]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:678][255]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:695][256]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:711][257]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:728][258]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:745][259]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:762][260]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:778][261]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:795][262]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:811][263]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:828][264]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:845][265]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:861][266]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:878][267]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:895][268]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:911][269]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:928][270]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:945][271]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:961][272]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:978][273]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.38:995][274]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:011][275]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:028][276]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:045][277]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:061][278]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:078][279]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:095][280]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:111][281]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:128][282]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:145][283]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:161][284]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:178][285]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:195][286]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:211][287]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:228][288]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:245][289]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:261][290]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:278][291]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Cube_7
+[2016.05.27-23.48.39:295][292]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.05.27-23.49.32:039][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.27-23.49.32:039][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.05.27-23.50.51:475][220]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.27-23.50.51:546][220]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.27-23.50.56:791][490]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.27-23.50.56:791][490]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.05.27-23.50.57:157][490]LogSavePackage: Save=259.92ms
+[2016.05.27-23.50.57:157][490]LogSavePackage: Moving '../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMapA25FB05C4C172E08466AB3882F412C55.tmp' to '../../../../../../My Documents/RIT/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap.umap'
+[2016.05.27-23.50.57:159][490]LogSavePackage: Total save time: 272.35ms
+[2016.05.27-23.50.57:159][490]LogSavePackage:Display: Finished SavePac
