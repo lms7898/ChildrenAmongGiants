@@ -248,3 +248,350 @@ LogInit: Object subsystem initialized
 [2016.06.01-17.08.11:466][417]LogEditorServer: Rebuildmap Clear paths rebuilt
 [2016.06.01-17.08.13:768][417]LogEditorBuildUtils: Build time 0:00:02
 [2016.06.01-17.08.20:816][964]Job is a success!
+[2016.06.01-17.08.21:094][965]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.06.01-17.08.21:094][965]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.06.01-17.08.21:094][965]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2016.06.01-17.08.21:160][965]Lightmass on MAGIC10: 15.4 sec total, 343 ms importing, 27 ms setup, 3.79 sec photons, 11.2 sec processing, 0 ms extra exporting [1470/1470 mappings]. Threads: 2:03 min total, 1:27 min processing.
+[2016.06.01-17.08.21:199][965]LogStaticLightingSystem: Illumination: 19.6 sec (42 ms encoding lightmaps, 32 ms encoding shadowmaps)
+[2016.06.01-17.08.21:199][965]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.06.01-17.08.21:199][965]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 1 textures
+[2016.06.01-17.08.21:289][966]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.06.01-17.08.21:290][966]MapCheck: New page: Town - Jun 1, 2016, 8:08:21 AM
+[2016.06.01-17.08.21:293][966]MapCheck:Warning: Warning LevelStreamingVolume_1 LevelStreamingVolume_1 : No levels are associated with streaming volume. 
+[2016.06.01-17.08.21:293][966]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2016.06.01-17.08.21:548][966]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 258.638ms to complete.
+[2016.06.01-17.09.25:143][269]LogSavePackage: Save=34984.07ms
+[2016.06.01-17.09.25:143][269]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Town204977EE4317EB799BC099A84EF6E56C.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap'
+[2016.06.01-17.09.25:205][269]LogSavePackage: Total save time: 35836.18ms
+[2016.06.01-17.09.25:205][269]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap
+[2016.06.01-17.17.14:387][769]LogSavePackage: Save=6000.56ms
+[2016.06.01-17.17.14:387][769]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/ClocktowerArea_Auto19D9AA07548275C7656008EB0541CF39A.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Maps/ClocktowerArea_Auto1.umap'
+[2016.06.01-17.17.14:399][769]LogSavePackage: Total save time: 6429.11ms
+[2016.06.01-17.17.14:399][769]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Maps/ClocktowerArea_Auto1.umap
+[2016.06.01-17.17.14:400][769]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 6.476
+[2016.06.01-17.17.14:400][769]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.476
+[2016.06.01-17.24.05:721][138]LogTexture:Display: Building textures: T_Lamp_N (BC5)
+[2016.06.01-17.24.06:058][138]LogTexture:Display: Building textures: T_Lamp_M (AutoDXT)
+[2016.06.01-17.25.36:619][360]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 108 classes and 0 folders.
+[2016.06.01-17.25.37:681][360]LogTexture:Display: Building textures: TilePatine_N (BC5)
+[2016.06.01-17.25.37:735][360]LogTexture:Display: Building textures: TilePatine_D (AutoDXT)
+[2016.06.01-17.25.38:627][383]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Town.HQ_Lightmap0_6. Streaming mips will be recached.
+[2016.06.01-17.25.38:633][383]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.06.01-17.26.10:054][125]LogRenderer: Reallocating scene render targets to support 1208x900 (Frame:58041).
+[2016.06.01-17.28.08:010][298]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2016.06.01-17.28.34:430][528]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.01-17.28.34:432][528]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.01-17.28.34:432][528]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.06.01-17.28.34:432][528]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.01-17.28.34:432][528]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.06.01-17.28.34:432][528]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2016.06.01-17.28.34:709][528]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 0.279
+[2016.06.01-17.28.34:733][528]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/KillZones/BaseKillZoneCode] ([1] browsable assets)...
+[2016.06.01-17.28.34:733][528]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/KillZones/BaseKillZoneCode]
+[2016.06.01-17.28.35:105][528]LogSavePackage: Save=348.99ms
+[2016.06.01-17.28.35:105][528]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/BaseKillZoneCode_Auto239FFE49342AA4B127183F7B22EB13446.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Blueprints/KillZones/BaseKillZoneCode_Auto2.uasset'
+[2016.06.01-17.28.35:119][528]LogSavePackage: Total save time: 363.21ms
+[2016.06.01-17.28.35:119][528]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Blueprints/KillZones/BaseKillZoneCode_Auto2.uasset
+[2016.06.01-17.28.35:119][528]LogFileHelpers: Auto-saving content packages took 0.409
+[2016.06.01-17.36.17:225][609]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.06.01-17.45.00:889][704]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.01-17.45.00:889][704]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.01-17.45.00:889][704]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.06.01-17.45.00:889][704]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2016.06.01-17.45.00:889][704]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.06.01-17.45.00:889][704]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.01-17.45.00:935][704]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 0.046
+[2016.06.01-17.45.00:944][704]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/KillZones/BaseKillZoneCode] ([1] browsable assets)...
+[2016.06.01-17.45.00:944][704]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/KillZones/BaseKillZoneCode]
+[2016.06.01-17.45.01:628][704]LogSavePackage: Save=660.05ms
+[2016.06.01-17.45.01:628][704]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/BaseKillZoneCode_Auto35545137040C14F468A7C58ABB3942060.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Blueprints/KillZones/BaseKillZoneCode_Auto3.uasset'
+[2016.06.01-17.45.01:640][704]LogSavePackage: Total save time: 673.63ms
+[2016.06.01-17.45.01:640][704]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Blueprints/KillZones/BaseKillZoneCode_Auto3.uasset
+[2016.06.01-17.45.01:642][704]LogFileHelpers: Auto-saving content packages took 0.706
+[2016.06.01-17.57.32:508][339]Cmd: TRANSACTION UNDO
+[2016.06.01-17.57.32:508][339]LogEditorTransaction: Undo Move Actors
+[2016.06.01-17.57.32:574][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.stove6.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:575][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL13.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:575][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL11.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:575][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL14.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:575][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL15.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:576][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.house4.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:576][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.House1door.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:576][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush9_44.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:576][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:577][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.stove3.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:577][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.stove4.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:577][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.TV2.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:578][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.stove10.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:578][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL22.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:578][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL20.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:578][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL23.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:579][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL24.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:579][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.house6.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:579][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:580][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.roof2.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:580][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:580][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.stove7.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:585][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.stove8.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:586][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.TV3.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:607][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush3_16.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:607][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building10.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:608][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building11.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:608][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building7.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:608][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Placeholder3.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:608][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building12.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:609][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BannerPole5.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:609][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BannerPole.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:609][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BannerPole2.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:609][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Bridge.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:610][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Bridge2.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:610][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building4.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:611][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.DecorativePlatform.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:611][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Placeholder4.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:611][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building22.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:611][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.DecorativePlatform9.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:612][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building28.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:612][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building29.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:612][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building25.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:613][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.DecorativePlatform5.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:613][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.DecorativePlatform6.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:615][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building15.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:615][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building20.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:616][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building21.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:616][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building19.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:616][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.stove14.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:616][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL31.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:617][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL29.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:617][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL32.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:617][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL33.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:618][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.house8.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:618][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush21.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:618][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.roof3.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:618][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush18.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:619][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.stove11.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:619][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.stove12.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:619][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.TV4.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:620][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.SpiralStairBrush2.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:620][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.SphereBrush.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:620][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.CylinderBrush2.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:621][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush35.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:621][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush37.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:621][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:621][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:623][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.roof4.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:623][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush22.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:624][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush28.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:624][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush29.BrushComponent0) Component already registered.
+[2016.06.01-17.57.32:624][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2016.06.01-17.57.33:652][425]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.06.01-17.58.17:763][544]LogSavePackage: Save=683.88ms
+[2016.06.01-17.58.17:763][544]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/BaseKillZoneCodeFDF6105C4593B54BADAEA0AFFD44FCBC.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/KillZones/BaseKillZoneCode.uasset'
+[2016.06.01-17.58.17:798][544]LogSavePackage: Total save time: 719.72ms
+[2016.06.01-17.58.17:798][544]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/KillZones/BaseKillZoneCode.uasset
+[2016.06.01-17.58.24:233][544]LogSavePackage: Save=5720.42ms
+[2016.06.01-17.58.24:233][544]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/ClocktowerAreaB54ED04444108E6E621C03A710234080.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ClocktowerArea.umap'
+[2016.06.01-17.58.24:279][544]LogSavePackage: Total save time: 6154.01ms
+[2016.06.01-17.58.24:279][544]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ClocktowerArea.umap
+[2016.06.01-17.58.24:280][544]LogFileHelpers: Saving map 'ClocktowerArea' took 6.478
+[2016.06.01-17.58.24:284][544]Cmd: MAP LOAD FILE="F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.01-17.58.24:297][544]LightingResults: New page: Lighting Build
+[2016.06.01-17.58.24:340][544]LoadErrors: New page: Loading map: Town.umap
+[2016.06.01-17.58.24:348][544]MapCheck: New page: Map Check
+[2016.06.01-17.58.24:348][544]LightingResults: New page: Lighting Build
+[2016.06.01-17.58.24:541][544]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.06.01-17.58.24:545][544]LogAIModule: Creating AISystem for world Town
+[2016.06.01-17.58.24:609][544]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.01-17.58.24:675][544]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.01-17.58.24:954][544]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 278.842ms to complete.
+[2016.06.01-17.58.24:954][544]LogFileHelpers: Loading map 'Town' took 0.672
+[2016.06.01-18.20.20:156][ 95]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.20.20:156][ 95]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.01-18.20.20:193][ 95]LogPlayLevel: [PlayLevel] Compiling BaseKillZoneCode before play...
+[2016.06.01-18.20.20:349][ 95]LogPlayLevel: PlayLevel: Blueprint regeneration took 192 ms (1 blueprints)
+[2016.06.01-18.20.20:369][ 95]PIE: New page: PIE session: Town (Jun 1, 2016, 9:20:20 AM)
+[2016.06.01-18.20.20:379][ 95]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.01-18.20.20:496][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117271s)
+[2016.06.01-18.20.20:497][ 95]LogAIModule: Creating AISystem for world Town
+[2016.06.01-18.20.20:497][ 95]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2016.06.01-18.20.20:498][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.118509s)
+[2016.06.01-18.20.20:521][ 95]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.01-18.20.20:533][ 95]LogInit: FAudioDevice initialized.
+[2016.06.01-18.20.20:580][ 95]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.01-18.20.20:700][ 95]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.01-14.20.20
+[2016.06.01-18.20.20:720][ 95]LogWorld: Bringing up level for play took: 0.137911
+[2016.06.01-18.20.20:731][ 95]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 9 classes and 0 folders.
+[2016.06.01-18.20.20:736][ 95]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.374
+[2016.06.01-18.20.20:743][ 95]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.20.36:818][ 10]LogLevel: ActivateLevel /Game/Maps/UEDPIE_0_ClocktowerArea 1 1 1
+[2016.06.01-18.20.36:855][ 10]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/ClocktowerArea.ClocktowerArea to /Game/Maps/UEDPIE_0_ClocktowerArea.ClocktowerArea. OwningWorld: /Game/Maps/UEDPIE_0_Town.Town
+[2016.06.01-18.45.22:327][160]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.45.22:376][160]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.48.47:735][ 35]LogEditorTransaction: Undo Create Pin Link
+[2016.06.01-18.48.48:161][ 64]LogEditorTransaction: Undo Create Pin Link
+[2016.06.01-18.48.48:896][130]LogEditorTransaction: Undo Create Pin Link
+[2016.06.01-18.48.49:827][214]LogEditorTransaction: Undo Move Node
+[2016.06.01-18.48.50:529][279]LogEditorTransaction: Undo Delete current selection
+[2016.06.01-18.53.14:236][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.01-18.53.14:236][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.01-18.53.14:236][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.06.01-18.53.14:236][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2016.06.01-18.53.14:236][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.06.01-18.53.14:236][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.01-18.53.14:257][117]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 0.022
+[2016.06.01-18.53.14:267][117]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/KillZones/BaseKillZoneCode] ([1] browsable assets)...
+[2016.06.01-18.53.14:269][117]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/KillZones/BaseKillZoneCode]
+[2016.06.01-18.53.15:314][117]LogSavePackage: Save=639.96ms
+[2016.06.01-18.53.15:314][117]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/BaseKillZoneCode_Auto4B8AEC3FB412AEDB01AEB47A4F7F5A08C.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Blueprints/KillZones/BaseKillZoneCode_Auto4.uasset'
+[2016.06.01-18.53.15:327][117]LogSavePackage: Total save time: 1033.69ms
+[2016.06.01-18.53.15:327][117]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Blueprints/KillZones/BaseKillZoneCode_Auto4.uasset
+[2016.06.01-18.53.15:327][117]LogFileHelpers: Auto-saving content packages took 1.069
+[2016.06.01-18.55.51:903][249]LogSavePackage: Save=618.84ms
+[2016.06.01-18.55.51:904][249]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/BaseKillZoneCodeDBABEBF04E78F9B51DD00E9428646EDE.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/KillZones/BaseKillZoneCode.uasset'
+[2016.06.01-18.55.51:951][249]LogSavePackage: Total save time: 1031.47ms
+[2016.06.01-18.55.51:951][249]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/KillZones/BaseKillZoneCode.uasset
+[2016.06.01-18.55.56:738][712]BlueprintLog: New page: Compile BaseKillZoneCode
+[2016.06.01-18.55.56:827][712]BlueprintEditorCompileResults: Info [6748.28] Compile of BaseKillZoneCode successful! [in 88 ms]
+[2016.06.01-18.55.59:812][895]LogSavePackage: Save=660.40ms
+[2016.06.01-18.55.59:812][895]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/BaseKillZoneCodeFDFEBA484322CCF6A7D474B4F186DADE.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/KillZones/BaseKillZoneCode.uasset'
+[2016.06.01-18.55.59:832][895]LogSavePackage: Total save time: 1046.60ms
+[2016.06.01-18.55.59:832][895]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/KillZones/BaseKillZoneCode.uasset
+[2016.06.01-18.58.32:214][630]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.58.32:214][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.01-18.58.32:215][630]PIE: New page: PIE session: Town (Jun 1, 2016, 9:58:32 AM)
+[2016.06.01-18.58.32:215][630]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.01-18.58.32:317][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.101907s)
+[2016.06.01-18.58.32:317][630]LogAIModule: Creating AISystem for world Town
+[2016.06.01-18.58.32:317][630]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2016.06.01-18.58.32:318][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.102959s)
+[2016.06.01-18.58.32:344][630]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.01-18.58.32:355][630]LogInit: FAudioDevice initialized.
+[2016.06.01-18.58.32:390][630]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.01-18.58.32:512][630]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.01-14.58.32
+[2016.06.01-18.58.32:519][630]LogWorld: Bringing up level for play took: 0.127642
+[2016.06.01-18.58.32:533][630]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.576
+[2016.06.01-18.58.32:540][630]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.58.44:614][891]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.58.44:660][891]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.58.49:977][331]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.58.49:977][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.01-18.58.49:977][331]PIE: New page: PIE session: Town (Jun 1, 2016, 9:58:49 AM)
+[2016.06.01-18.58.49:977][331]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.01-18.58.50:078][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100621s)
+[2016.06.01-18.58.50:079][331]LogAIModule: Creating AISystem for world Town
+[2016.06.01-18.58.50:079][331]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2016.06.01-18.58.50:079][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.101461s)
+[2016.06.01-18.58.50:102][331]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.01-18.58.50:112][331]LogInit: FAudioDevice initialized.
+[2016.06.01-18.58.50:142][331]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.01-18.58.50:271][331]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.01-14.58.50
+[2016.06.01-18.58.50:278][331]LogWorld: Bringing up level for play took: 0.133789
+[2016.06.01-18.58.50:286][331]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.176
+[2016.06.01-18.58.50:292][331]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.59.08:968][277]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.59.09:016][277]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.59.13:702][665]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.59.13:702][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.01-18.59.13:703][665]PIE: New page: PIE session: Town (Jun 1, 2016, 9:59:13 AM)
+[2016.06.01-18.59.13:708][665]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.01-18.59.13:810][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102004s)
+[2016.06.01-18.59.13:811][665]LogAIModule: Creating AISystem for world Town
+[2016.06.01-18.59.13:811][665]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2016.06.01-18.59.13:811][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.102854s)
+[2016.06.01-18.59.13:835][665]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.01-18.59.13:844][665]LogInit: FAudioDevice initialized.
+[2016.06.01-18.59.13:880][665]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.01-18.59.14:001][665]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.01-14.59.14
+[2016.06.01-18.59.14:008][665]LogWorld: Bringing up level for play took: 0.126730
+[2016.06.01-18.59.14:017][665]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 0.908
+[2016.06.01-18.59.14:025][665]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.59.50:712][563]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-18.59.50:759][563]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-19.00.06:263][994]LogEditorActor: Deleted Actor: BaseKillZoneCode_C
+[2016.06.01-19.00.06:283][994]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2016.06.01-19.03.21:698][830]LogSavePackage: Save=610.92ms
+[2016.06.01-19.03.21:698][830]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/BaseKillZoneCode3075E8DE46328B1C413AC1BC61BEF126.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/KillZones/BaseKillZoneCode.uasset'
+[2016.06.01-19.03.21:721][830]LogSavePackage: Total save time: 1022.00ms
+[2016.06.01-19.03.21:722][830]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/KillZones/BaseKillZoneCode.uasset
+[2016.06.01-19.05.36:524][ 68]LogMetaData: Removing '/Game/Blueprints/KillZones/TownLevelFinalKillZone.TownLevelFinalKillZone:UserConstructionScript.K2Node_FunctionEntry_252' ref from Metadata '/Game/Blueprints/KillZones/BaseKillZoneCode_Child.PackageMetaData'
+[2016.06.01-19.05.36:524][ 68]LogMetaData: Removing '/Game/Blueprints/KillZones/TownLevelFinalKillZone.SKEL_TownLevelFinalKillZone_C' ref from Metadata '/Game/Blueprints/KillZones/BaseKillZoneCode_Child.PackageMetaData'
+[2016.06.01-19.05.36:524][ 68]LogMetaData: Removing '/Game/Blueprints/KillZones/TownLevelFinalKillZone.TownLevelFinalKillZone_C' ref from Metadata '/Game/Blueprints/KillZones/BaseKillZoneCode_Child.PackageMetaData'
+[2016.06.01-19.05.36:525][ 68]LogMetaData: Removing '/Game/Blueprints/KillZones/TownLevelFinalKillZone.TownLevelFinalKillZone:EventGraph.K2Node_Event_216' ref from Metadata '/Game/Blueprints/KillZones/BaseKillZoneCode_Child.PackageMetaData'
+[2016.06.01-19.05.36:525][ 68]LogMetaData: Removing '/Game/Blueprints/KillZones/TownLevelFinalKillZone.TownLevelFinalKillZone:EventGraph.K2Node_Event_217' ref from Metadata '/Game/Blueprints/KillZones/BaseKillZoneCode_Child.PackageMetaData'
+[2016.06.01-19.05.36:526][ 68]LogMetaData: Removing '/Game/Blueprints/KillZones/TownLevelFinalKillZone.TownLevelFinalKillZone:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/KillZones/BaseKillZoneCode_Child.PackageMetaData'
+[2016.06.01-19.05.36:526][ 68]LogMetaData: Removing '/Game/Blueprints/KillZones/TownLevelFinalKillZone.TownLevelFinalKillZone:EventGraph.K2Node_Event_218' ref from Metadata '/Game/Blueprints/KillZones/BaseKillZoneCode_Child.PackageMetaData'
+[2016.06.01-19.05.37:062][ 68]LogSavePackage: Save=454.62ms
+[2016.06.01-19.05.37:062][ 68]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/TownLevelFinalKillZone6D5952A9435EA432B1FD7992C152449B.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/KillZones/TownLevelFinalKillZone.uasset'
+[2016.06.01-19.05.37:095][ 68]LogSavePackage: Total save time: 488.51ms
+[2016.06.01-19.05.37:096][ 68]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/KillZones/TownLevelFinalKillZone.uasset
+[2016.06.01-19.06.36:503][734]LogSavePackage: Save=34992.59ms
+[2016.06.01-19.06.36:503][734]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Town_Auto5A7A1ABA040DD965C4703D4A63EB933E6.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Maps/Town_Auto5.umap'
+[2016.06.01-19.06.36:528][734]LogSavePackage: Total save time: 35941.19ms
+[2016.06.01-19.06.36:528][734]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Maps/Town_Auto5.umap
+[2016.06.01-19.06.36:548][734]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 36.015
+[2016.06.01-19.06.36:548][734]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 36.015
+[2016.06.01-19.06.36:596][734]LogSavePackage: Save=15.67ms
+[2016.06.01-19.06.36:596][734]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/BaseKillZoneCode_Child_Auto5CE0D7CAE4C64BFAAEB384EA65FABE830.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Blueprints/KillZones/BaseKillZoneCode_Child_Auto5.uasset'
+[2016.06.01-19.06.36:609][734]LogSavePackage: Total save time: 29.47ms
+[2016.06.01-19.06.36:609][734]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Blueprints/KillZones/BaseKillZoneCode_Child_Auto5.uasset
+[2016.06.01-19.06.36:609][734]LogFileHelpers: Auto-saving content packages took 0.060
+[2016.06.01-19.11.07:113][432]LogSavePackage: Save=491.01ms
+[2016.06.01-19.11.07:113][432]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/TownLevelFinalKillZoneC1074B1B4C1A88BACFF62E881F47D2B6.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/KillZones/TownLevelFinalKillZone.uasset'
+[2016.06.01-19.11.07:156][432]LogSavePackage: Total save time: 895.37ms
+[2016.06.01-19.11.07:156][432]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/KillZones/TownLevelFinalKillZone.uasset
+[2016.06.01-19.11.08:833][586]BlueprintLog: New page: Compile TownLevelFinalKillZone
+[2016.06.01-19.11.08:942][586]BlueprintEditorCompileResults: Info [7660.39] Compile of TownLevelFinalKillZone successful! [in 108 ms]
+[2016.06.01-19.12.14:034][660]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-19.12.14:039][660]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.01-19.12.14:040][660]PIE: New page: PIE session: Town (Jun 1, 2016, 10:12:14 AM)
+[2016.06.01-19.12.14:040][660]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.01-19.12.14:765][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.725102s)
+[2016.06.01-19.12.14:766][660]LogAIModule: Creating AISystem for world Town
+[2016.06.01-19.12.14:766][660]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2016.06.01-19.12.14:766][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.726119s)
+[2016.06.01-19.12.14:795][660]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.01-19.12.14:805][660]LogInit: FAudioDevice initialized.
+[2016.06.01-19.12.14:839][660]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.01-19.12.14:963][660]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.01-15.12.14
+[2016.06.01-19.12.14:970][660]LogWorld: Bringing up level for play took: 0.130098
+[2016.06.01-19.12.14:980][660]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.87
+[2016.06.01-19.12.14:987][660]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-19.12.23:584][380]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-19.12.23:631][380]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-19.12.59:907][140]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-19.12.59:907][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.01-19.12.59:907][140]PIE: New page: PIE session: Town (Jun 1, 2016, 10:12:59 AM)
+[2016.06.01-19.12.59:907][140]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.01-19.13.00:010][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102972s)
+[2016.06.01-19.13.00:011][140]LogAIModule: Creating AISystem for world Town
+[2016.06.01-19.13.00:011][140]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2016.06.01-19.13.00:011][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.103896s)
+[2016.06.01-19.13.00:035][140]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.01-19.13.00:045][140]LogInit: FAudioDevice initialized.
+[2016.06.01-19.13.00:080][140]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.01-19.13.00:207][140]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.01-15.13.00
+[2016.06.01-19.13.00:214][140]LogWorld: Bringing up level for play took: 0.132480
+[2016.06.01-19.13.00:223][140]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.113
+[2016.06.01-19.13.00:230][140]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-19.13.22:518][  0]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-19.13.22:566][  0]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-19.14.10:838][624]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-19.14.10:838][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.01-19.14.10:838][624]PIE: New page: PIE session: Town (Jun 1, 2016, 10:14:10 AM)
+[2016.06.01-19.14.10:838][624]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.01-19.14.10:943][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104095s)
+[2016.06.01-19.14.10:943][624]LogAIModule: Creating AISystem for world Town
+[2016.06.01-19.14.10:943][624]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2016.06.01-19.14.10:943][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.105023s)
+[2016.06.01-19.14.10:968][624]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.01-19.14.10:978][624]LogInit: FAudioDevice initialized.
+[2016.06.01-19.14.11:008][624]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.01-19.14.11:132][624]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.01-15.14.11
+[2016.06.01-19.14.11:139][624]LogWorld: Bringing up level for play took: 0.129222
+[2016.06.01-19.14.11:148][624]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 0.038
+[2016.06.01-19.14.11:155][624]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-19.14.24:601][756]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-19.14.24:646][756]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-19.15.03:670][929]LogSavePackage: Save=34506.64ms
+[2016.06.01-19.15.03:670][929]LogSavePackage: Moving 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Saved/Town533F16124EBDC89DB5617BB0E2A31C65.tmp' to 'F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap'
+[2016.06.01-19.15.03:716][929]LogSavePackage: Total save time: 36602.12ms
+[2016.06.01-19.15.03:716][929]LogSavePackage:Display: Finished SavePackage F:/Work/WhisperOfALullaby/ChildrenAmongGiants-Dev/ChildrenAmongGiants/WhisperOfAL
