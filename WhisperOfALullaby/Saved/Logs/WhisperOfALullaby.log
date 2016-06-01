@@ -823,4 +823,164 @@ LogInit: Object subsystem initialized
 [2016.06.01-20.40.21:854][168]LogBlueprintUserMessages: [ThirdPersonCharacter_C_18] Pressed
 [2016.06.01-20.40.21:854][168]LogBlueprintUserMessages: [ThirdPersonCharacter_C_18] None
 [2016.06.01-20.40.21:942][174]LogBlueprintUserMessages: [ThirdPersonCharacter_C_18] Released
-[2016.06.01-20.40.22:062][182]LogBlueprintUserMessages: [ThirdPersonCharacter_C_18] Pre
+[2016.06.01-20.40.22:062][182]LogBlueprintUserMessages: [ThirdPersonCharacter_C_18] Pressed
+[2016.06.01-20.40.22:063][182]LogBlueprintUserMessages: [ThirdPersonCharacter_C_18] None
+[2016.06.01-20.40.22:753][229]LogBlueprintUserMessages: [ThirdPersonCharacter_C_18] Released
+[2016.06.01-20.40.22:991][245]LogBlueprintUserMessages: [ThirdPersonCharacter_C_18] Pressed
+[2016.06.01-20.40.22:991][245]LogBlueprintUserMessages: [ThirdPersonCharacter_C_18] None
+[2016.06.01-20.40.23:667][291]LogBlueprintUserMessages: [ThirdPersonCharacter_C_18] Released
+[2016.06.01-20.40.24:046][317]LogBlueprintUserMessages: [ThirdPersonCharacter_C_18] Pressed
+[2016.06.01-20.40.24:046][317]LogBlueprintUserMessages: [ThirdPersonCharacter_C_18] None
+[2016.06.01-20.40.24:311][335]LogBlueprintUserMessages: [ThirdPersonCharacter_C_18] Released
+[2016.06.01-20.40.25:307][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-20.40.25:352][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.01-20.40.25:353][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.01-20.40.25:353][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.01-20.42.55:597][156]Cmd: DELETE
+[2016.06.01-20.42.55:597][156]Cmd: ACTOR DELETE
+[2016.06.01-20.42.55:601][156]LogEditorActor: Deleted Actor: Brush
+[2016.06.01-20.42.55:878][156]LogEditorActor: Deleted 1 Actors (0.281 secs)
+[2016.06.01-20.42.57:741][243]LogSavePackage: Save=473.80ms
+[2016.06.01-20.42.57:741][243]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Saved/Town66DE80BE416137783506CA86315C6059.tmp' to '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap'
+[2016.06.01-20.42.57:746][243]LogSavePackage: Total save time: 485.29ms
+[2016.06.01-20.42.57:746][243]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap
+[2016.06.01-20.42.57:777][243]LogFileHelpers: Saving map 'Town' took 0.603
+[2016.06.01-20.43.08:309][931]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.06.01-20.43.13:011][214]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.06.01-20.44.57:605][484]Cmd: DELETE
+[2016.06.01-20.44.57:605][484]Cmd: ACTOR DELETE
+[2016.06.01-20.44.57:609][484]LogEditorActor: Deleted Actor: Brush
+[2016.06.01-20.44.57:610][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.01-20.44.57:610][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.01-20.44.57:921][484]LogEditorActor: Deleted 1 Actors (0.316 secs)
+[2016.06.01-20.44.58:492][515]Cmd: DELETE
+[2016.06.01-20.44.58:492][515]Cmd: ACTOR DELETE
+[2016.06.01-20.44.58:496][515]LogEditorActor: Deleted Actor: Brush
+[2016.06.01-20.44.58:777][515]LogEditorActor: Deleted 1 Actors (0.285 secs)
+[2016.06.01-20.44.58:931][518]Cmd: DELETE
+[2016.06.01-20.44.58:931][518]Cmd: ACTOR DELETE
+[2016.06.01-20.44.58:935][518]LogEditorActor: Deleted Actor: Brush
+[2016.06.01-20.44.59:219][518]LogEditorActor: Deleted 1 Actors (0.288 secs)
+[2016.06.01-20.45.00:015][562]Cmd: DELETE
+[2016.06.01-20.45.00:015][562]Cmd: ACTOR DELETE
+[2016.06.01-20.45.00:019][562]LogEditorActor: Deleted Actor: Brush
+[2016.06.01-20.45.00:302][562]LogEditorActor: Deleted 1 Actors (0.287 secs)
+[2016.06.01-20.45.01:604][639]Cmd: DELETE
+[2016.06.01-20.45.01:604][639]Cmd: ACTOR DELETE
+[2016.06.01-20.45.01:608][639]LogEditorActor: Deleted Actor: Brush
+[2016.06.01-20.45.01:888][639]LogEditorActor: Deleted 1 Actors (0.284 secs)
+[2016.06.01-20.45.27:848][201]LogEditorViewport: Clicking on Actor (context menu): Brush (table3)
+[2016.06.01-20.45.28:943][270]LogEditorViewport: Clicking on Actor (context menu): Brush (table3)
+[2016.06.01-20.45.33:661][564]LogEditorViewport: Clicking on Actor (context menu): Brush (table3)
+[2016.06.01-20.45.41:223][979]LogEditorViewport: Clicking on Actor (context menu): Brush (table3)
+[2016.06.01-20.45.43:474][118]LogEditorViewport: Clicking on Actor (context menu): Brush (table3)
+[2016.06.01-20.45.56:775][858]LogEditorViewport: Clicking on Actor (context menu): Brush (table3)
+[2016.06.01-20.46.04:269][257]LogEditorViewport: Clicking on Actor (LMB): Brush (table3)
+[2016.06.01-20.46.04:935][298]LogEditorViewport: Clicking on Actor (LMB): Brush (table3)
+[2016.06.01-20.46.05:405][326]LogEditorViewport: Clicking on Actor (LMB): Brush (table3)
+[2016.06.01-20.46.06:964][424]LogEditorViewport: Clicking on Actor (LMB): Brush (table3)
+[2016.06.01-20.46.09:547][568]Cmd: TRANSACTION UNDO
+[2016.06.01-20.46.09:547][568]LogEditorTransaction: Undo Move Actors
+[2016.06.01-20.46.09:610][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.House1base.BrushComponent0) Component already registered.
+[2016.06.01-20.46.09:611][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL22.BrushComponent0) Component already registered.
+[2016.06.01-20.46.09:612][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL17.BrushComponent0) Component already registered.
+[2016.06.01-20.46.09:634][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush3_16.BrushComponent0) Component already registered.
+[2016.06.01-20.46.09:636][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building13.BrushComponent0) Component already registered.
+[2016.06.01-20.46.09:636][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.DecorativePlatform.BrushComponent0) Component already registered.
+[2016.06.01-20.46.09:638][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building25.BrushComponent0) Component already registered.
+[2016.06.01-20.46.09:639][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.DecorativePlatform9.BrushComponent0) Component already registered.
+[2016.06.01-20.46.09:640][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL31.BrushComponent0) Component already registered.
+[2016.06.01-20.46.09:641][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL26.BrushComponent0) Component already registered.
+[2016.06.01-20.46.09:642][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush38.BrushComponent0) Component already registered.
+[2016.06.01-20.46.09:644][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2016.06.01-20.46.11:084][644]LogEditorViewport: Clicking on Actor (context menu): Brush (table3)
+[2016.06.01-20.46.43:666][681]Cmd: TRANSACTION UNDO
+[2016.06.01-20.46.43:666][681]LogEditorTransaction: Undo Move Actors
+[2016.06.01-20.46.43:727][681]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.House1base.BrushComponent0) Component already registered.
+[2016.06.01-20.46.43:728][681]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL22.BrushComponent0) Component already registered.
+[2016.06.01-20.46.43:729][681]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL17.BrushComponent0) Component already registered.
+[2016.06.01-20.46.43:752][681]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush3_16.BrushComponent0) Component already registered.
+[2016.06.01-20.46.43:753][681]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building13.BrushComponent0) Component already registered.
+[2016.06.01-20.46.43:754][681]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.DecorativePlatform.BrushComponent0) Component already registered.
+[2016.06.01-20.46.43:755][681]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building25.BrushComponent0) Component already registered.
+[2016.06.01-20.46.43:756][681]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.DecorativePlatform9.BrushComponent0) Component already registered.
+[2016.06.01-20.46.43:758][681]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL31.BrushComponent0) Component already registered.
+[2016.06.01-20.46.43:758][681]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL26.BrushComponent0) Component already registered.
+[2016.06.01-20.46.43:759][681]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush38.BrushComponent0) Component already registered.
+[2016.06.01-20.46.43:761][681]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2016.06.01-20.46.43:988][681]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2016.06.01-20.46.43:988][681]LogGeometryMode:Warning: Unable to resolve table3 Brush in new BSP, see above
+[2016.06.01-20.46.43:988][681]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.06.01-20.46.45:191][753]Cmd: TRANSACTION UNDO
+[2016.06.01-20.46.45:191][753]LogEditorTransaction: Undo Move Actors
+[2016.06.01-20.46.45:252][753]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.House1base.BrushComponent0) Component already registered.
+[2016.06.01-20.46.45:254][753]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL22.BrushComponent0) Component already registered.
+[2016.06.01-20.46.45:255][753]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL17.BrushComponent0) Component already registered.
+[2016.06.01-20.46.45:277][753]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush3_16.BrushComponent0) Component already registered.
+[2016.06.01-20.46.45:278][753]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building13.BrushComponent0) Component already registered.
+[2016.06.01-20.46.45:279][753]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.DecorativePlatform.BrushComponent0) Component already registered.
+[2016.06.01-20.46.45:280][753]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building25.BrushComponent0) Component already registered.
+[2016.06.01-20.46.45:282][753]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.DecorativePlatform9.BrushComponent0) Component already registered.
+[2016.06.01-20.46.45:283][753]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL31.BrushComponent0) Component already registered.
+[2016.06.01-20.46.45:284][753]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL26.BrushComponent0) Component already registered.
+[2016.06.01-20.46.45:285][753]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush38.BrushComponent0) Component already registered.
+[2016.06.01-20.46.45:287][753]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2016.06.01-20.46.45:423][753]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2016.06.01-20.46.45:423][753]LogGeometryMode:Warning: Unable to resolve table3 Brush in new BSP, see above
+[2016.06.01-20.46.45:423][753]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.06.01-20.46.53:613][261]LogEditorViewport: Clicking on Actor (context menu): Brush (table3)
+[2016.06.01-20.47.02:196][743]LogEditorViewport: Clicking on Actor (context menu): Brush (table3)
+[2016.06.01-20.48.11:316][  2]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush5)
+[2016.06.01-20.48.11:813][ 32]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush5)
+[2016.06.01-20.49.06:191][ 14]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.06.01-20.49.06:230][ 14]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.06.01-20.49.06:257][ 14]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.06.01-20.49.06:285][ 14]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.06.01-20.49.09:592][210]Cmd: EDCALLBACK SURFPROPS
+[2016.06.01-20.49.42:794][163]Cmd: TRANSACTION UNDO
+[2016.06.01-20.49.42:794][163]LogEditorTransaction: Undo Move Actors
+[2016.06.01-20.49.42:855][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.House1base.BrushComponent0) Component already registered.
+[2016.06.01-20.49.42:857][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.LinearStairBrush7.BrushComponent0) Component already registered.
+[2016.06.01-20.49.42:857][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL17.BrushComponent0) Component already registered.
+[2016.06.01-20.49.42:880][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush3_16.BrushComponent0) Component already registered.
+[2016.06.01-20.49.42:880][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Placeholder2.BrushComponent0) Component already registered.
+[2016.06.01-20.49.42:883][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building25.BrushComponent0) Component already registered.
+[2016.06.01-20.49.42:884][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.DecorativePlatform9.BrushComponent0) Component already registered.
+[2016.06.01-20.49.42:885][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Fridge4.BrushComponent0) Component already registered.
+[2016.06.01-20.49.42:887][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush38.BrushComponent0) Component already registered.
+[2016.06.01-20.49.42:890][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2016.06.01-20.49.43:035][163]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.06.01-20.49.43:035][163]LogGeometryMode:Warning: Unable to resolve roof3 Brush in new BSP, see above
+[2016.06.01-20.49.43:035][163]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.06.01-20.49.50:690][650]Cmd: TRANSACTION UNDO
+[2016.06.01-20.49.50:690][650]LogEditorTransaction: Undo Move Actors
+[2016.06.01-20.49.50:751][650]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.House1base.BrushComponent0) Component already registered.
+[2016.06.01-20.49.50:753][650]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.LinearStairBrush7.BrushComponent0) Component already registered.
+[2016.06.01-20.49.50:753][650]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL17.BrushComponent0) Component already registered.
+[2016.06.01-20.49.50:776][650]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush3_16.BrushComponent0) Component already registered.
+[2016.06.01-20.49.50:777][650]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Placeholder2.BrushComponent0) Component already registered.
+[2016.06.01-20.49.50:779][650]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building25.BrushComponent0) Component already registered.
+[2016.06.01-20.49.50:780][650]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.DecorativePlatform9.BrushComponent0) Component already registered.
+[2016.06.01-20.49.50:781][650]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Fridge4.BrushComponent0) Component already registered.
+[2016.06.01-20.49.50:783][650]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush38.BrushComponent0) Component already registered.
+[2016.06.01-20.49.50:785][650]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2016.06.01-20.49.50:929][650]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.06.01-20.49.50:929][650]LogGeometryMode:Warning: Unable to resolve roof3 Brush in new BSP, see above
+[2016.06.01-20.49.50:929][650]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.06.01-20.49.52:157][721]Cmd: TRANSACTION UNDO
+[2016.06.01-20.49.52:157][721]LogEditorTransaction: Undo Move Actors
+[2016.06.01-20.49.52:219][721]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.House1base.BrushComponent0) Component already registered.
+[2016.06.01-20.49.52:221][721]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.LinearStairBrush7.BrushComponent0) Component already registered.
+[2016.06.01-20.49.52:221][721]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL17.BrushComponent0) Component already registered.
+[2016.06.01-20.49.52:244][721]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush3_16.BrushComponent0) Component already registered.
+[2016.06.01-20.49.52:245][721]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Placeholder2.BrushComponent0) Component already registered.
+[2016.06.01-20.49.52:248][721]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Building25.BrushComponent0) Component already registered.
+[2016.06.01-20.49.52:249][721]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.DecorativePlatform9.BrushComponent0) Component already registered.
+[2016.06.01-20.49.52:250][721]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Fridge4.BrushComponent0) Component already registered.
+[2016.06.01-20.49.52:252][721]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush38.BrushComponent0) Component already registered.
+[2016.06.01-20.49.52:254][721]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2016.06.01-20.49.52:396][721]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.06.01-20.49.52:396][721]LogGeometryMode:Warning: Unable to resolve roof3 Brush in new BSP, see above
+[2016.06.01-20.49.52:396][721]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.06.01-20.50.07:609][702]LogGeometryMode:Warning: Unable to find CylinderBrush2 Brush(s) in new BSP
+[2016.06.01-20.50.07:609][702]LogGeometryMode:Warning: Unable to 
