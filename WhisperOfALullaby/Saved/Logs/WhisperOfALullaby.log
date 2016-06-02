@@ -1,9 +1,9 @@
-﻿Log file open, 06/01/16 16:25:59
+﻿Log file open, 06/02/16 11:37:50
 LogInit:Display: Running engine for game: WhisperOfALullaby
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-323009614) SRandInit(-323009612).
+LogInit:Display: RandInit(288097331) SRandInit(288097333).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-LogStats: Stats thread started at 0.075753
+LogStats: Stats thread started at 0.077567
 LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
@@ -29,536 +29,165 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.06.01-20.25.59:388][  0]LogInit: Selected Device Profile: [Windows]
-[2016.06.01-20.25.59:388][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.06.01-20.25.59:397][  0]LogInit: Computer: MAGIC08
-[2016.06.01-20.25.59:397][  0]LogInit: User: MagicUser
-[2016.06.01-20.25.59:397][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.06.01-20.25.59:397][  0]LogInit: High frequency timer resolution =3.613279 MHz
-[2016.06.01-20.25.59:397][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.06.01-20.25.59:397][  0]LogMemory: Platform Memory Stats for Windows
-[2016.06.01-20.25.59:397][  0]LogMemory: Process Physical Memory: 313.94 MB used, 313.94 MB peak
-[2016.06.01-20.25.59:397][  0]LogMemory: Process Virtual Memory: 314.94 MB used, 314.94 MB peak
-[2016.06.01-20.25.59:397][  0]LogMemory: Physical Memory: 4871.71 MB used, 16302.16 MB total
-[2016.06.01-20.25.59:397][  0]LogMemory: Virtual Memory: 653.23 MB used, 134217728.00 MB total
-[2016.06.01-20.25.59:426][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.06.01-20.25.59:731][  0]LogD3D11RHI: D3D11 adapters:
-[2016.06.01-20.25.59:750][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
-[2016.06.01-20.25.59:750][  0]LogD3D11RHI:       3013MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 2 output[s]
-[2016.06.01-20.25.59:752][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.06.01-20.25.59:752][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
-[2016.06.01-20.25.59:752][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.06.01-20.25.59:755][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.06.01-20.25.59:755][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
-[2016.06.01-20.25.59:755][  0]LogD3D11RHI:   Driver Version: 10.18.13.6491 (internal 10.18.13.6491)
-[2016.06.01-20.25.59:755][  0]LogD3D11RHI:      Driver Date: 4-8-2016
-[2016.06.01-20.25.59:755][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.06.01-20.25.59:766][  0]LogD3D11RHI: Async texture creation enabled
-[2016.06.01-20.25.59:776][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Intermediate/Shaders/WorkingDirectory/7740/).
-[2016.06.01-20.25.59:776][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MAGICU~1/AppData/Local/Temp/UnrealShaderWorkingDir/1DE48F924B265C42ABF7DCB1526BB1FA/'.
-[2016.06.01-20.25.59:776][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.06.01-20.26.00:650][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.06.01-20.26.00:655][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.06.01-20.26.00:660][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.06.01-20.26.00:665][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.06.01-20.26.00:670][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.06.01-20.26.00:673][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.06.01-20.26.00:676][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.06.01-20.26.00:679][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.06.01-20.26.00:682][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.06.01-20.26.00:685][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.06.01-20.26.00:688][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.06.01-20.26.00:694][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.06.01-20.26.00:694][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.06.01-20.26.00:695][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.06.01-20.26.00:713][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.06.01-20.26.00:715][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.06.01-20.26.00:718][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.06.01-20.26.00:721][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.06.01-20.26.00:723][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.06.01-20.26.00:723][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.06.01-20.26.00:812][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.06.01-20.26.00:856][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.06.01-20.26.00:856][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.06.01-20.26.00:856][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.06.01-20.26.00:856][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.06.01-20.26.00:856][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.06.01-20.26.00:856][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.06.01-20.26.00:869][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.06.01-20.26.00:880][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MagicUser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.06.01-20.26.01:042][  0]LogInit: Selected Device Profile: [Windows]
-[2016.06.01-20.26.01:042][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.06.01-20.26.01:075][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.06.01-20.26.01:189][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.06.01-20.26.01:189][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.06.01-20.26.01:189][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.06.01-20.26.01:394][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.06.01-20.26.01:394][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.06.01-20.26.01:394][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.06.01-20.26.01:403][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.06.01-20.26.01:504][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.06.01-20.26.01:504][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.06.01-20.26.01:589][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.06.01-20.26.01:589][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.06.01-20.26.01:589][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.06.01-20.26.01:589][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.06.01-20.26.01:589][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.06.01-20.26.01:589][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.06.01-20.26.02:089][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2016.06.01-20.26.02:100][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.06.01-20.26.02:204][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
-[2016.06.01-20.26.02:365][  0]SourceControl: Info Source control is disabled
-[2016.06.01-20.26.02:396][  0]SourceControl: Info Source control is disabled
-[2016.06.01-20.26.02:408][  0]SourceControl: Info Source control is disabled
-[2016.06.01-20.26.02:418][  0]SourceControl: Info Source control is disabled
-[2016.06.01-20.26.02:571][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.06.01-20.26.02:656][  0]LogEngine: Initializing Engine...
-[2016.06.01-20.26.02:779][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.06.01-20.26.02:786][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.01-20.26.02:799][  0]LogInit: FAudioDevice initialized.
-[2016.06.01-20.26.02:818][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.06.01-20.26.02:824][  0]LogInit: Texture streaming: Enabled
-[2016.06.01-20.26.02:850][  0]LogInit: Transaction tracking system initialized
-[2016.06.01-20.26.02:879][  0]BlueprintLog: New page: Editor Load
-[2016.06.01-20.26.02:970][  0]LocalizationService: Info Localization service is disabled
-[2016.06.01-20.26.03:050][  0]LogConsoleResponse:Display: 
-[2016.06.01-20.26.03:142][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.06.01-20.26.03:142][  0]LogCook:Display: Mobile HDR setting 1
-[2016.06.01-20.26.03:142][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.06.01-20.26.03:207][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/' took 0.02s
-[2016.06.01-20.26.03:207][  0]SourceControl: Info Source control is disabled
-[2016.06.01-20.26.03:208][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.01-20.26.03:208][  0]LightingResults: New page: Lighting Build
-[2016.06.01-20.26.03:212][  0]MapCheck: New page: Map Check
-[2016.06.01-20.26.03:212][  0]LightingResults: New page: Lighting Build
-[2016.06.01-20.26.03:784][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning 'Item' is already a 'Manager', you don't need  Cast To Manager .
-[2016.06.01-20.26.03:785][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0005.20] Compile of CrowdSpawner_Blueprint successful, but with 1 Warning(s) [in 4 ms]
-[2016.06.01-20.26.03:785][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0005.20] Compile of CrowdSpawner_Blueprint successful, but with 2 Warning(s) [in 0 ms]
-[2016.06.01-20.26.03:785][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0005.20] Compile of CrowdSpawner_Blueprint successful, but with 3 Warning(s) [in 0 ms]
-[2016.06.01-20.26.03:820][  0]LogBlueprint:Warning: [compiler Manager] Warning Can't connect pins  Target Array  and  Out Actors : Array of References is not compatible with Array of Actor References.
-[2016.06.01-20.26.03:820][  0]LogBlueprint:Warning: [compiler Manager] Warning Can't connect pins  Out Actors  and  Target Array : Array of Actor References is not compatible with Array of References.
-[2016.06.01-20.26.03:820][  0]LogBlueprint:Error: [compiler Manager] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
-[2016.06.01-20.26.03:831][  0]LogBlueprint:Warning: [compiler Manager] Warning [0005.24] Compile of Manager failed. 1 Fatal Issue(s) 2 Warning(s) [in 25 ms]
-[2016.06.01-20.26.03:831][  0]LogBlueprint:Warning: [compiler Manager] Warning [0005.24] Compile of Manager failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
-[2016.06.01-20.26.03:831][  0]LogBlueprint:Warning: [compiler Manager] Warning [0005.24] Compile of Manager failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
-[2016.06.01-20.26.04:108][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning 'Item' is already a 'Manager', you don't need  Cast To Manager .
-[2016.06.01-20.26.04:110][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0005.52] Compile of CrowdSpawner_Blueprint successful, but with 1 Warning(s) [in 4 ms]
-[2016.06.01-20.26.04:110][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0005.52] Compile of CrowdSpawner_Blueprint successful, but with 2 Warning(s) [in 0 ms]
-[2016.06.01-20.26.04:110][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0005.52] Compile of CrowdSpawner_Blueprint successful, but with 3 Warning(s) [in 0 ms]
-[2016.06.01-20.26.04:676][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.06.01-20.26.04:754][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.01-20.26.04:754][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.01-20.26.04:803][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.912ms to complete.
-[2016.06.01-20.26.04:803][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.596
-[2016.06.01-20.26.04:916][  0]LogCollectionManager: Loaded 0 collections in 0.002771 seconds
-[2016.06.01-20.26.04:961][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/Collections/' took 0.01s
-[2016.06.01-20.26.04:961][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Developers/MagicUser/Collections/' took 0.01s
-[2016.06.01-20.26.04:961][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Collections/' took 0.01s
-[2016.06.01-20.26.04:961][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2016.06.01-20.26.04:968][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 1994 classes and 349 folders.
-[2016.06.01-20.26.04:973][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.06.01-20.26.04:973][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.06.01-20.26.04:973][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
-[2016.06.01-20.26.04:981][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.06.01-20.26.04:988][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.06.01-20.26.05:029][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.06.01-20.26.05:035][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.06.01-20.26.05:089][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.06.01-20.26.05:094][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.06.01-20.26.05:121][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.06.01-20.26.05:121][  0]LogLoad: Full Startup: 6.53 seconds (BP compile: 0.47 seconds)
-[2016.06.01-20.26.05:121][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.06.01-20.26.05:121][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.06.01-20.26.05:130][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.06.01-20.26.05:131][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.06.01-20.26.05:131][  0]LogOcInput: OculusInput pre-init called
-[2016.06.01-20.26.05:174][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.06.01-20.26.05:312][  0]LogRenderer: Reallocating scene render targets to support 1208x568 (Frame:2).
-[2016.06.01-20.26.05:389][  1]LogAssetRegistry: Asset discovery search completed in 3.2062 seconds
-[2016.06.01-20.26.05:389][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.06.01-20.26.05:389][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
-[2016.06.01-20.26.11:037][633]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2016.06.01-20.26.11:072][633]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2016.06.01-20.26.11:087][633]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
-[2016.06.01-20.26.11:093][633]LogAIModule: Creating AISystem for world ClocktowerArea
-[2016.06.01-20.26.11:152][633]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ClocktowerArea.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.01-20.26.11:152][633]LightingResults: New page: Lighting Build
-[2016.06.01-20.26.11:170][633]LoadErrors: New page: Loading map: ClocktowerArea.umap
-[2016.06.01-20.26.11:171][633]MapCheck: New page: Map Check
-[2016.06.01-20.26.11:171][633]LightingResults: New page: Lighting Build
-[2016.06.01-20.26.11:220][633]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.01-20.26.11:250][633]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.01-20.26.11:299][633]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.406ms to complete.
-[2016.06.01-20.26.11:300][633]LogFileHelpers: Loading map 'ClocktowerArea' took 0.149
-[2016.06.01-20.26.17:286][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.01-20.26.17:286][344]PIE: New page: PIE session: ClocktowerArea (Jun 1, 2016, 11:26:17 AM)
-[2016.06.01-20.26.17:290][344]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ClocktowerArea
-[2016.06.01-20.26.17:298][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007722s)
-[2016.06.01-20.26.17:299][344]LogAIModule: Creating AISystem for world ClocktowerArea
-[2016.06.01-20.26.17:299][344]LogPlayLevel: PIE: World Init took: (0.000676s)
-[2016.06.01-20.26.17:299][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ClocktowerArea.ClocktowerArea to /Game/Maps/UEDPIE_0_ClocktowerArea.ClocktowerArea (0.008653s)
-[2016.06.01-20.26.17:313][344]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.06.01-20.26.17:324][344]LogInit: FAudioDevice initialized.
-[2016.06.01-20.26.17:369][344]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2016.06.01-20.26.17:378][344]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ClocktowerArea.ClocktowerArea up for play (max tick rate 0) at 2016.06.01-16.26.17
-[2016.06.01-20.26.17:378][344]LogWorld: Bringing up level for play took: 0.008081
-[2016.06.01-20.26.17:384][344]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 9 classes and 0 folders.
-[2016.06.01-20.26.17:387][344]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ClocktowerArea 0.256
-[2016.06.01-20.26.23:060][ 12]LogAIModule: Creating AISystem for world Void
-[2016.06.01-20.26.23:071][ 12]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Void.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.01-20.26.23:071][ 12]LightingResults: New page: Lighting Build
-[2016.06.01-20.26.23:089][ 12]LoadErrors: New page: Loading map: Void.umap
-[2016.06.01-20.26.23:090][ 12]MapCheck: New page: Map Check
-[2016.06.01-20.26.23:090][ 12]LightingResults: New page: Lighting Build
-[2016.06.01-20.26.23:134][ 12]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.01-20.26.23:162][ 12]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.01-20.26.23:212][ 12]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.203ms to complete.
-[2016.06.01-20.26.23:212][ 12]LogFileHelpers: Loading map 'Void' took 0.143
-[2016.06.01-20.26.24:165][ 85]LogAIModule: Creating AISystem for world Town
-[2016.06.01-20.26.24:213][ 85]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.01-20.26.24:213][ 85]LightingResults: New page: Lighting Build
-[2016.06.01-20.26.24:232][ 85]LoadErrors: New page: Loading map: Town.umap
-[2016.06.01-20.26.24:233][ 85]MapCheck: New page: Map Check
-[2016.06.01-20.26.24:233][ 85]LightingResults: New page: Lighting Build
-[2016.06.01-20.26.24:368][ 85]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.01-20.26.24:398][ 85]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.01-20.26.24:452][ 85]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.025ms to complete.
-[2016.06.01-20.26.24:453][ 85]LogFileHelpers: Loading map 'Town' took 0.241
-[2016.06.01-20.26.26:780][342]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2016.06.01-20.26.30:461][772]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2016.06.01-20.26.36:874][526]LogAIModule: Creating AISystem for world StartScreen
-[2016.06.01-20.26.36:888][526]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/StartScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.01-20.26.36:888][526]LightingResults: New page: Lighting Build
-[2016.06.01-20.26.36:907][526]LoadErrors: New page: Loading map: StartScreen.umap
-[2016.06.01-20.26.36:913][526]MapCheck: New page: Map Check
-[2016.06.01-20.26.36:913][526]LightingResults: New page: Lighting Build
-[2016.06.01-20.26.36:961][526]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.01-20.26.36:988][526]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.01-20.26.37:041][526]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.825ms to complete.
-[2016.06.01-20.26.37:041][526]LogFileHelpers: Loading map 'StartScreen' took 0.154
-[2016.06.01-20.37.26:518][ 23]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 108 classes and 0 folders.
-[2016.06.01-20.38.49:157][583]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.06.01-20.41.21:563][  8]LogEditorTransaction: Undo Move Node
-[2016.06.01-20.43.26:758][780]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.965 s
-[2016.06.01-20.43.26:758][780]LogOutputDevice:Warning: === Handled error: ===
-
-Ensure condition failed: MemberClass != nullptr [File:D:\BuildFarm\buildmachine_++UE4+Release-4.11\Engine\Source\Editor\BlueprintGraph\Private\K2Node_CallFunction.cpp] [Line: 1667]
-
-Stack: 
-UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:178]
-UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\misc\outputdevice.cpp:317]
-UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\misc\outputdevice.cpp:441]
-UE4Editor-BlueprintGraph.dll!UK2Node_CallFunction::FixupSelfMemberContext() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\editor\blueprintgraph\private\k2node_callfunction.cpp:1667]
-UE4Editor-BlueprintGraph.dll!UK2Node_CallFunction::PostDuplicate() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\editor\blueprintgraph\private\k2node_callfunction.cpp:1718]
-UE4Editor-CoreUObject.dll!StaticDuplicateObjectEx() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1856]
-UE4Editor-CoreUObject.dll!StaticDuplicateObject() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1716]
-UE4Editor-BlueprintGraph.dll!FEdGraphSchemaAction_K2NewNode::CreateNode() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\editor\blueprintgraph\private\edgraphschema_k2_actions.cpp:43]
-UE4Editor-BlueprintGraph.dll!FEdGraphSchemaAction_K2NewNode::PerformAction() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\editor\blueprintgraph\private\edgraphschema_k2_actions.cpp:96]
-UE4Editor-BlueprintGraph.dll!FEdGraphSchemaAction_K2NewNode::SpawnNodeFromTemplate<UK2Node>() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\editor\blueprintgraph\classes\edgraphschema_k2_actions.h:52]
-UE4Editor-BlueprintGraph.dll!UEdGraphSchema_K2::CreateAutomaticConversionNodeAndConnections() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\editor\blueprintgraph\private\edgraphschema_k2.cpp:2593]
-UE4Editor-Engine.dll!UEdGraphSchema::TryCreateConnection() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\engine\private\edgraph\edgraphschema.cpp:419]
-UE4Editor-BlueprintGraph.dll!UEdGraphSchema_K2::TryCreateConnection() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\editor\blueprintgraph\private\edgraphschema_k2.cpp:2161]
-UE4Editor-GraphEditor.dll!FDragConnection::DroppedOnPin() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\editor\grapheditor\private\dragconnection.cpp:195]
-UE4Editor-GraphEditor.dll!SGraphPin::OnDrop() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\editor\grapheditor\private\sgraphpin.cpp:715]
-UE4Editor-Slate.dll!<lambda_b765a11949befdf49abf827d1550f784>::operator()() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4572]
-UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FPointerEvent,<lambda_b765a11949befdf49abf827d1550f784> >() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:214]
-UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4563]
-UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4947]
-UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4923]
-UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\windows\windowsapplication.cpp:1415]
-UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\windows\windowsapplication.cpp:1732]
-UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\windows\windowsapplication.cpp:697]
-UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\windows\windowsapplication.cpp:619]
-USER32.dll
-USER32.dll
-UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:884]
-UE4Editor.exe!FEngineLoop::Tick() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\launch\private\launchengineloop.cpp:2611]
-UE4Editor.exe!GuardedMain() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\launch\private\launch.cpp:142]
-UE4Editor.exe!GuardedMainWrapper() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
-UE4Editor.exe!WinMain() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
-UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
-KERNEL32.DLL
-ntdll.dll
-ntdll.dll
-
-[2016.06.01-20.43.26:758][780]LogStats:                SubmitErrorReport -  0.000 s
-[2016.06.01-20.43.26:983][780]LogStats:                    SendNewReport -  0.225 s
-[2016.06.01-20.43.26:983][780]LogStats:             FDebug::EnsureFailed -  1.191 s
-[2016.06.01-20.43.30:138][ 65]LogEditorTransaction: Undo Create Pin Link
-[2016.06.01-20.43.30:923][127]LogEditorTransaction: Undo Add Node
-[2016.06.01-20.47.02:329][179]LogEditorTransaction: Undo Add Node
-[2016.06.01-20.47.25:736][483]BlueprintLog: New page: Compile WoaLSaveGame
-[2016.06.01-20.47.25:743][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.06.01-20.47.25:743][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
-[2016.06.01-20.47.25:743][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2016.06.01-20.47.25:743][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
-[2016.06.01-20.47.25:743][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2016.06.01-20.47.25:743][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
-[2016.06.01-20.47.25:840][483]BlueprintEditorCompileResults: Info [1287.25] Compile of WoaLSaveGame successful! [in 104 ms]
-[2016.06.01-20.47.29:533][846]BlueprintLog: New page: Compile WoaLSaveGame
-[2016.06.01-20.47.29:603][846]BlueprintEditorCompileResults: Info [1291.02] Compile of WoaLSaveGame successful! [in 69 ms]
-[2016.06.01-20.47.44:378][266]LogEditorTransaction: Undo Convert to Impure Cast
-[2016.06.01-20.50.01:054][835]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/StartScreen' took 0.018
-[2016.06.01-20.50.01:058][835]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/WoaLSaveGame] ([1] browsable assets)...
-[2016.06.01-20.50.01:058][835]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WoaLSaveGame]
-[2016.06.01-20.50.01:085][835]LogSavePackage: Save=24.79ms
-[2016.06.01-20.50.01:085][835]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/WoaLSaveGame_Auto11A6E31F948761B74739A51AE3AFB391D.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Blueprints/WoaLSaveGame_Auto1.uasset'
-[2016.06.01-20.50.01:086][835]LogSavePackage: Total save time: 25.99ms
-[2016.06.01-20.50.01:086][835]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Blueprints/WoaLSaveGame_Auto1.uasset
-[2016.06.01-20.50.01:086][835]LogFileHelpers: Auto-saving content packages took 0.031
-[2016.06.01-20.56.26:424][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WoaLSaveGame" FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/WoaLSaveGame.uasset" SILENT=true
-[2016.06.01-20.56.26:454][593]LogSavePackage: Save=27.04ms
-[2016.06.01-20.56.26:454][593]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/WoaLSaveGame7A3719AB4AD7662CB776479C26872BAE.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/WoaLSaveGame.uasset'
-[2016.06.01-20.56.26:456][593]LogSavePackage: Total save time: 29.19ms
-[2016.06.01-20.56.26:456][593]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/WoaLSaveGame.uasset
-[2016.06.01-20.57.14:950][854]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.06.01-20.58.10:041][613]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_421.EdGraphPin_55232''
-[2016.06.01-20.58.10:042][613]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_422.EdGraphPin_55234''
-[2016.06.01-21.00.24:605][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WoaLSaveGame" FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/WoaLSaveGame.uasset" SILENT=true
-[2016.06.01-21.00.24:669][788]LogSavePackage: Save=47.05ms
-[2016.06.01-21.00.24:669][788]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/WoaLSaveGame540EA9454665B4F40D233E9EFF356440.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/WoaLSaveGame.uasset'
-[2016.06.01-21.00.24:672][788]LogSavePackage: Total save time: 65.51ms
-[2016.06.01-21.00.24:672][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/WoaLSaveGame.uasset
-[2016.06.01-21.01.32:839][447]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/StartScreen' took 0.018
-[2016.06.01-21.01.32:844][447]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/WoaLSaveGame] ([1] browsable assets)...
-[2016.06.01-21.01.32:844][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WoaLSaveGame]
-[2016.06.01-21.01.32:898][447]LogSavePackage: Save=45.42ms
-[2016.06.01-21.01.32:898][447]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/WoaLSaveGame_Auto2A82B56254F9383B894C2F7A00F53BACD.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Blueprints/WoaLSaveGame_Auto2.uasset'
-[2016.06.01-21.01.32:899][447]LogSavePackage: Total save time: 53.68ms
-[2016.06.01-21.01.32:899][447]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Blueprints/WoaLSaveGame_Auto2.uasset
-[2016.06.01-21.01.32:899][447]LogFileHelpers: Auto-saving content packages took 0.059
-[2016.06.01-21.02.49:625][808]BlueprintLog: New page: Compile WoaLSaveGame
-[2016.06.01-21.02.49:707][808]BlueprintEditorCompileResults: Info [2211.12] Compile of WoaLSaveGame successful! [in 81 ms]
-[2016.06.01-21.02.50:672][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WoaLSaveGame" FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/WoaLSaveGame.uasset" SILENT=true
-[2016.06.01-21.02.50:727][883]LogSavePackage: Save=45.23ms
-[2016.06.01-21.02.50:727][883]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/WoaLSaveGame03EEE4A946717640C83D5989987B617D.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/WoaLSaveGame.uasset'
-[2016.06.01-21.02.50:729][883]LogSavePackage: Total save time: 54.62ms
-[2016.06.01-21.02.50:729][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/WoaLSaveGame.uasset
-[2016.06.01-21.03.40:522][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WoaLSaveGame" FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/WoaLSaveGame.uasset" SILENT=true
-[2016.06.01-21.03.40:579][100]LogSavePackage: Save=44.41ms
-[2016.06.01-21.03.40:579][100]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/WoaLSaveGameBABF7F9245FBA18D41D760A23760D820.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/WoaLSaveGame.uasset'
-[2016.06.01-21.03.40:582][100]LogSavePackage: Total save time: 56.78ms
-[2016.06.01-21.03.40:582][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/WoaLSaveGame.uasset
-[2016.06.01-21.04.21:823][841]BlueprintLog: New page: Compile WoaLSaveGame
-[2016.06.01-21.04.21:906][841]BlueprintEditorCompileResults: Info [2303.32] Compile of WoaLSaveGame successful! [in 83 ms]
-[2016.06.01-21.04.28:277][428]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.06.01-21.04.28:278][428]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.06.01-21.04.28:457][429]Cmd: QUIT_EDITOR
-[2016.06.01-21.04.28:536][429]LogExit: Preparing to exit.
-[2016.06.01-21.04.29:658][429]LogExit: Editor shut down
-[2016.06.01-21.04.29:659][429]LogExit: Transaction tracking system shut down
-[2016.06.01-21.04.29:789][429]LogObj: Freed 0b from 0 cluster array pools.
-[2016.06.01-21.04.29:789][429]LogExit: Object subsystem successfully closed.
-[2016.06.01-21.04.29:799][429]LogD3D11RHI: Shutdown
-[2016.06.01-21.04.29:799][429]LogD3D11RHI: CleanupD3DDevice
-[2016.06.01-21.04.29:870][429]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.06.01-21.04.29:957][429]LogDerivedDataCache: Shutdown
-[2016.06.01-21.04.29:957][429]LogModuleManager: Shutting down and abandoning module BlueprintGraph (208)
-[2016.06.01-21.04.29:957][429]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (207)
-[2016.06.01-21.04.29:957][429]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (206)
-[2016.06.01-21.04.29:957][429]LogModuleManager: Shutting down and abandoning module CrashTracker (205)
-[2016.06.01-21.04.29:957][429]LogModuleManager: Shutting down and abandoning module SceneOutliner (204)
-[2016.06.01-21.04.29:957][429]LogModuleManager: Shutting down and abandoning module SuperSearch (203)
-[2016.06.01-21.04.29:957][429]LogModuleManager: Shutting down and abandoning module WidgetCarousel (202)
-[2016.06.01-21.04.29:957][429]LogModuleManager: Shutting down and abandoning module AddContentDialog (201)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module GameplayTags (200)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module EditorWidgets (199)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module CollectionManager (198)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module StatsViewer (197)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module FoliageEdit (196)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module LandscapeEditor (195)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module ActorPickerMode (194)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module GeometryMode (193)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module TextureAlignMode (192)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module BspMode (191)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module PlacementMode (190)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module AutomationWorker (189)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module CharacterAI (188)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module SmartSnapping (187)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module ViewportSnapping (186)
-[2016.06.01-21.04.29:958][429]LogModuleManager: Shutting down and abandoning module LogVisualizer (185)
-[2016.06.01-21.04.29:959][429]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (184)
-[2016.06.01-21.04.29:959][429]LogModuleManager: Shutting down and abandoning module IntroTutorials (183)
-[2016.06.01-21.04.29:959][429]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (182)
-[2016.06.01-21.04.29:959][429]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (181)
-[2016.06.01-21.04.29:959][429]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (180)
-[2016.06.01-21.04.29:959][429]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (179)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (178)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (177)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (176)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module MergeActors (175)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module SizeMap (174)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module TreeMap (173)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module ReferenceViewer (172)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module LocalizationService (171)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (170)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module HardwareTargeting (169)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (168)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module UndoHistory (167)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module UserFeedback (166)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module XmlParser (165)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module Blutility (164)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (163)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (162)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module InputBindingEditor (161)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (160)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module SettingsEditor (159)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module ProjectLauncher (158)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module SessionFrontend (157)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module ProfilerClient (156)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (155)
-[2016.06.01-21.04.30:680][429]LogModuleManager: Shutting down and abandoning module DeviceManager (154)
-[2016.06.01-21.04.30:722][429]LogModuleManager: Shutting down and abandoning module AutomationController (153)
-[2016.06.01-21.04.30:722][429]LogModuleManager: Shutting down and abandoning module AutomationWindow (152)
-[2016.06.01-21.04.30:722][429]LogModuleManager: Shutting down and abandoning module Layers (151)
-[2016.06.01-21.04.30:722][429]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (150)
-[2016.06.01-21.04.30:722][429]LogModuleManager: Shutting down and abandoning module DetailCustomizations (149)
-[2016.06.01-21.04.30:722][429]LogModuleManager: Shutting down and abandoning module PackagesDialog (148)
-[2016.06.01-21.04.30:722][429]LogModuleManager: Shutting down and abandoning module Persona (147)
-[2016.06.01-21.04.30:722][429]LogModuleManager: Shutting down and abandoning module Kismet (146)
-[2016.06.01-21.04.30:723][429]LogModuleManager: Shutting down and abandoning module GraphEditor (145)
-[2016.06.01-21.04.30:723][429]LogModuleManager: Shutting down and abandoning module ClassViewer (144)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module Toolbox (143)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module ModuleUI (142)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module MovieSceneTools (141)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module OutputLog (140)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module GammaUI (139)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module Documentation (138)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (137)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module AnalyticsET (136)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module Analytics (135)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module PortalServices (134)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module PortalRpc (133)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module MessagingRpc (132)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module GameplayDebugger (130)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module AIModule (129)
-[2016.06.01-21.04.30:724][429]LogModuleManager: Shutting down and abandoning module ProfilerService (128)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module TaskGraph (127)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module SubstanceEditor (126)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module SlateRemote (125)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module SteamVRController (124)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module SteamVR (123)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (122)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module OculusLibrary (121)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module OculusInput (120)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (119)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module CableComponent (118)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (117)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (116)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module HTML5Networking (115)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module SourceControl (106)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
-[2016.06.01-21.04.30:897][429]LogModuleManager: Shutting down and abandoning module HotReload (100)
-[2016.06.01-21.04.30:898][429]LogModuleManager: Shutting down and abandoning module MainFrame (99)
-[2016.06.01-21.04.30:898][429]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
-[2016.06.01-21.04.30:898][429]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (97)
-[2016.06.01-21.04.30:899][429]LogModuleManager: Shutting down and abandoning module AssetRegistry (96)
-[2016.06.01-21.04.31:068][429]LogModuleManager: Shutting down and abandoning module ContentBrowser (95)
-[2016.06.01-21.04.31:069][429]LogModuleManager: Shutting down and abandoning module Paper2DEditor (94)
-[2016.06.01-21.04.31:069][429]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module Paper2D (90)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module Media (88)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.06.01-21.04.31:169][429]LogModuleManager: Shutting down and abandoning module Sequencer (75)
-[2016.06.01-21.04.31:170][429]LogModuleManager: Shutting down and abandoning module AssetTools (74)
-[2016.06.01-21.04.31:170][429]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
-[2016.06.01-21.04.31:170][429]LogModuleManager: Shutting down and abandoning module UMG (72)
-[2016.06.01-21.04.31:170][429]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
-[2016.06.01-21.04.31:170][429]LogModuleManager: Shutting down and abandoning module Slate (70)
-[2016.06.01-21.04.31:170][429]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module SessionServices (68)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module Networking (63)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module Core (62)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module CookingStats (58)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
-[2016.06.01-21.04.31:172][429]LogDerivedDataCache: Shutdown
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.06.01-21.04.31:172][429]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.06.01-21.04.32:174][429]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.06.01-21.04.32:174][429]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.06.01-21.04.32:174][429]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.06.01-21.04.32:174][429]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.06.01-21.04.32:174][429]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.06.01-21.04.32:174][429]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.06.01-21.04.32:174][429]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.06.01-21.04.32:175][429]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.06.01-21.04.32:175][429]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.06.01-21.04.32:175][429]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.06.01-21.04.32:175][429]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.06.01-21.04.32:175][429]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.06.01-21.04.32:175][429]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.06.01-21.04.32:175][429]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.06.01-21.04.32:175][429]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.06.01-21.04.32:175][429]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.06.01-21.04.32:175][429]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.06.01-21.04.32:177][429]LogExit: Exiting.
-[2016.06.01-21.04.32:192][429]Log file closed, 06/01/16 17:04:32
+[2016.06.02-15.37.50:895][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.02-15.37.50:895][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.06.02-15.37.50:904][  0]LogInit: Computer: MAGIC08
+[2016.06.02-15.37.50:904][  0]LogInit: User: MagicUser
+[2016.06.02-15.37.50:904][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.06.02-15.37.50:904][  0]LogInit: High frequency timer resolution =3.613279 MHz
+[2016.06.02-15.37.50:904][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.06.02-15.37.50:904][  0]LogMemory: Platform Memory Stats for Windows
+[2016.06.02-15.37.50:904][  0]LogMemory: Process Physical Memory: 313.06 MB used, 313.06 MB peak
+[2016.06.02-15.37.50:904][  0]LogMemory: Process Virtual Memory: 314.82 MB used, 314.82 MB peak
+[2016.06.02-15.37.50:904][  0]LogMemory: Physical Memory: 5387.62 MB used, 16302.16 MB total
+[2016.06.02-15.37.50:904][  0]LogMemory: Virtual Memory: 653.23 MB used, 134217728.00 MB total
+[2016.06.02-15.37.50:934][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.06.02-15.37.51:272][  0]LogD3D11RHI: D3D11 adapters:
+[2016.06.02-15.37.51:294][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2016.06.02-15.37.51:294][  0]LogD3D11RHI:       3013MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 2 output[s]
+[2016.06.02-15.37.51:295][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.06.02-15.37.51:295][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
+[2016.06.02-15.37.51:295][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.06.02-15.37.51:300][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.06.02-15.37.51:300][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2016.06.02-15.37.51:300][  0]LogD3D11RHI:   Driver Version: 10.18.13.6491 (internal 10.18.13.6491)
+[2016.06.02-15.37.51:300][  0]LogD3D11RHI:      Driver Date: 4-8-2016
+[2016.06.02-15.37.51:300][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.06.02-15.37.51:311][  0]LogD3D11RHI: Async texture creation enabled
+[2016.06.02-15.37.51:326][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Intermediate/Shaders/WorkingDirectory/12320/).
+[2016.06.02-15.37.51:327][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MAGICU~1/AppData/Local/Temp/UnrealShaderWorkingDir/7748745E41AC8EC5A290C8899EE8F4AF/'.
+[2016.06.02-15.37.51:327][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.06.02-15.37.52:189][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.06.02-15.37.52:194][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.06.02-15.37.52:199][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.06.02-15.37.52:204][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.06.02-15.37.52:209][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.06.02-15.37.52:212][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.06.02-15.37.52:215][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.06.02-15.37.52:218][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.06.02-15.37.52:221][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.06.02-15.37.52:224][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.06.02-15.37.52:227][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.06.02-15.37.52:233][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.06.02-15.37.52:233][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.06.02-15.37.52:233][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.06.02-15.37.52:250][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.06.02-15.37.52:253][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.06.02-15.37.52:255][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.06.02-15.37.52:258][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.06.02-15.37.52:261][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.06.02-15.37.52:261][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.06.02-15.37.52:349][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.06.02-15.37.52:392][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.02-15.37.52:392][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.06.02-15.37.52:392][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.06.02-15.37.52:392][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.06.02-15.37.52:392][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.06.02-15.37.52:392][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.06.02-15.37.52:405][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.06.02-15.37.52:417][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MagicUser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.06.02-15.37.52:577][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.02-15.37.52:578][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.06.02-15.37.52:610][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.06.02-15.37.52:724][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.06.02-15.37.52:724][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.06.02-15.37.52:724][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.06.02-15.37.52:925][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.06.02-15.37.52:925][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.06.02-15.37.52:925][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.06.02-15.37.52:934][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.02-15.37.53:029][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.02-15.37.53:029][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.02-15.37.53:113][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.02-15.37.53:113][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.02-15.37.53:113][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.02-15.37.53:113][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.02-15.37.53:113][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.02-15.37.53:113][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.02-15.37.53:607][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.06.02-15.37.53:618][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.06.02-15.37.53:721][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2016.06.02-15.37.53:869][  0]SourceControl: Info Source control is disabled
+[2016.06.02-15.37.53:901][  0]SourceControl: Info Source control is disabled
+[2016.06.02-15.37.53:913][  0]SourceControl: Info Source control is disabled
+[2016.06.02-15.37.53:923][  0]SourceControl: Info Source control is disabled
+[2016.06.02-15.37.54:072][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.06.02-15.37.54:180][  0]LogEngine: Initializing Engine...
+[2016.06.02-15.37.54:298][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.06.02-15.37.54:304][  0]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.02-15.37.54:310][  0]LogInit: FAudioDevice initialized.
+[2016.06.02-15.37.54:330][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.02-15.37.54:335][  0]LogInit: Texture streaming: Enabled
+[2016.06.02-15.37.54:360][  0]LogInit: Transaction tracking system initialized
+[2016.06.02-15.37.54:388][  0]BlueprintLog: New page: Editor Load
+[2016.06.02-15.37.54:473][  0]LocalizationService: Info Localization service is disabled
+[2016.06.02-15.37.54:550][  0]LogConsoleResponse:Display: 
+[2016.06.02-15.37.54:642][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.06.02-15.37.54:642][  0]LogCook:Display: Mobile HDR setting 1
+[2016.06.02-15.37.54:642][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.06.02-15.37.54:703][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/' took 0.02s
+[2016.06.02-15.37.54:703][  0]SourceControl: Info Source control is disabled
+[2016.06.02-15.37.54:703][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.02-15.37.54:704][  0]LightingResults: New page: Lighting Build
+[2016.06.02-15.37.54:707][  0]MapCheck: New page: Map Check
+[2016.06.02-15.37.54:707][  0]LightingResults: New page: Lighting Build
+[2016.06.02-15.37.55:023][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning 'Item' is already a 'Manager', you don't need  Cast To Manager .
+[2016.06.02-15.37.55:024][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.92] Compile of CrowdSpawner_Blueprint successful, but with 1 Warning(s) [in 4 ms]
+[2016.06.02-15.37.55:025][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.92] Compile of CrowdSpawner_Blueprint successful, but with 2 Warning(s) [in 0 ms]
+[2016.06.02-15.37.55:025][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.92] Compile of CrowdSpawner_Blueprint successful, but with 3 Warning(s) [in 0 ms]
+[2016.06.02-15.37.55:059][  0]LogBlueprint:Warning: [compiler Manager] Warning Can't connect pins  Target Array  and  Out Actors : Array of References is not compatible with Array of Actor References.
+[2016.06.02-15.37.55:059][  0]LogBlueprint:Warning: [compiler Manager] Warning Can't connect pins  Out Actors  and  Target Array : Array of Actor References is not compatible with Array of References.
+[2016.06.02-15.37.55:059][  0]LogBlueprint:Error: [compiler Manager] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.06.02-15.37.55:070][  0]LogBlueprint:Warning: [compiler Manager] Warning [0004.96] Compile of Manager failed. 1 Fatal Issue(s) 2 Warning(s) [in 25 ms]
+[2016.06.02-15.37.55:070][  0]LogBlueprint:Warning: [compiler Manager] Warning [0004.96] Compile of Manager failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.06.02-15.37.55:070][  0]LogBlueprint:Warning: [compiler Manager] Warning [0004.96] Compile of Manager failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.06.02-15.37.55:335][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning 'Item' is already a 'Manager', you don't need  Cast To Manager .
+[2016.06.02-15.37.55:336][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0005.23] Compile of CrowdSpawner_Blueprint successful, but with 1 Warning(s) [in 4 ms]
+[2016.06.02-15.37.55:336][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0005.23] Compile of CrowdSpawner_Blueprint successful, but with 2 Warning(s) [in 0 ms]
+[2016.06.02-15.37.55:337][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0005.23] Compile of CrowdSpawner_Blueprint successful, but with 3 Warning(s) [in 0 ms]
+[2016.06.02-15.37.55:821][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.06.02-15.37.55:901][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.02-15.37.55:901][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.02-15.37.55:950][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.524ms to complete.
+[2016.06.02-15.37.55:950][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.246
+[2016.06.02-15.37.56:059][  0]LogCollectionManager: Loaded 0 collections in 0.002569 seconds
+[2016.06.02-15.37.56:103][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/Collections/' took 0.01s
+[2016.06.02-15.37.56:103][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Developers/MagicUser/Collections/' took 0.01s
+[2016.06.02-15.37.56:103][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Collections/' took 0.01s
+[2016.06.02-15.37.56:103][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.06.02-15.37.56:110][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 1994 classes and 349 folders.
+[2016.06.02-15.37.56:115][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.06.02-15.37.56:115][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.06.02-15.37.56:115][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.06.02-15.37.56:123][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.06.02-15.37.56:131][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.06.02-15.37.56:170][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.06.02-15.37.56:176][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.06.02-15.37.56:232][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.06.02-15.37.56:238][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.06.02-15.37.56:264][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.06.02-15.37.56:265][  0]LogLoad: Full Startup: 6.16 seconds (BP compile: 0.35 seconds)
+[2016.06.02-15.37.56:265][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.06.02-15.37.56:265][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.06.02-15.37.56:604][  0]LogOcInput: OculusInput pre-init called
+[2016.06.02-15.37.56:648][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.06.02-15.37.56:787][  0]LogRenderer: Reallocating scene render targets to support 1208x568 (Frame:2).
+[2016.06.02-15.37.56:951][  1]LogAssetRegistry: Asset discovery search completed in 3.2512 seconds
+[2016.06.02-15.37.56:951][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.06.02-15.37.56:951][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2016.06.02-15.38.42:257][181]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.06.02-15.38.44:072][181]Warning: Unknown property in Dialogue_TableItem: DataTable=None,RowName=) 
+[2016.06.02-15.38.44:072][181]Warning: Unknown property in Dialogue_TableItem: RowName=) 
+[2016.06.02-15.38.46:254][181]Warning: Unknown property in Dialogue_TableItem: DataTable=None,RowName=) 
+[2016.06.02-15.38.46:254][181]Warning: Unknown property in Dialogue_TableItem: RowName=) 
+[2016.06.02-15.38.48:948][181]LogBlueprint:Warning: [compiler BP_DemoDisplay] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.06.02-15.38.48:948][181]LogBlueprint:Warning: [compiler BP_DemoDisplay] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.06.02-15.38.48:948][181]LogBlueprint:Warning: [compiler BP_DemoDisplay] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.06.02-15.38.48:949][181]LogBlueprint:Warning: [compiler BP_DemoDisplay] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.06.02-15.38.48:952][181]LogBlueprint:Warning: [compiler BP_DemoDisplay] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.06.02-15.38.48:980][181]LogBlueprint:Warning: [compiler BP_DemoDisplay] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.06.02-15.38.48:980][181]LogBlueprint:Warning: [compiler BP_DemoDisplay] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.06.02-15.38.48:980][181]LogBlueprint:Warning: [compiler BP_DemoDisplay] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.06.02-15.38.48:981][181]LogBlueprint:Warning: [compiler BP_DemoDisplay] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.06.02-15.38.48:984][181]LogBlueprint:Warning: [compiler BP_DemoDisplay] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.06.
