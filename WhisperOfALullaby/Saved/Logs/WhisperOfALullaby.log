@@ -311,4 +311,340 @@ LogInit: Object subsystem initialized
 [2016.06.02-16.51.42:229][642]LogBlueprintUserMessages: [ThirdPersonCharacter_167] None
 [2016.06.02-16.51.42:296][650]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
 [2016.06.02-16.51.46:477][151]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.06.02-16.51.46:561][151]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.T
+[2016.06.02-16.51.46:561][151]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.06.02-16.51.48:445][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.06.02-16.51.50:080][545]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Sphere)
+[2016.06.02-16.51.56:868][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.06.02-16.51.57:571][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.06.02-16.53.13:167][954]LogTexture:Display: Building textures: Cube_mask (AutoDXT)
+[2016.06.02-16.53.13:711][954]LogTexture:Display: Building textures: CubeTexture_NRM (BC5)
+[2016.06.02-16.53.14:162][954]LogTexture:Display: Building textures: T_Metal_Gold_N (BC5)
+[2016.06.02-16.53.14:467][954]LogMaterial: Missing cached shader map for material Cube_Mat_Orange, compiling. 
+[2016.06.02-16.53.14:874][954]LogAIModule: Creating AISystem for world Town
+[2016.06.02-16.53.14:941][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.53.14:941][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.53.14:941][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.06.02-16.53.14:941][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.53.14:941][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.06.02-16.53.14:941][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2016.06.02-16.53.14:977][954]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.02-16.53.14:977][954]LightingResults: New page: Lighting Build
+[2016.06.02-16.53.15:015][954]LoadErrors: New page: Loading map: Town.umap
+[2016.06.02-16.53.15:017][954]MapCheck: New page: Map Check
+[2016.06.02-16.53.15:017][954]LightingResults: New page: Lighting Build
+[2016.06.02-16.53.15:085][954]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.02-16.53.15:137][954]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.02-16.53.15:221][954]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.556ms to complete.
+[2016.06.02-16.53.15:221][954]LogFileHelpers: Loading map 'Town' took 0.248
+[2016.06.02-16.53.25:365][980]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.53.25:365][980]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-16.53.25:365][980]PIE: New page: PIE session: Town (Jun 2, 2016, 7:53:25 AM)
+[2016.06.02-16.53.25:366][980]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.02-16.53.25:482][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.116427s)
+[2016.06.02-16.53.25:482][980]LogAIModule: Creating AISystem for world Town
+[2016.06.02-16.53.25:482][980]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2016.06.02-16.53.25:483][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.117379s)
+[2016.06.02-16.53.25:505][980]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.02-16.53.25:509][980]LogInit: FAudioDevice initialized.
+[2016.06.02-16.53.25:543][980]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-16.53.25:572][980]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.02-12.53.25
+[2016.06.02-16.53.25:580][980]LogWorld: Bringing up level for play took: 0.035725
+[2016.06.02-16.53.25:583][980]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue4 out of bounds [0/0]!
+[2016.06.02-16.53.25:583][980]PIE:Warning: Warning ThirdPersonCharacter_C_28.StaticMeshComponent_42 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.02-16.53.25:583][980]PIE:Warning: Warning ThirdPersonCharacter_C_28.StaticMeshComponent_42 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.02-16.53.25:584][980]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.548
+[2016.06.02-16.53.25:591][980]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.53.32:163][764]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Pressed
+[2016.06.02-16.53.32:163][764]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:164][764]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:172][765]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:173][765]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] attempted reposition
+[2016.06.02-16.53.32:182][766]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:191][767]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:199][768]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:207][769]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:216][770]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:224][771]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:233][772]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:242][773]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:250][774]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:258][775]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:267][776]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:275][777]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:283][778]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:292][779]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:300][780]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:308][781]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:316][782]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:325][783]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:333][784]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:342][785]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:350][786]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:358][787]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:366][788]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:375][789]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:384][790]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:392][791]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:400][792]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:408][793]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:416][794]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:425][795]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:433][796]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:442][797]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:450][798]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:458][799]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:466][800]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:475][801]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:483][802]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:492][803]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:500][804]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:509][805]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:520][806]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:528][807]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:528][807]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] attempted reposition
+[2016.06.02-16.53.32:536][808]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:544][809]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:553][810]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:561][811]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:570][812]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:578][813]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:586][814]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:594][815]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:603][816]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:611][817]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:619][818]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:628][819]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:636][820]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:644][821]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:653][822]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:661][823]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:669][824]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:678][825]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:686][826]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:694][827]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:703][828]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:711][829]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:719][830]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:728][831]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:736][832]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:744][833]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:753][834]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:761][835]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:769][836]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:778][837]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Cube71_4
+[2016.06.02-16.53.32:786][838]LogBlueprintUserMessages: [ThirdPersonCharacter_C_28] Released
+[2016.06.02-16.53.33:021][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.53.33:065][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.54.00:488][ 47]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1116) 32 : ConvexHullBuilder::CreateTrianglesFromPolygons: convex hull has a polygon with less than 3 vertices!
+[2016.06.02-16.54.00:489][ 47]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2016.06.02-16.54.00:489][ 47]LogPhysics:Warning: Failed to cook convex: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0 0 (FlipX:0). The remaining elements will not get cooked.
+[2016.06.02-16.54.00:489][ 47]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:838][208]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:838][208]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:846][209]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:846][209]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:857][210]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:857][210]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:865][211]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:865][211]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:874][212]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:874][212]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:883][213]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:883][213]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:891][214]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:891][214]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:900][215]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:900][215]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:909][216]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:909][216]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:917][217]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:917][217]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:918][217]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:918][217]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:926][218]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:926][218]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:935][219]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:935][219]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:943][220]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:943][220]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:951][221]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:952][221]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:960][222]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:960][222]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:968][223]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:969][223]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:977][224]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:977][224]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:985][225]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:985][225]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:994][226]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.01:994][226]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:002][227]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:002][227]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:011][228]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:011][228]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:019][229]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:019][229]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:028][230]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:028][230]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:036][231]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:036][231]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:045][232]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:045][232]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:053][233]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:053][233]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:053][233]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:054][233]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:062][234]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:062][234]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:072][235]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:072][235]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:081][236]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:081][236]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:089][237]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:089][237]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:098][238]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:098][238]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:106][239]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:106][239]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:115][240]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:115][240]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:123][241]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:123][241]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:132][242]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:132][242]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:501][286]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.02:501][286]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Maps/Town.Town:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_79)
+[2016.06.02-16.54.24:754][886]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.54.24:754][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-16.54.24:754][886]PIE: New page: PIE session: Town (Jun 2, 2016, 7:54:24 AM)
+[2016.06.02-16.54.24:754][886]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.02-16.54.24:887][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132692s)
+[2016.06.02-16.54.24:888][886]LogAIModule: Creating AISystem for world Town
+[2016.06.02-16.54.24:888][886]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2016.06.02-16.54.24:888][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.133622s)
+[2016.06.02-16.54.24:907][886]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.02-16.54.24:911][886]LogInit: FAudioDevice initialized.
+[2016.06.02-16.54.24:939][886]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-16.54.24:968][886]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.02-12.54.24
+[2016.06.02-16.54.24:976][886]LogWorld: Bringing up level for play took: 0.035847
+[2016.06.02-16.54.24:979][886]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue4 out of bounds [0/0]!
+[2016.06.02-16.54.24:979][886]PIE:Warning: Warning ThirdPersonCharacter_C_29.StaticMeshComponent_44 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.02-16.54.24:979][886]PIE:Warning: Warning ThirdPersonCharacter_C_29.StaticMeshComponent_44 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.02-16.54.24:980][886]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 0.847
+[2016.06.02-16.54.24:980][886]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.54.26:770][100]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.54.26:823][100]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.54.34:658][992]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.54.35:747][119]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.54.37:488][325]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2016.06.02-16.54.38:182][406]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume2)
+[2016.06.02-16.54.38:768][471]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.54.39:726][579]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.54.41:103][732]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2016.06.02-16.54.41:856][808]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.54.45:312][202]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.54.47:483][409]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.54.47:483][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-16.54.47:483][409]PIE: New page: PIE session: Town (Jun 2, 2016, 7:54:47 AM)
+[2016.06.02-16.54.47:483][409]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.02-16.54.47:613][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.129935s)
+[2016.06.02-16.54.47:614][409]LogAIModule: Creating AISystem for world Town
+[2016.06.02-16.54.47:614][409]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2016.06.02-16.54.47:614][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.130833s)
+[2016.06.02-16.54.47:635][409]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.02-16.54.47:639][409]LogInit: FAudioDevice initialized.
+[2016.06.02-16.54.47:666][409]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-16.54.47:695][409]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.02-12.54.47
+[2016.06.02-16.54.47:703][409]LogWorld: Bringing up level for play took: 0.035414
+[2016.06.02-16.54.47:706][409]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue4 out of bounds [0/0]!
+[2016.06.02-16.54.47:706][409]PIE:Warning: Warning ThirdPersonCharacter_C_30.StaticMeshComponent_46 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.02-16.54.47:706][409]PIE:Warning: Warning ThirdPersonCharacter_C_30.StaticMeshComponent_46 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.02-16.54.47:706][409]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.426
+[2016.06.02-16.54.47:713][409]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.54.53:468][ 96]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.54.53:514][ 96]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.55.12:341][296]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube71)
+[2016.06.02-16.55.29:323][306]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.55.29:323][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-16.55.29:323][306]PIE: New page: PIE session: Town (Jun 2, 2016, 7:55:29 AM)
+[2016.06.02-16.55.29:323][306]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.02-16.55.29:443][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120024s)
+[2016.06.02-16.55.29:444][306]LogAIModule: Creating AISystem for world Town
+[2016.06.02-16.55.29:444][306]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2016.06.02-16.55.29:444][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.121086s)
+[2016.06.02-16.55.29:464][306]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.02-16.55.29:468][306]LogInit: FAudioDevice initialized.
+[2016.06.02-16.55.29:494][306]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-16.55.29:523][306]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.02-12.55.29
+[2016.06.02-16.55.29:531][306]LogWorld: Bringing up level for play took: 0.036227
+[2016.06.02-16.55.29:534][306]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue4 out of bounds [0/0]!
+[2016.06.02-16.55.29:534][306]PIE:Warning: Warning ThirdPersonCharacter_C_31.StaticMeshComponent_48 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.02-16.55.29:534][306]PIE:Warning: Warning ThirdPersonCharacter_C_31.StaticMeshComponent_48 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.02-16.55.29:535][306]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.597
+[2016.06.02-16.55.29:535][306]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.55.30:495][420]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.55.30:543][420]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.55.34:337][836]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.55.39:475][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.55.39:476][405]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-16.55.39:476][405]PIE: New page: PIE session: Town (Jun 2, 2016, 7:55:39 AM)
+[2016.06.02-16.55.39:476][405]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.02-16.55.39:596][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119895s)
+[2016.06.02-16.55.39:596][405]LogAIModule: Creating AISystem for world Town
+[2016.06.02-16.55.39:596][405]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2016.06.02-16.55.39:597][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.120804s)
+[2016.06.02-16.55.39:616][405]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.02-16.55.39:619][405]LogInit: FAudioDevice initialized.
+[2016.06.02-16.55.39:646][405]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-16.55.39:675][405]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.02-12.55.39
+[2016.06.02-16.55.39:683][405]LogWorld: Bringing up level for play took: 0.035847
+[2016.06.02-16.55.39:686][405]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue4 out of bounds [0/0]!
+[2016.06.02-16.55.39:686][405]PIE:Warning: Warning ThirdPersonCharacter_C_32.StaticMeshComponent_50 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.02-16.55.39:686][405]PIE:Warning: Warning ThirdPersonCharacter_C_32.StaticMeshComponent_50 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.02-16.55.39:687][405]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.445
+[2016.06.02-16.55.39:694][405]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.55.41:116][573]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.55.41:162][573]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.55.42:758][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube71)
+[2016.06.02-16.55.43:132][778]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.59.10:619][557]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.06.02-16.59.23:251][875]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.02-16.59.23:251][875]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.02-16.59.23:253][875]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.02-16.59.23:255][875]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.02-16.59.23:256][875]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.02-16.59.27:005][320]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.59.27:005][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-16.59.27:005][320]PIE: New page: PIE session: Town (Jun 2, 2016, 7:59:27 AM)
+[2016.06.02-16.59.27:005][320]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.02-16.59.27:129][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123634s)
+[2016.06.02-16.59.27:130][320]LogAIModule: Creating AISystem for world Town
+[2016.06.02-16.59.27:130][320]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2016.06.02-16.59.27:130][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.124600s)
+[2016.06.02-16.59.27:151][320]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.02-16.59.27:155][320]LogInit: FAudioDevice initialized.
+[2016.06.02-16.59.27:187][320]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-16.59.27:216][320]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.02-12.59.27
+[2016.06.02-16.59.27:224][320]LogWorld: Bringing up level for play took: 0.035361
+[2016.06.02-16.59.27:226][320]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue4 out of bounds [0/0]!
+[2016.06.02-16.59.27:227][320]PIE:Warning: Warning ThirdPersonCharacter_C_33.StaticMeshComponent_52 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.02-16.59.27:227][320]PIE:Warning: Warning ThirdPersonCharacter_C_33.StaticMeshComponent_52 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.02-16.59.27:227][320]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.095
+[2016.06.02-16.59.27:227][320]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.59.30:067][660]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.59.30:135][660]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.59.35:218][242]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.59.36:798][431]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.59.38:962][690]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.59.42:833][149]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.59.46:666][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube71)
+[2016.06.02-16.59.57:863][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.02-16.59.57:863][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-16.59.57:863][907]PIE: New page: PIE session: Town (Jun 2, 2016, 7:59:57 AM)
+[2016.06.02-16.59.57:863][907]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.02-16.59.57:984][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120210s)
+[2016.06.02-16.59.57:984][907]LogAIModule: Creating AISystem for world Town
+[2016.06.02-16.59.57:984][907]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2016.06.02-16.59.57:984][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.121155s)
+[2016.06.02-16.59.58:007][907]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
