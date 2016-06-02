@@ -190,4 +190,945 @@ LogInit: Object subsystem initialized
 [2016.06.02-15.38.48:980][181]LogBlueprint:Warning: [compiler BP_DemoDisplay] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
 [2016.06.02-15.38.48:981][181]LogBlueprint:Warning: [compiler BP_DemoDisplay] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
 [2016.06.02-15.38.48:984][181]LogBlueprint:Warning: [compiler BP_DemoDisplay] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
-[2016.06.
+[2016.06.02-15.38.49:474][181]LogBlueprint:Warning: [compiler BP_DemoRoom] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.06.02-15.38.49:475][181]LogBlueprint:Warning: [compiler BP_DemoRoom] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.06.02-15.38.49:535][181]LogBlueprint:Warning: [compiler BP_DemoRoom] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.06.02-15.38.49:535][181]LogBlueprint:Warning: [compiler BP_DemoRoom] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.06.02-15.38.50:199][181]LogAIModule: Creating AISystem for world DialogueSampleMap
+[2016.06.02-15.39.08:030][575]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 108 classes and 0 folders.
+[2016.06.02-16.07.13:965][436]LogSavePackage: Save=911.34ms
+[2016.06.02-16.07.13:965][436]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_DialogueAC8D89E846CE701F957FEAA6622F079F.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_Dialogue.uasset'
+[2016.06.02-16.07.13:968][436]LogSavePackage: Total save time: 932.05ms
+[2016.06.02-16.07.13:968][436]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_Dialogue.uasset
+[2016.06.02-16.09.14:913][877]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2016.06.02-16.09.31:111][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.06.02-16.14.02:426][  0]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.14.03:082][ 78]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.14.04:039][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2016.06.02-16.14.04:517][233]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.14.06:941][522]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2016.06.02-16.14.07:323][558]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.14.10:148][877]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.14.16:619][645]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.14.26:701][832]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-16.14.26:746][832]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.02-16.14.26:746][832]LightingResults: New page: Lighting Build
+[2016.06.02-16.14.26:765][832]LoadErrors: New page: Loading map: ThirdPersonExampleMap_DialogueTesting.umap
+[2016.06.02-16.14.26:794][832]MapCheck: New page: Map Check
+[2016.06.02-16.14.26:794][832]LightingResults: New page: Lighting Build
+[2016.06.02-16.14.26:975][832]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.02-16.14.27:009][832]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.02-16.14.27:075][832]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.598ms to complete.
+[2016.06.02-16.14.27:075][832]LogFileHelpers: Loading map 'ThirdPersonExampleMap_DialogueTesting' took 0.332
+[2016.06.02-16.17.30:327][666]LogEditorTransaction: Undo Delete current selection
+[2016.06.02-16.17.59:787][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.17.59:787][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.17.59:891][156]LogSavePackage: Save=31.06ms
+[2016.06.02-16.17.59:891][156]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonGameMode16ABC4214F97DE0C2B8C2C9615FFAAEA.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonGameMode.uasset'
+[2016.06.02-16.17.59:894][156]LogSavePackage: Total save time: 48.44ms
+[2016.06.02-16.17.59:894][156]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonGameMode.uasset
+[2016.06.02-16.20.07:400][840]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2016.06.02-16.20.35:706][186]LogSavePackage: Save=36.50ms
+[2016.06.02-16.20.35:706][186]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonGameModeD469EE084991BE4CB7F0018ACB9EB494.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonGameMode.uasset'
+[2016.06.02-16.20.35:709][186]LogSavePackage: Total save time: 47.02ms
+[2016.06.02-16.20.35:709][186]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonGameMode.uasset
+[2016.06.02-16.20.48:825][746]LogSavePackage: Save=56.56ms
+[2016.06.02-16.20.48:825][746]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonGameMode5C56DD3543EF360FD86C40AE3B2AD2B4.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonGameMode.uasset'
+[2016.06.02-16.20.48:829][746]LogSavePackage: Total save time: 67.63ms
+[2016.06.02-16.20.48:829][746]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonGameMode.uasset
+[2016.06.02-16.21.11:571][458]LogSavePackage: Save=35.90ms
+[2016.06.02-16.21.11:571][458]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonGameMode1B033488441BB61FA7C086AF6DC35DF8.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonGameMode.uasset'
+[2016.06.02-16.21.11:574][458]LogSavePackage: Total save time: 46.35ms
+[2016.06.02-16.21.11:574][458]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonGameMode.uasset
+[2016.06.02-16.21.18:101][963]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2016.06.02-16.21.35:557][ 25]LogSavePackage: Save=36.99ms
+[2016.06.02-16.21.35:557][ 25]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonGameModeA703885B418390E2D92A5DA7138B45AC.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonGameMode.uasset'
+[2016.06.02-16.21.35:560][ 25]LogSavePackage: Total save time: 48.01ms
+[2016.06.02-16.21.35:560][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonGameMode.uasset
+[2016.06.02-16.22.46:306][307]LogSavePackage: Save=10.58ms
+[2016.06.02-16.22.46:306][307]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_ExampleDialogueBAE7DDE74362FC61CD3DED840D24A5FE.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset'
+[2016.06.02-16.22.46:308][307]LogSavePackage: Total save time: 12.98ms
+[2016.06.02-16.22.46:308][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset
+[2016.06.02-16.24.55:809][590]LogSavePackage: Save=17.45ms
+[2016.06.02-16.24.55:809][590]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_ExampleDialogue37016EAC47B40A56F044B3B00D300C85.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset'
+[2016.06.02-16.24.55:811][590]LogSavePackage: Total save time: 34.26ms
+[2016.06.02-16.24.55:811][590]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset
+[2016.06.02-16.25.12:702][101]LogSavePackage: Save=16.34ms
+[2016.06.02-16.25.12:702][101]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_ExampleDialogue5F1A84BC4EE3422EE00A09AAB9A4510D.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset'
+[2016.06.02-16.25.12:704][101]LogSavePackage: Total save time: 26.73ms
+[2016.06.02-16.25.12:704][101]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset
+[2016.06.02-16.25.30:102][250]BlueprintLog: New page: Compile BPC_ExampleDialogue
+[2016.06.02-16.25.55:140][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.25.55:140][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.06.02-16.25.55:140][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.25.55:140][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.06.02-16.25.55:140][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2016.06.02-16.26.25:236][ 99]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.06.02-16.26.25:236][ 99]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.26.25:577][ 99]LogSavePackage: Save=288.07ms
+[2016.06.02-16.26.25:577][ 99]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMap_DialogueTesting_Auto1399F61324D6D961937D65C8F8C7A4206.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Maps/ThirdPersonExampleMap_DialogueTesting_Auto1.umap'
+[2016.06.02-16.26.25:579][ 99]LogSavePackage: Total save time: 309.78ms
+[2016.06.02-16.26.25:579][ 99]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Maps/ThirdPersonExampleMap_DialogueTesting_Auto1.umap
+[2016.06.02-16.26.25:581][ 99]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ThirdPersonExampleMap_DialogueTesting' took 0.345
+[2016.06.02-16.26.25:581][ 99]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.345
+[2016.06.02-16.26.25:588][ 99]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2016.06.02-16.26.25:610][ 99]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2016.06.02-16.26.25:610][ 99]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ThirdPersonCharacter]
+[2016.06.02-16.26.26:060][ 99]LogSavePackage: Save=436.48ms
+[2016.06.02-16.26.26:060][ 99]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonCharacter_Auto101CB48A745012157E559B7A4316C1512.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2016.06.02-16.26.26:062][ 99]LogSavePackage: Total save time: 450.76ms
+[2016.06.02-16.26.26:062][ 99]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/Autosaves/Game/Blueprints/ThirdPersonCharacter_Auto1.uasset
+[2016.06.02-16.26.26:062][ 99]LogFileHelpers: Auto-saving content packages took 0.481
+[2016.06.02-16.27.13:825][915]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.27.13:825][915]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.27.17:246][258]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.06.02-16.27.17:246][258]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_C_0) Not registered. Aborting.
+[2016.06.02-16.27.20:489][581]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.06.02-16.27.20:489][581]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_C_1) Not registered. Aborting.
+[2016.06.02-16.27.20:926][581]LogSavePackage: Save=281.98ms
+[2016.06.02-16.27.20:926][581]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMap_DialogueTesting4ACA5B5844AC2798566C8AA1BF4067A5.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap'
+[2016.06.02-16.27.20:932][581]LogSavePackage: Total save time: 298.04ms
+[2016.06.02-16.27.20:932][581]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap
+[2016.06.02-16.27.20:966][581]LogFileHelpers: Saving map 'ThirdPersonExampleMap_DialogueTesting' took 0.429
+[2016.06.02-16.27.21:420][581]LogSavePackage: Save=415.71ms
+[2016.06.02-16.27.21:420][581]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonCharacter58B656C248618E736EC30481A177B7C5.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonCharacter.uasset'
+[2016.06.02-16.27.21:423][581]LogSavePackage: Total save time: 426.22ms
+[2016.06.02-16.27.21:423][581]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonCharacter.uasset
+[2016.06.02-16.27.57:380][128]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.27.57:380][128]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.28.00:640][475]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.06.02-16.28.00:640][475]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_C_2) Not registered. Aborting.
+[2016.06.02-16.28.26:746][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.06.02-16.28.26:746][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_C_3) Not registered. Aborting.
+[2016.06.02-16.28.27:182][440]LogSavePackage: Save=277.40ms
+[2016.06.02-16.28.27:182][440]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMap_DialogueTesting9253248242F4CDC0BB27CF8F3775356F.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap'
+[2016.06.02-16.28.27:186][440]LogSavePackage: Total save time: 288.52ms
+[2016.06.02-16.28.27:186][440]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap
+[2016.06.02-16.28.27:216][440]LogFileHelpers: Saving map 'ThirdPersonExampleMap_DialogueTesting' took 0.412
+[2016.06.02-16.28.27:674][440]LogSavePackage: Save=420.20ms
+[2016.06.02-16.28.27:674][440]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonCharacter653CB2D740180A46A7DB23B99B54AAF7.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonCharacter.uasset'
+[2016.06.02-16.28.27:677][440]LogSavePackage: Total save time: 430.78ms
+[2016.06.02-16.28.27:677][440]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonCharacter.uasset
+[2016.06.02-16.30.31:078][839]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.30.31:078][839]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.31.50:553][733]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1719.EdGraphPin_129593''
+[2016.06.02-16.32.11:043][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.06.02-16.32.11:043][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_C_4) Not registered. Aborting.
+[2016.06.02-16.33.04:721][659]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.06.02-16.33.04:721][659]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_C_5) Not registered. Aborting.
+[2016.06.02-16.33.52:357][613]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.06.02-16.33.52:485][613]LogBlueprint:Error: [compiler ThirdPersonCharacter] Error This blueprint (self) is not a BPC_UseScanner_C, therefore ' Target ' must have a connection.
+[2016.06.02-16.33.52:558][613]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.06.02-16.33.52:558][613]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_C_6) Not registered. Aborting.
+[2016.06.02-16.33.52:982][613]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a BPC_UseScanner_C, therefore ' Target ' must have a connection.
+[2016.06.02-16.34.12:436][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.34.12:437][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.34.12:904][689]LogSavePackage: Save=280.71ms
+[2016.06.02-16.34.12:905][689]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMap_DialogueTestingCE92F41F48DC4E699A8DB3967A3ABCE2.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap'
+[2016.06.02-16.34.12:908][689]LogSavePackage: Total save time: 321.25ms
+[2016.06.02-16.34.12:908][689]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap
+[2016.06.02-16.34.12:942][689]LogFileHelpers: Saving map 'ThirdPersonExampleMap_DialogueTesting' took 0.456
+[2016.06.02-16.34.13:435][689]LogSavePackage: Save=457.02ms
+[2016.06.02-16.34.13:435][689]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonCharacterCD8B17034B4F4A93C59BFCAECEE0C8D2.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonCharacter.uasset'
+[2016.06.02-16.34.13:438][689]LogSavePackage: Total save time: 470.19ms
+[2016.06.02-16.34.13:438][689]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonCharacter.uasset
+[2016.06.02-16.34.13:851][735]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.06.02-16.34.14:059][735]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.34.14:059][735]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.34.15:013][800]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.34.15:013][800]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.34.15:437][800]LogSavePackage: Save=286.20ms
+[2016.06.02-16.34.15:437][800]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMap_DialogueTesting4E155F814BB4B5D6BAAEA69CFF488B26.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap'
+[2016.06.02-16.34.15:440][800]LogSavePackage: Total save time: 295.66ms
+[2016.06.02-16.34.15:440][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap
+[2016.06.02-16.34.15:470][800]LogFileHelpers: Saving map 'ThirdPersonExampleMap_DialogueTesting' took 0.418
+[2016.06.02-16.34.48:292][928]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.06.02-16.34.48:494][928]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.34.48:494][928]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.34.49:836][ 21]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.34.49:836][ 21]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.34.50:268][ 21]LogSavePackage: Save=281.61ms
+[2016.06.02-16.34.50:268][ 21]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMap_DialogueTestingA1684B3943A2CEB7B5AF6384DB563FEC.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap'
+[2016.06.02-16.34.50:271][ 21]LogSavePackage: Total save time: 291.25ms
+[2016.06.02-16.34.50:271][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap
+[2016.06.02-16.34.50:302][ 21]LogFileHelpers: Saving map 'ThirdPersonExampleMap_DialogueTesting' took 0.417
+[2016.06.02-16.34.50:792][ 21]LogSavePackage: Save=457.76ms
+[2016.06.02-16.34.50:792][ 21]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonCharacter7C6529E446256F605A2ADC88F15AAA92.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonCharacter.uasset'
+[2016.06.02-16.34.50:795][ 21]LogSavePackage: Total save time: 466.82ms
+[2016.06.02-16.34.50:795][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Blueprints/ThirdPersonCharacter.uasset
+[2016.06.02-16.35.02:714][616]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.35.02:714][616]Can't find target actor or component.
+[2016.06.02-16.35.03:589][713]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2016.06.02-16.35.04:029][752]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.35.07:497][106]LogActorFactory: Actor Factory created Cylinder
+[2016.06.02-16.35.08:460][197]LogActorFactory: Actor Factory created Cylinder
+[2016.06.02-16.35.10:541][411]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.35.17:494][143]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.06.02-16.35.38:203][421]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.35.38:203][421]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.35.38:666][421]LogSavePackage: Save=297.66ms
+[2016.06.02-16.35.38:666][421]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMap_DialogueTestingEFCD4720425CF6060D91C087F8311067.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap'
+[2016.06.02-16.35.38:670][421]LogSavePackage: Total save time: 307.72ms
+[2016.06.02-16.35.38:670][421]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap
+[2016.06.02-16.35.38:700][421]LogFileHelpers: Saving map 'ThirdPersonExampleMap_DialogueTesting' took 0.432
+[2016.06.02-16.35.39:993][552]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.35.39:993][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-16.35.39:994][552]PIE: New page: PIE session: ThirdPersonExampleMap_DialogueTesting (Jun 2, 2016, 7:35:39 AM)
+[2016.06.02-16.35.39:998][552]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-16.35.40:017][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019058s)
+[2016.06.02-16.35.40:018][552]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-16.35.40:018][552]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2016.06.02-16.35.40:018][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting (0.020228s)
+[2016.06.02-16.35.40:050][552]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.02-16.35.40:061][552]LogInit: FAudioDevice initialized.
+[2016.06.02-16.35.40:103][552]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-16.35.40:108][552]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting up for play (max tick rate 0) at 2016.06.02-12.35.40
+[2016.06.02-16.35.40:109][552]LogWorld: Bringing up level for play took: 0.004993
+[2016.06.02-16.35.40:115][552]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 9 classes and 0 folders.
+[2016.06.02-16.35.40:116][552]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting 0.986
+[2016.06.02-16.35.40:116][552]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.35.56:678][526]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.35.56:774][526]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.36.46:965][924]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.36.46:965][924]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.36.46:965][924]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.06.02-16.36.46:965][924]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.36.46:965][924]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.06.02-16.36.46:965][924]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2016.06.02-16.36.47:416][924]LogSavePackage: Save=294.26ms
+[2016.06.02-16.36.47:416][924]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMap_DialogueTesting692469AB411749F5DF169DB0394D3658.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap'
+[2016.06.02-16.36.47:420][924]LogSavePackage: Total save time: 303.89ms
+[2016.06.02-16.36.47:420][924]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap
+[2016.06.02-16.36.47:453][924]LogFileHelpers: Saving map 'ThirdPersonExampleMap_DialogueTesting' took 0.435
+[2016.06.02-16.37.13:542][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.37.13:542][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.37.13:542][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.06.02-16.37.13:542][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.37.13:542][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.06.02-16.37.13:542][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2016.06.02-16.37.13:869][844]LogSavePackage: Save=297.86ms
+[2016.06.02-16.37.13:869][844]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMap_DialogueTestingA9F75EDD45839A2591F9C6838889FB46.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap'
+[2016.06.02-16.37.13:871][844]LogSavePackage: Total save time: 306.17ms
+[2016.06.02-16.37.13:871][844]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap
+[2016.06.02-16.37.27:638][256]SourceControl: Info Source control is disabled
+[2016.06.02-16.37.57:926][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.37.57:926][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.37.57:926][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.06.02-16.37.57:926][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.37.57:926][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.06.02-16.37.57:926][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_3) Not registered. Aborting.
+[2016.06.02-16.37.57:976][746]LogSavePackage: Save=3.33ms
+[2016.06.02-16.37.57:976][746]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_Example38BB45C748F02912C8647298B930CF28.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.37.57:978][746]LogSavePackage: Total save time: 5.76ms
+[2016.06.02-16.37.57:978][746]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.38.24:803][938]LogSavePackage: Save=4.00ms
+[2016.06.02-16.38.24:803][938]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_DialogueSpeakerAttributes_Main158F941A42755825EA6223AC03BC3572.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_DialogueSpeakerAttributes_Main.uasset'
+[2016.06.02-16.38.24:805][938]LogSavePackage: Total save time: 14.09ms
+[2016.06.02-16.38.24:805][938]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_DialogueSpeakerAttributes_Main.uasset
+[2016.06.02-16.38.35:517][217]LogSavePackage: Save=3.99ms
+[2016.06.02-16.38.35:517][217]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_DialogueSpeakerAttributes_Main007357DF4A50EF477F7B0FA8D2EC873A.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_DialogueSpeakerAttributes_Main.uasset'
+[2016.06.02-16.38.35:520][217]LogSavePackage: Total save time: 13.65ms
+[2016.06.02-16.38.35:520][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_DialogueSpeakerAttributes_Main.uasset
+[2016.06.02-16.38.41:701][951]LogSavePackage: Save=4.31ms
+[2016.06.02-16.38.41:701][951]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_DialogueSpeakerAttributes_MainE6C09B2A417590EF34C60AA0F2CDD2AD.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_DialogueSpeakerAttributes_Main.uasset'
+[2016.06.02-16.38.41:704][951]LogSavePackage: Total save time: 13.21ms
+[2016.06.02-16.38.41:704][951]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_DialogueSpeakerAttributes_Main.uasset
+[2016.06.02-16.39.47:088][375]LogSavePackage: Save=3.80ms
+[2016.06.02-16.39.47:088][375]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_ExampleBDB4A1624A4C2D3B013E97AA807E36CD.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.39.47:091][375]LogSavePackage: Total save time: 16.58ms
+[2016.06.02-16.39.47:091][375]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.40.07:051][760]LogSavePackage: Save=4.04ms
+[2016.06.02-16.40.07:051][760]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_ExampleF14CA64B4AC4C66F849F3F89892FF749.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.40.07:054][760]LogSavePackage: Total save time: 13.07ms
+[2016.06.02-16.40.07:054][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.40.13:500][525]LogSavePackage: Save=4.32ms
+[2016.06.02-16.40.13:500][525]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_Example6E1AF7424759B211F41BFCA05928470F.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.40.13:503][525]LogSavePackage: Total save time: 13.04ms
+[2016.06.02-16.40.13:503][525]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.40.42:300][722]LogSavePackage: Save=4.15ms
+[2016.06.02-16.40.42:300][722]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_Example9331ABC941147996B80C30839CFCE7D6.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.40.42:303][722]LogSavePackage: Total save time: 13.05ms
+[2016.06.02-16.40.42:303][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.41.12:962][364]LogSavePackage: Save=33.30ms
+[2016.06.02-16.41.12:962][364]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_Example6EC83FEC49EA4229DAACDFB2363C5FF0.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.41.12:965][364]LogSavePackage: Total save time: 42.11ms
+[2016.06.02-16.41.12:965][364]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.41.48:385][598]LogSavePackage: Save=4.26ms
+[2016.06.02-16.41.48:385][598]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_Example31D0B7074870B9E9F7EC7CBD6FA21AB2.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.41.48:388][598]LogSavePackage: Total save time: 14.37ms
+[2016.06.02-16.41.48:388][598]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.42.08:116][955]LogSavePackage: Save=4.36ms
+[2016.06.02-16.42.08:116][955]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_ExampleF7C1CD434B39C77F404097AC22256E78.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.42.08:118][955]LogSavePackage: Total save time: 12.58ms
+[2016.06.02-16.42.08:118][955]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.42.15:582][843]LogSavePackage: Save=4.04ms
+[2016.06.02-16.42.15:582][843]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_Example0D3B125442B102E31282AC98967F9648.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.42.15:585][843]LogSavePackage: Total save time: 12.41ms
+[2016.06.02-16.42.15:585][843]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.42.35:864][109]LogSavePackage: Save=3.69ms
+[2016.06.02-16.42.35:864][109]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_Example973020CF4FC4A2A9DA2AEC96CD7CDAD3.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.42.35:867][109]LogSavePackage: Total save time: 12.55ms
+[2016.06.02-16.42.35:867][109]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.43.05:848][696]LogSavePackage: Save=4.00ms
+[2016.06.02-16.43.05:848][696]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_ExampleF8F0DE16422C3C1993C474A2F7359E69.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.43.05:851][696]LogSavePackage: Total save time: 12.66ms
+[2016.06.02-16.43.05:851][696]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.43.28:617][793]LogSavePackage: Save=4.08ms
+[2016.06.02-16.43.28:617][793]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_Example4F20C8B14B005BFBBB502E95934BA6F6.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.43.28:620][793]LogSavePackage: Total save time: 12.62ms
+[2016.06.02-16.43.28:620][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.45.46:781][904]LogSavePackage: Save=3.71ms
+[2016.06.02-16.45.46:782][904]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_DialogueSpeakerAttributes_MainB5D2CBB04E5C432AB25FD29ACCE97D2D.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_DialogueSpeakerAttributes_Main.uasset'
+[2016.06.02-16.45.46:784][904]LogSavePackage: Total save time: 13.34ms
+[2016.06.02-16.45.46:784][904]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_DialogueSpeakerAttributes_Main.uasset
+[2016.06.02-16.46.27:932][820]LogSavePackage: Save=4.36ms
+[2016.06.02-16.46.27:932][820]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_ExampleEC21EF174928A047527142B3DCC8959D.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.46.27:934][820]LogSavePackage: Total save time: 14.24ms
+[2016.06.02-16.46.27:934][820]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.46.37:747][987]LogSavePackage: Save=4.41ms
+[2016.06.02-16.46.37:747][987]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_ExampleC058540A45FDD9BBB5F1319DA385A01D.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.46.37:750][987]LogSavePackage: Total save time: 13.01ms
+[2016.06.02-16.46.37:750][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.47.07:213][512]LogSavePackage: Save=4.13ms
+[2016.06.02-16.47.07:213][512]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_ExampleD2F8EDA34AEEEEA872199E9D7F8405D7.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.47.07:216][512]LogSavePackage: Total save time: 13.41ms
+[2016.06.02-16.47.07:216][512]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.47.20:580][106]LogSavePackage: Save=3.96ms
+[2016.06.02-16.47.20:580][106]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_ExampleD8091A7947DD145556232997880CC80C.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.47.20:583][106]LogSavePackage: Total save time: 12.63ms
+[2016.06.02-16.47.20:583][106]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.47.34:130][721]LogSavePackage: Save=3.95ms
+[2016.06.02-16.47.34:130][721]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_ExampleCDBE0A07495C39E969128BA7DFD3D4ED.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.47.34:133][721]LogSavePackage: Total save time: 13.02ms
+[2016.06.02-16.47.34:133][721]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.47.49:113][509]LogSavePackage: Save=4.04ms
+[2016.06.02-16.47.49:113][509]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_ExampleBD0D87BB4500793F86156A8814826382.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.47.49:115][509]LogSavePackage: Total save time: 12.44ms
+[2016.06.02-16.47.49:115][509]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.48.06:496][582]LogSavePackage: Save=4.13ms
+[2016.06.02-16.48.06:496][582]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_Example2E765A01461CB9F72D9F56BB9539C19A.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.48.06:499][582]LogSavePackage: Total save time: 13.07ms
+[2016.06.02-16.48.06:499][582]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.48.23:730][639]LogSavePackage: Save=4.02ms
+[2016.06.02-16.48.23:730][639]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_Example00EA87364783B3B670477EB9B7A09322.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.48.23:733][639]LogSavePackage: Total save time: 12.89ms
+[2016.06.02-16.48.23:733][639]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.48.37:479][278]LogSavePackage: Save=3.78ms
+[2016.06.02-16.48.37:479][278]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_Dialogue_Example56360F0A42D96FE08369D0BE0E31F0E1.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset'
+[2016.06.02-16.48.37:482][278]LogSavePackage: Total save time: 12.66ms
+[2016.06.02-16.48.37:482][278]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_Dialogue_Example.uasset
+[2016.06.02-16.48.50:369][182]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.06.02-16.49.20:650][917]LogSavePackage: Save=289.03ms
+[2016.06.02-16.49.20:650][917]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMap_DialogueTestingF909A89A4CA7DA021AA3ABB7A58A45AF.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap'
+[2016.06.02-16.49.20:654][917]LogSavePackage: Total save time: 309.99ms
+[2016.06.02-16.49.20:654][917]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap
+[2016.06.02-16.49.20:684][917]LogFileHelpers: Saving map 'ThirdPersonExampleMap_DialogueTesting' took 0.438
+[2016.06.02-16.49.25:193][ 22]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.49.25:193][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-16.49.25:193][ 22]PIE: New page: PIE session: ThirdPersonExampleMap_DialogueTesting (Jun 2, 2016, 7:49:25 AM)
+[2016.06.02-16.49.25:193][ 22]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-16.49.25:212][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019086s)
+[2016.06.02-16.49.25:213][ 22]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-16.49.25:213][ 22]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2016.06.02-16.49.25:214][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting (0.020268s)
+[2016.06.02-16.49.25:249][ 22]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.02-16.49.25:260][ 22]LogInit: FAudioDevice initialized.
+[2016.06.02-16.49.25:290][ 22]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-16.49.25:296][ 22]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting up for play (max tick rate 0) at 2016.06.02-12.49.25
+[2016.06.02-16.49.25:297][ 22]LogWorld: Bringing up level for play took: 0.006168
+[2016.06.02-16.49.25:298][ 22]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting 0.168
+[2016.06.02-16.49.25:299][ 22]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.49.33:048][949]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.49.33:145][949]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.50.16:304][245]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.06.02-16.50.54:784][789]LogSavePackage: Save=286.25ms
+[2016.06.02-16.50.54:784][789]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMap_DialogueTesting2B4F86B84B6D29C130C9B9837FC39D22.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap'
+[2016.06.02-16.50.54:787][789]LogSavePackage: Total save time: 295.96ms
+[2016.06.02-16.50.54:787][789]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap
+[2016.06.02-16.50.54:817][789]LogFileHelpers: Saving map 'ThirdPersonExampleMap_DialogueTesting' took 0.421
+[2016.06.02-16.50.58:661][ 12]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.50.58:661][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-16.50.58:661][ 12]PIE: New page: PIE session: ThirdPersonExampleMap_DialogueTesting (Jun 2, 2016, 7:50:58 AM)
+[2016.06.02-16.50.58:661][ 12]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-16.50.58:679][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018262s)
+[2016.06.02-16.50.58:680][ 12]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-16.50.58:680][ 12]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2016.06.02-16.50.58:680][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting (0.019346s)
+[2016.06.02-16.50.58:710][ 12]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.02-16.50.58:722][ 12]LogInit: FAudioDevice initialized.
+[2016.06.02-16.50.58:754][ 12]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-16.50.58:760][ 12]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting up for play (max tick rate 0) at 2016.06.02-12.50.58
+[2016.06.02-16.50.58:760][ 12]LogWorld: Bringing up level for play took: 0.004891
+[2016.06.02-16.50.58:762][ 12]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting -0.368
+[2016.06.02-16.50.58:762][ 12]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.51.02:300][434]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.51.02:349][434]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.51.10:077][290]MapCheck: New page: Map Check
+[2016.06.02-16.51.10:161][290]Cmd: MAP REBUILD ALLVISIBLE
+[2016.06.02-16.51.10:168][290]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.06.02-16.51.10:479][290]LightingResults: New page: Lighting Build - Jun 2, 2016, 7:51:10 AM
+[2016.06.02-16.51.10:871][290]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.06.02-16.51.10:982][290]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.06.02-16.51.11:076][290]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.06.02-16.51.12:388][290]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.06.02-16.51.12:388][290]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12320
+[2016.06.02-16.51.15:554][290]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.06.02-16.51.15:554][290]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.06.02-16.51.15:554][290]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.06.02-16.51.15:554][290]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.06.02-16.51.15:554][290]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.06.02-16.51.15:954][290]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.06.02-16.51.15:954][290]MapCheck: New page: ThirdPersonExampleMap_DialogueTesting - Jun 2, 2016, 7:51:15 AM
+[2016.06.02-16.51.16:057][290]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2016.06.02-16.51.16:123][290]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 168.928ms to complete.
+[2016.06.02-16.51.16:145][290]LogEditorBuildUtils: Build time 0:00:06
+[2016.06.02-16.51.16:184][290]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_52, compiling. 
+[2016.06.02-16.51.16:206][290]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_52, compiling. 
+[2016.06.02-16.51.16:300][291]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer RampMaterial, compiling. 
+[2016.06.02-16.51.16:306][291]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer RampMaterial, compiling. 
+[2016.06.02-16.51.16:352][292]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2016.06.02-16.51.16:358][292]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2016.06.02-16.51.16:385][293]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2016.06.02-16.51.16:389][293]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2016.06.02-16.51.16:395][293]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2016.06.02-16.51.16:403][293]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2016.06.02-16.51.23:276][673]Job is a success!
+[2016.06.02-16.51.23:967][674]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.06.02-16.51.23:967][674]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.06.02-16.51.23:967][674]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.06.02-16.51.23:967][674]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.06.02-16.51.23:967][674]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.06.02-16.51.23:967][674]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.06.02-16.51.23:967][674]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.06.02-16.51.23:967][674]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.06.02-16.51.23:967][674]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.06.02-16.51.24:492][674]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2016.06.02-16.51.24:492][674]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2016.06.02-16.51.24:552][674]Lightmass on MAGIC08: 5.07 sec total, 106 ms importing, 19 ms setup, 876 ms photons, 4.04 sec processing, 0 ms extra exporting [13/13 mappings]. Threads: 28.1 sec total, 9.14 sec processing.
+[2016.06.02-16.51.24:592][674]LogStaticLightingSystem: Illumination: 14.0 sec (539 ms encoding lightmaps, 522 ms encoding shadowmaps)
+[2016.06.02-16.51.24:592][674]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.06.02-16.51.24:592][674]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.06.02-16.51.28:548][675]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.06.02-16.51.28:548][675]MapCheck: New page: ThirdPersonExampleMap_DialogueTesting - Jun 2, 2016, 7:51:28 AM
+[2016.06.02-16.51.28:616][675]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68ms to complete.
+[2016.06.02-16.51.30:818][934]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.51.30:818][934]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-16.51.30:818][934]PIE: New page: PIE session: ThirdPersonExampleMap_DialogueTesting (Jun 2, 2016, 7:51:30 AM)
+[2016.06.02-16.51.30:818][934]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-16.51.30:836][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017889s)
+[2016.06.02-16.51.30:837][934]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-16.51.30:837][934]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2016.06.02-16.51.30:837][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting (0.018970s)
+[2016.06.02-16.51.30:870][934]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.02-16.51.30:982][934]LogInit: FAudioDevice initialized.
+[2016.06.02-16.51.31:013][934]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-16.51.31:019][934]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting up for play (max tick rate 0) at 2016.06.02-12.51.31
+[2016.06.02-16.51.31:019][934]LogWorld: Bringing up level for play took: 0.004975
+[2016.06.02-16.51.31:021][934]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting -0.109
+[2016.06.02-16.51.31:021][934]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.51.40:393][ 48]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.51.40:440][ 48]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-16.52.17:125][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.06.02-16.52.18:537][331]LogSavePackage: Save=275.82ms
+[2016.06.02-16.52.18:537][331]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/ThirdPersonExampleMap_DialogueTesting0DFBF44242E33F64049C36AAB3479CA8.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap'
+[2016.06.02-16.52.18:541][331]LogSavePackage: Total save time: 287.54ms
+[2016.06.02-16.52.18:541][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap
+[2016.06.02-16.52.18:574][331]LogFileHelpers: Saving map 'ThirdPersonExampleMap_DialogueTesting' took 0.412
+[2016.06.02-16.52.21:709][690]LogAIModule: Creating AISystem for world StartScreen
+[2016.06.02-16.52.21:736][690]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/StartScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.02-16.52.21:736][690]LightingResults: New page: Lighting Build
+[2016.06.02-16.52.21:754][690]LoadErrors: New page: Loading map: StartScreen.umap
+[2016.06.02-16.52.21:755][690]MapCheck: New page: Map Check
+[2016.06.02-16.52.21:755][690]LightingResults: New page: Lighting Build
+[2016.06.02-16.52.21:855][690]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.02-16.52.21:887][690]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.02-16.52.21:951][690]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.609ms to complete.
+[2016.06.02-16.52.21:952][690]LogFileHelpers: Loading map 'StartScreen' took 0.217
+[2016.06.02-16.52.24:013][886]LogAIModule: Creating AISystem for world MainMenu
+[2016.06.02-16.52.24:089][886]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.02-16.52.24:089][886]LightingResults: New page: Lighting Build
+[2016.06.02-16.52.24:107][886]LoadErrors: New page: Loading map: MainMenu.umap
+[2016.06.02-16.52.24:107][886]MapCheck: New page: Map Check
+[2016.06.02-16.52.24:108][886]LightingResults: New page: Lighting Build
+[2016.06.02-16.52.24:294][886]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.02-16.52.24:324][886]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.02-16.52.24:391][886]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.178ms to complete.
+[2016.06.02-16.52.24:391][886]LogFileHelpers: Loading map 'MainMenu' took 0.304
+[2016.06.02-16.52.58:756][754]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.02-16.52.58:756][754]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.02-16.52.58:756][754]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.06.02-16.52.58:757][754]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_4) Not registered. Aborting.
+[2016.06.02-16.52.59:146][754]LogSavePackage: Save=331.80ms
+[2016.06.02-16.52.59:146][754]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/StartMenu7ED296614318B604892B76B847CDB3F4.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/2DNonDiegetic/Menus/StartMenu.uasset'
+[2016.06.02-16.52.59:149][754]LogSavePackage: Total save time: 346.06ms
+[2016.06.02-16.52.59:149][754]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/2DNonDiegetic/Menus/StartMenu.uasset
+[2016.06.02-16.53.07:107][690]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-16.53.07:142][690]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap_DialogueTesting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.02-16.53.07:142][690]LightingResults: New page: Lighting Build
+[2016.06.02-16.53.07:160][690]LoadErrors: New page: Loading map: ThirdPersonExampleMap_DialogueTesting.umap
+[2016.06.02-16.53.07:160][690]MapCheck: New page: Map Check
+[2016.06.02-16.53.07:160][690]LightingResults: New page: Lighting Build
+[2016.06.02-16.53.07:475][690]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.02-16.53.07:507][690]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.02-16.53.07:577][690]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.193ms to complete.
+[2016.06.02-16.53.07:577][690]LogFileHelpers: Loading map 'ThirdPersonExampleMap_DialogueTesting' took 0.438
+[2016.06.02-16.53.15:445][572]LogSavePackage: Save=337.32ms
+[2016.06.02-16.53.15:445][572]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/StartMenuB8E8C61E4C81EDDBB497E69A4C5D7AC8.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/2DNonDiegetic/Menus/StartMenu.uasset'
+[2016.06.02-16.53.15:449][572]LogSavePackage: Total save time: 346.41ms
+[2016.06.02-16.53.15:449][572]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/2DNonDiegetic/Menus/StartMenu.uasset
+[2016.06.02-16.58.23:510][701]LogEditorTransaction: Undo Move Node
+[2016.06.02-16.59.42:300][424]LogSavePackage: Save=23.31ms
+[2016.06.02-16.59.42:300][424]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_ExampleDialogue1014CEA14E6222BC8BB8E98B6EEA0B42.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset'
+[2016.06.02-16.59.42:304][424]LogSavePackage: Total save time: 38.16ms
+[2016.06.02-16.59.42:304][424]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset
+[2016.06.02-17.00.26:860][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_VariableGet_2056 or K2Node_VariableGet /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_VariableGet_2056
+[2016.06.02-17.00.26:860][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_VariableGet_2056.EdGraphPin_135762) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_DynamicCast_542.EdGraphPin_135747).  Import failed...
+[2016.06.02-17.00.26:860][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2056.EdGraphPin_135762''
+[2016.06.02-17.00.26:860][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_5475 or K2Node_CallFunction /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_CallFunction_5475
+[2016.06.02-17.00.26:860][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_5475 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_CallFunction_5475
+[2016.06.02-17.00.26:860][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_CallFunction_5475.EdGraphPin_135769) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_DynamicCast_542.EdGraphPin_135746).  Import failed...
+[2016.06.02-17.00.26:860][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5475.EdGraphPin_135769''
+[2016.06.02-17.00.26:860][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_VariableSet_1263 or K2Node_VariableSet /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_VariableSet_1263
+[2016.06.02-17.00.26:860][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_VariableSet_1263.EdGraphPin_134962) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_DynamicCast_542.EdGraphPin_135744).  Import failed...
+[2016.06.02-17.00.26:860][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_1263.EdGraphPin_134962''
+[2016.06.02-17.00.26:860][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_Event_651.EdGraphPin_135777) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_DynamicCast_542.EdGraphPin_135743).  Import failed...
+[2016.06.02-17.00.26:860][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_651.EdGraphPin_135777''
+[2016.06.02-17.00.26:861][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_VariableSet_1263 or K2Node_VariableSet /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_VariableSet_1263
+[2016.06.02-17.00.26:861][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_VariableSet_1263.EdGraphPin_134964) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_VariableGet_2056.EdGraphPin_135761).  Import failed...
+[2016.06.02-17.00.26:861][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_1263.EdGraphPin_134964''
+[2016.06.02-17.00.26:861][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_VariableSet_1699.EdGraphPin_136151) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_SwitchEnum_77.EdGraphPin_134453).  Import failed...
+[2016.06.02-17.00.26:861][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_1699.EdGraphPin_136151''
+[2016.06.02-17.00.26:861][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_460 or K2Node_VariableSet /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_VariableSet_460
+[2016.06.02-17.00.26:861][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_VariableSet_460.EdGraphPin_134464) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_SwitchEnum_77.EdGraphPin_134452).  Import failed...
+[2016.06.02-17.00.26:861][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_460.EdGraphPin_134464''
+[2016.06.02-17.00.26:862][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_VariableSet_1263 or K2Node_VariableSet /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_VariableSet_1263
+[2016.06.02-17.00.26:862][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_VariableSet_1263.EdGraphPin_134965) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_SwitchEnum_77.EdGraphPin_134450).  Import failed...
+[2016.06.02-17.00.26:862][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_1263.EdGraphPin_134965''
+[2016.06.02-17.00.26:862][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_VariableSet_1263 or K2Node_VariableSet /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_VariableSet_1263
+[2016.06.02-17.00.26:862][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/2DNonDiegetic/Menus/StartMenu.StartMenu:EventGraph.K2Node_VariableSet_1263.EdGraphPin_134963) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetDialogueItem.K2Node_SwitchEnum_77.EdGraphPin_134449).  Import failed...
+[2016.06.02-17.00.26:862][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_1263.EdGraphPin_134963''
+[2016.06.02-17.00.26:863][610]LogBlueprint:Warning: [BPC_ExampleDialogue] CreatePinForVariable: 'localInputType' variable not found. Base class was probably changed.
+[2016.06.02-17.00.26:863][610]LogBlueprint:Warning: [BPC_ExampleDialogue] CreatePinForVariable: 'localInputType' variable not found. Base class was probably changed.
+[2016.06.02-17.02.31:355][481]LogSavePackage: Save=33.31ms
+[2016.06.02-17.02.31:355][481]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_ExampleDialogue9A3828B843E017736A531E8D960064FB.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset'
+[2016.06.02-17.02.31:358][481]LogSavePackage: Total save time: 41.96ms
+[2016.06.02-17.02.31:358][481]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset
+[2016.06.02-17.02.42:187][770]LogSavePackage: Save=32.89ms
+[2016.06.02-17.02.42:187][770]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_ExampleDialogue32A8E0BE4017157FEEC06E8F9C8975A7.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset'
+[2016.06.02-17.02.42:190][770]LogSavePackage: Total save time: 41.74ms
+[2016.06.02-17.02.42:190][770]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset
+[2016.06.02-17.02.47:227][370]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.02.47:227][370]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.02-17.02.47:231][370]LogPlayLevel: [PlayLevel] Compiling BPC_ExampleDialogue before play...
+[2016.06.02-17.02.47:239][370]LogBlueprint:Warning: [compiler BPC_ExampleDialogue] Warning Could not find a variable named "localInputType" in 'BPC_ExampleDialogue_C'.
+Make sure 'BPC_ExampleDialogue_C' has been compiled for  Set localInputType 
+[2016.06.02-17.02.47:246][370]LogBlueprint:Error: [compiler BPC_ExampleDialogue] Error Dependency cycle detected, preventing node  Switch on InputType  from being scheduled
+[2016.06.02-17.02.47:246][370]LogBlueprint:Error: [compiler BPC_ExampleDialogue] Error The property associated with  Local Input Type  could not be found
+[2016.06.02-17.02.47:394][370]LogPlayLevel: PlayLevel: Blueprint regeneration took 167 ms (2 blueprints)
+[2016.06.02-17.02.47:430][370]LogPlayLevel: [PlayLevel] Compiling StartMenu before play...
+[2016.06.02-17.02.47:603][370]LogPlayLevel: PlayLevel: Blueprint regeneration took 376 ms (2 blueprints)
+[2016.06.02-17.02.47:631][370]BlueprintLog: Info Blueprint BPC_ExampleDialogue failed to compile
+[2016.06.02-17.02.52:137][682]BlueprintLog: New page: Compile BPC_ExampleDialogue
+[2016.06.02-17.02.52:145][682]LogBlueprint:Warning: [compiler BPC_ExampleDialogue] Warning Could not find a variable named "localInputType" in 'BPC_ExampleDialogue_C'.
+Make sure 'BPC_ExampleDialogue_C' has been compiled for  Set localInputType 
+[2016.06.02-17.02.52:146][682]LogBlueprint:Error: [compiler BPC_ExampleDialogue] Error Dependency cycle detected, preventing node  Switch on InputType  from being scheduled
+[2016.06.02-17.02.52:146][682]LogBlueprint:Error: [compiler BPC_ExampleDialogue] Error The property associated with  Local Input Type  could not be found
+[2016.06.02-17.02.52:320][682]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "localInputType" in 'BPC_ExampleDialogue_C'.
+Make sure 'BPC_ExampleDialogue_C' has been compiled for  Set localInputType 
+[2016.06.02-17.02.52:320][682]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.06.02-17.02.52:320][682]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Switch on InputType  from being scheduled
+[2016.06.02-17.02.52:320][682]BlueprintEditorCompileResults:Error: Error The property associated with  Local Input Type  could not be found
+[2016.06.02-17.03.28:336][979]LogSavePackage: Save=30.47ms
+[2016.06.02-17.03.28:336][979]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_ExampleDialogue3DACA7A9496ABFD01B173D9E332AE05A.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset'
+[2016.06.02-17.03.28:339][979]LogSavePackage: Total save time: 39.55ms
+[2016.06.02-17.03.28:339][979]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset
+[2016.06.02-17.03.29:677][139]BlueprintLog: New page: Compile BPC_ExampleDialogue
+[2016.06.02-17.03.29:780][139]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.06.02-17.03.45:620][ 27]LogSavePackage: Save=33.10ms
+[2016.06.02-17.03.45:620][ 27]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_ExampleDialogueF5A17CEE47A1D86DEE52989A06DFB768.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset'
+[2016.06.02-17.03.45:623][ 27]LogSavePackage: Total save time: 41.66ms
+[2016.06.02-17.03.45:623][ 27]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset
+[2016.06.02-17.03.48:153][327]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.03.48:154][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-17.03.48:154][327]PIE: New page: PIE session: ThirdPersonExampleMap_DialogueTesting (Jun 2, 2016, 8:03:48 AM)
+[2016.06.02-17.03.48:154][327]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.03.48:173][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019222s)
+[2016.06.02-17.03.48:174][327]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.03.48:174][327]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2016.06.02-17.03.48:174][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting (0.020414s)
+[2016.06.02-17.03.48:204][327]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.02-17.03.48:316][327]LogInit: FAudioDevice initialized.
+[2016.06.02-17.03.48:362][327]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-17.03.48:368][327]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting up for play (max tick rate 0) at 2016.06.02-13.03.48
+[2016.06.02-17.03.48:369][327]LogWorld: Bringing up level for play took: 0.005279
+[2016.06.02-17.03.48:374][327]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting -0.757
+[2016.06.02-17.03.48:374][327]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.03.48:423][329]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:136860).
+[2016.06.02-17.03.51:079][635]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.03.53:088][876]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.03.53:772][958]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.03.53:824][958]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.04.37:257][123]LogSavePackage: Save=33.94ms
+[2016.06.02-17.04.37:257][123]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_ExampleDialogue82FE291145231A2B01335D88528C8904.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset'
+[2016.06.02-17.04.37:260][123]LogSavePackage: Total save time: 44.05ms
+[2016.06.02-17.04.37:260][123]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset
+[2016.06.02-17.04.40:059][455]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.04.40:059][455]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.02-17.04.40:064][455]LogPlayLevel: [PlayLevel] Compiling BPC_ExampleDialogue before play...
+[2016.06.02-17.04.40:146][455]LogPlayLevel: PlayLevel: Blueprint regeneration took 87 ms (1 blueprints)
+[2016.06.02-17.04.40:168][455]PIE: New page: PIE session: ThirdPersonExampleMap_DialogueTesting (Jun 2, 2016, 8:04:40 AM)
+[2016.06.02-17.04.40:168][455]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.04.40:187][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018944s)
+[2016.06.02-17.04.40:188][455]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.04.40:188][455]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2016.06.02-17.04.40:188][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting (0.020018s)
+[2016.06.02-17.04.40:219][455]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.02-17.04.40:330][455]LogInit: FAudioDevice initialized.
+[2016.06.02-17.04.40:369][455]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-17.04.40:375][455]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting up for play (max tick rate 0) at 2016.06.02-13.04.40
+[2016.06.02-17.04.40:376][455]LogWorld: Bringing up level for play took: 0.005180
+[2016.06.02-17.04.40:379][455]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting 1.249
+[2016.06.02-17.04.40:379][455]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.04.43:049][763]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.04.45:558][ 64]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.04.47:925][348]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.04.50:408][646]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.04.54:534][141]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.04.54:587][141]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.05.03:118][148]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.05.03:118][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-17.05.03:118][148]PIE: New page: PIE session: ThirdPersonExampleMap_DialogueTesting (Jun 2, 2016, 8:05:03 AM)
+[2016.06.02-17.05.03:118][148]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.05.03:139][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020997s)
+[2016.06.02-17.05.03:140][148]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.05.03:140][148]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2016.06.02-17.05.03:140][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting (0.022173s)
+[2016.06.02-17.05.03:170][148]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.02-17.05.03:279][148]LogInit: FAudioDevice initialized.
+[2016.06.02-17.05.03:322][148]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-17.05.03:328][148]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting up for play (max tick rate 0) at 2016.06.02-13.05.03
+[2016.06.02-17.05.03:328][148]LogWorld: Bringing up level for play took: 0.005117
+[2016.06.02-17.05.03:333][148]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting 0.203
+[2016.06.02-17.05.03:333][148]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.05.05:267][377]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.05.07:670][665]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Pressed
+[2016.06.02-17.05.07:670][665]LogBlueprintUserMessages: [ThirdPersonCharacter_167] None
+[2016.06.02-17.05.07:776][678]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.05.08:577][774]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.05.13:593][376]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.05.13:646][376]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.05.54:952][269]LogEditorTransaction: Undo Straighten Connection(s)
+[2016.06.02-17.06.00:629][914]LogSavePackage: Save=36.74ms
+[2016.06.02-17.06.00:629][914]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_ExampleDialogueA127EEFD450965051D08C59377416A6B.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset'
+[2016.06.02-17.06.00:632][914]LogSavePackage: Total save time: 50.51ms
+[2016.06.02-17.06.00:632][914]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset
+[2016.06.02-17.06.02:621][152]BlueprintLog: New page: Compile BPC_ExampleDialogue
+[2016.06.02-17.06.02:728][152]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.06.02-17.06.04:141][317]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.06.04:141][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-17.06.04:141][317]PIE: New page: PIE session: ThirdPersonExampleMap_DialogueTesting (Jun 2, 2016, 8:06:04 AM)
+[2016.06.02-17.06.04:141][317]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.06.04:160][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019313s)
+[2016.06.02-17.06.04:161][317]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.06.04:161][317]LogPlayLevel: PIE: World Init took: (0.000876s)
+[2016.06.02-17.06.04:162][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting (0.020476s)
+[2016.06.02-17.06.04:193][317]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.02-17.06.04:305][317]LogInit: FAudioDevice initialized.
+[2016.06.02-17.06.04:347][317]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-17.06.04:353][317]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting up for play (max tick rate 0) at 2016.06.02-13.06.04
+[2016.06.02-17.06.04:354][317]LogWorld: Bringing up level for play took: 0.005054
+[2016.06.02-17.06.04:359][317]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting -0.771
+[2016.06.02-17.06.04:359][317]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.06.05:976][494]LogBlueprintUserMessages: [BPC_ExampleDialogue] Row Found
+[2016.06.02-17.06.05:978][494]LogBlueprintUserMessages: [BPC_ExampleDialogue] Row Found
+[2016.06.02-17.06.09:086][867]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.06.10:237][  5]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.06.10:288][  5]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting:PersistentLevel.ThirdPersonExampleMap_DialogueTesting'
+[2016.06.02-17.06.31:188][454]LogAIModule: Creating AISystem for world StartScreen
+[2016.06.02-17.06.31:215][454]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/StartScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.02-17.06.31:215][454]LightingResults: New page: Lighting Build
+[2016.06.02-17.06.31:234][454]LoadErrors: New page: Loading map: StartScreen.umap
+[2016.06.02-17.06.31:235][454]MapCheck: New page: Map Check
+[2016.06.02-17.06.31:235][454]LightingResults: New page: Lighting Build
+[2016.06.02-17.06.31:403][454]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.02-17.06.31:434][454]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.02-17.06.31:502][454]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.983ms to complete.
+[2016.06.02-17.06.31:502][454]LogFileHelpers: Loading map 'StartScreen' took 0.289
+[2016.06.02-17.06.33:437][677]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.06.33:438][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-17.06.33:438][677]PIE: New page: PIE session: StartScreen (Jun 2, 2016, 8:06:33 AM)
+[2016.06.02-17.06.33:438][677]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartScreen
+[2016.06.02-17.06.33:440][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002631s)
+[2016.06.02-17.06.33:441][677]LogAIModule: Creating AISystem for world StartScreen
+[2016.06.02-17.06.33:441][677]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2016.06.02-17.06.33:441][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartScreen.StartScreen to /Game/Maps/UEDPIE_0_StartScreen.StartScreen (0.003325s)
+[2016.06.02-17.06.33:470][677]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.02-17.06.33:580][677]LogInit: FAudioDevice initialized.
+[2016.06.02-17.06.33:609][677]LogWorld: Game class is 'MenuGameMode_C'
+[2016.06.02-17.06.33:611][677]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartScreen.StartScreen up for play (max tick rate 0) at 2016.06.02-13.06.33
+[2016.06.02-17.06.33:612][677]LogWorld: Bringing up level for play took: 0.001279
+[2016.06.02-17.06.33:614][677]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_StartScreen 0.483
+[2016.06.02-17.06.33:614][677]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.06.34:085][730]LogNet: Browse: /Game/Maps/MainMenu
+[2016.06.02-17.06.34:085][730]LogLoad: LoadMap: /Game/Maps/MainMenu
+[2016.06.02-17.06.34:108][730]Cmd: MEM
+[2016.06.02-17.06.34:131][730]LogMemory: Platform Memory Stats for Windows
+[2016.06.02-17.06.34:131][730]LogMemory: Process Physical Memory: 1665.73 MB used, 1700.22 MB peak
+[2016.06.02-17.06.34:131][730]LogMemory: Process Virtual Memory: 2928.44 MB used, 3099.82 MB peak
+[2016.06.02-17.06.34:131][730]LogMemory: Physical Memory: 6943.19 MB used, 16302.16 MB total
+[2016.06.02-17.06.34:131][730]LogMemory: Virtual Memory: 4200.02 MB used, 134217728.00 MB total
+[2016.06.02-17.06.34:131][730]LogMemory: 
+[2016.06.02-17.06.34:131][730]Allocator Stats for TBB: (not implemented)
+[2016.06.02-17.06.34:588][730]LogAIModule: Creating AISystem for world MainMenu
+[2016.06.02-17.06.34:588][730]LogWorld: Game class is 'MenuGameMode_C'
+[2016.06.02-17.06.34:590][730]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.06.02-13.06.34
+[2016.06.02-17.06.34:591][730]LogWorld: Bringing up level for play took: 0.001265
+[2016.06.02-17.06.34:591][730]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.02-17.06.34:596][730]LogAudio:Warning: Detected orphaned looping sound 'Castle_in_the_Sky_Cue'.
+[2016.06.02-17.06.35:714][846]LogPackageName: SearchForPackageOnDisk took   0.099s, but failed to resolve ThirdPersonExampleMap_Dialogue.umap.
+[2016.06.02-17.06.35:811][846]LogPackageName: SearchForPackageOnDisk took   0.095s, but failed to resolve ThirdPersonExampleMap_Dialogue.umap.
+[2016.06.02-17.06.35:811][846]LogNet: Browse: /Game/Maps/MainMenu
+[2016.06.02-17.06.35:811][846]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/MainMenu
+[2016.06.02-17.06.35:811][846]LogNet:Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/MainMenu'. Shutting down PIE.
+[2016.06.02-17.06.35:811][846]PIE:Warning: Warning TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/MainMenu'. Shutting down PIE.
+[2016.06.02-17.06.35:811][846]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/MainMenu
+[2016.06.02-17.06.35:811][846]LogNet:Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/MainMenu'. Shutting down PIE.
+[2016.06.02-17.06.35:811][846]PIE:Warning: Warning TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/MainMenu'. Shutting down PIE.
+[2016.06.02-17.06.35:812][846]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.06.35:844][846]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.06.50:834][616]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.06.50:834][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-17.06.50:834][616]PIE: New page: PIE session: StartScreen (Jun 2, 2016, 8:06:50 AM)
+[2016.06.02-17.06.50:834][616]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartScreen
+[2016.06.02-17.06.50:837][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002717s)
+[2016.06.02-17.06.50:837][616]LogAIModule: Creating AISystem for world StartScreen
+[2016.06.02-17.06.50:837][616]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2016.06.02-17.06.50:837][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartScreen.StartScreen to /Game/Maps/UEDPIE_0_StartScreen.StartScreen (0.003437s)
+[2016.06.02-17.06.50:864][616]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.02-17.06.50:974][616]LogInit: FAudioDevice initialized.
+[2016.06.02-17.06.51:005][616]LogWorld: Game class is 'MenuGameMode_C'
+[2016.06.02-17.06.51:007][616]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartScreen.StartScreen up for play (max tick rate 0) at 2016.06.02-13.06.51
+[2016.06.02-17.06.51:007][616]LogWorld: Bringing up level for play took: 0.001256
+[2016.06.02-17.06.51:009][616]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_StartScreen -0.121
+[2016.06.02-17.06.51:010][616]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.06.51:476][669]LogNet: Browse: /Game/Maps/MainMenu
+[2016.06.02-17.06.51:476][669]LogLoad: LoadMap: /Game/Maps/MainMenu
+[2016.06.02-17.06.51:500][669]Cmd: MEM
+[2016.06.02-17.06.51:526][669]LogMemory: Platform Memory Stats for Windows
+[2016.06.02-17.06.51:526][669]LogMemory: Process Physical Memory: 1735.55 MB used, 1761.12 MB peak
+[2016.06.02-17.06.51:526][669]LogMemory: Process Virtual Memory: 2925.70 MB used, 3099.82 MB peak
+[2016.06.02-17.06.51:526][669]LogMemory: Physical Memory: 7024.06 MB used, 16302.16 MB total
+[2016.06.02-17.06.51:526][669]LogMemory: Virtual Memory: 4269.89 MB used, 134217728.00 MB total
+[2016.06.02-17.06.51:526][669]LogMemory: 
+[2016.06.02-17.06.51:526][669]Allocator Stats for TBB: (not implemented)
+[2016.06.02-17.06.51:731][669]LogAIModule: Creating AISystem for world MainMenu
+[2016.06.02-17.06.51:731][669]LogWorld: Game class is 'MenuGameMode_C'
+[2016.06.02-17.06.51:733][669]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.06.02-13.06.51
+[2016.06.02-17.06.51:733][669]LogWorld: Bringing up level for play took: 0.001111
+[2016.06.02-17.06.51:734][669]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.02-17.06.51:739][669]LogAudio:Warning: Detected orphaned looping sound 'Castle_in_the_Sky_Cue'.
+[2016.06.02-17.06.52:592][759]LogPackageName: SearchForPackageOnDisk took   0.094s, but failed to resolve ThirdPersonExampleMap_Dialogue.umap.
+[2016.06.02-17.06.52:693][759]LogPackageName: SearchForPackageOnDisk took   0.100s, but failed to resolve ThirdPersonExampleMap_Dialogue.umap.
+[2016.06.02-17.06.52:694][759]LogNet: Browse: /Game/Maps/MainMenu
+[2016.06.02-17.06.52:694][759]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/MainMenu
+[2016.06.02-17.06.52:694][759]LogNet:Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/MainMenu'. Shutting down PIE.
+[2016.06.02-17.06.52:694][759]PIE:Warning: Warning TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/MainMenu'. Shutting down PIE.
+[2016.06.02-17.06.52:694][759]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/MainMenu
+[2016.06.02-17.06.52:694][759]LogNet:Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/MainMenu'. Shutting down PIE.
+[2016.06.02-17.06.52:694][759]PIE:Warning: Warning TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/MainMenu'. Shutting down PIE.
+[2016.06.02-17.06.52:695][759]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.06.52:728][759]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.07.12:874][  5]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.07.25:282][432]LogSavePackage: Save=338.61ms
+[2016.06.02-17.07.25:282][432]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/StartMenu1AE029B64ABAED4FED9A90A3CB0880B5.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/2DNonDiegetic/Menus/StartMenu.uasset'
+[2016.06.02-17.07.25:285][432]LogSavePackage: Total save time: 353.93ms
+[2016.06.02-17.07.25:285][432]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/2DNonDiegetic/Menus/StartMenu.uasset
+[2016.06.02-17.07.26:761][605]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.07.26:761][605]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.02-17.07.26:794][605]LogPlayLevel: [PlayLevel] Compiling StartMenu before play...
+[2016.06.02-17.07.26:970][605]LogPlayLevel: PlayLevel: Blueprint regeneration took 209 ms (1 blueprints)
+[2016.06.02-17.07.26:996][605]PIE: New page: PIE session: StartScreen (Jun 2, 2016, 8:07:26 AM)
+[2016.06.02-17.07.26:996][605]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartScreen
+[2016.06.02-17.07.26:999][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002664s)
+[2016.06.02-17.07.27:000][605]LogAIModule: Creating AISystem for world StartScreen
+[2016.06.02-17.07.27:000][605]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2016.06.02-17.07.27:000][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartScreen.StartScreen to /Game/Maps/UEDPIE_0_StartScreen.StartScreen (0.003397s)
+[2016.06.02-17.07.27:027][605]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.02-17.07.27:137][605]LogInit: FAudioDevice initialized.
+[2016.06.02-17.07.27:177][605]LogWorld: Game class is 'MenuGameMode_C'
+[2016.06.02-17.07.27:179][605]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartScreen.StartScreen up for play (max tick rate 0) at 2016.06.02-13.07.27
+[2016.06.02-17.07.27:179][605]LogWorld: Bringing up level for play took: 0.001342
+[2016.06.02-17.07.27:180][605]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.02-17.07.27:184][605]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_StartScreen 0.054
+[2016.06.02-17.07.27:184][605]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.07.27:939][680]LogNet: Browse: /Game/Maps/MainMenu
+[2016.06.02-17.07.27:940][680]LogLoad: LoadMap: /Game/Maps/MainMenu
+[2016.06.02-17.07.27:964][680]Cmd: MEM
+[2016.06.02-17.07.27:985][680]LogMemory: Platform Memory Stats for Windows
+[2016.06.02-17.07.27:985][680]LogMemory: Process Physical Memory: 1776.59 MB used, 1786.09 MB peak
+[2016.06.02-17.07.27:985][680]LogMemory: Process Virtual Memory: 2986.12 MB used, 3099.82 MB peak
+[2016.06.02-17.07.27:985][680]LogMemory: Physical Memory: 7086.54 MB used, 16302.16 MB total
+[2016.06.02-17.07.27:985][680]LogMemory: Virtual Memory: 4305.96 MB used, 134217728.00 MB total
+[2016.06.02-17.07.27:985][680]LogMemory: 
+[2016.06.02-17.07.27:985][680]Allocator Stats for TBB: (not implemented)
+[2016.06.02-17.07.28:081][680]LogAIModule: Creating AISystem for world MainMenu
+[2016.06.02-17.07.28:082][680]LogWorld: Game class is 'MenuGameMode_C'
+[2016.06.02-17.07.28:083][680]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.06.02-13.07.28
+[2016.06.02-17.07.28:084][680]LogWorld: Bringing up level for play took: 0.001136
+[2016.06.02-17.07.28:084][680]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.02-17.07.28:089][680]LogAudio:Warning: Detected orphaned looping sound 'Castle_in_the_Sky_Cue'.
+[2016.06.02-17.07.28:859][770]LogNet: Browse: /Game/Maps/ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.07.28:859][770]LogLoad: LoadMap: /Game/Maps/ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.07.28:885][770]Cmd: MEM
+[2016.06.02-17.07.28:907][770]LogMemory: Platform Memory Stats for Windows
+[2016.06.02-17.07.28:907][770]LogMemory: Process Physical Memory: 1801.81 MB used, 1803.70 MB peak
+[2016.06.02-17.07.28:907][770]LogMemory: Process Virtual Memory: 3071.17 MB used, 3099.82 MB peak
+[2016.06.02-17.07.28:907][770]LogMemory: Physical Memory: 7116.57 MB used, 16302.16 MB total
+[2016.06.02-17.07.28:907][770]LogMemory: Virtual Memory: 4368.27 MB used, 134217728.00 MB total
+[2016.06.02-17.07.28:907][770]LogMemory: 
+[2016.06.02-17.07.28:907][770]Allocator Stats for TBB: (not implemented)
+[2016.06.02-17.07.28:907][770]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.07.28:925][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018224s)
+[2016.06.02-17.07.28:926][770]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.07.28:926][770]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2016.06.02-17.07.28:926][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting (0.019322s)
+[2016.06.02-17.07.28:926][770]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-17.07.28:935][770]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting up for play (max tick rate 0) at 2016.06.02-13.07.28
+[2016.06.02-17.07.28:935][770]LogWorld: Bringing up level for play took: 0.007574
+[2016.06.02-17.07.30:279][926]LogBlueprintUserMessages: [BPC_ExampleDialogue] Row Found
+[2016.06.02-17.07.30:281][926]LogBlueprintUserMessages: [BPC_ExampleDialogue] Row Found
+[2016.06.02-17.07.31:326][ 50]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.07.33:611][321]LogBlueprintUserMessages: [BPC_ExampleDialogue] Row Found
+[2016.06.02-17.07.33:613][321]LogBlueprintUserMessages: [BPC_ExampleDialogue] Row Found
+[2016.06.02-17.07.34:211][392]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.07.36:427][656]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.07.36:476][656]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.08.39:077][405]LogSavePackage: Save=40.37ms
+[2016.06.02-17.08.39:077][405]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_ExampleDialogue9D493AC44070832A5BA2E3AF2A208FA5.tmp' to '../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset'
+[2016.06.02-17.08.39:080][405]LogSavePackage: Total save time: 49.77ms
+[2016.06.02-17.08.39:080][405]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.uasset
+[2016.06.02-17.08.40:608][581]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.08.40:608][581]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.02-17.08.40:614][581]LogPlayLevel: [PlayLevel] Compiling BPC_ExampleDialogue before play...
+[2016.06.02-17.08.40:697][581]LogPlayLevel: PlayLevel: Blueprint regeneration took 89 ms (1 blueprints)
+[2016.06.02-17.08.40:719][581]PIE: New page: PIE session: StartScreen (Jun 2, 2016, 8:08:40 AM)
+[2016.06.02-17.08.40:719][581]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartScreen
+[2016.06.02-17.08.40:722][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002755s)
+[2016.06.02-17.08.40:723][581]LogAIModule: Creating AISystem for world StartScreen
+[2016.06.02-17.08.40:723][581]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2016.06.02-17.08.40:723][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartScreen.StartScreen to /Game/Maps/UEDPIE_0_StartScreen.StartScreen (0.003550s)
+[2016.06.02-17.08.40:750][581]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.02-17.08.40:861][581]LogInit: FAudioDevice initialized.
+[2016.06.02-17.08.40:899][581]LogWorld: Game class is 'MenuGameMode_C'
+[2016.06.02-17.08.40:902][581]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartScreen.StartScreen up for play (max tick rate 0) at 2016.06.02-13.08.40
+[2016.06.02-17.08.40:902][581]LogWorld: Bringing up level for play took: 0.001384
+[2016.06.02-17.08.40:903][581]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.02-17.08.40:906][581]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_StartScreen -0.224
+[2016.06.02-17.08.40:906][581]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.08.41:767][681]LogNet: Browse: /Game/Maps/MainMenu
+[2016.06.02-17.08.41:767][681]LogLoad: LoadMap: /Game/Maps/MainMenu
+[2016.06.02-17.08.41:790][681]Cmd: MEM
+[2016.06.02-17.08.41:813][681]LogMemory: Platform Memory Stats for Windows
+[2016.06.02-17.08.41:813][681]LogMemory: Process Physical Memory: 1792.13 MB used, 1829.89 MB peak
+[2016.06.02-17.08.41:813][681]LogMemory: Process Virtual Memory: 3040.15 MB used, 3116.93 MB peak
+[2016.06.02-17.08.41:813][681]LogMemory: Physical Memory: 7089.16 MB used, 16302.16 MB total
+[2016.06.02-17.08.41:813][681]LogMemory: Virtual Memory: 4375.60 MB used, 134217728.00 MB total
+[2016.06.02-17.08.41:813][681]LogMemory: 
+[2016.06.02-17.08.41:813][681]Allocator Stats for TBB: (not implemented)
+[2016.06.02-17.08.42:022][681]LogAIModule: Creating AISystem for world MainMenu
+[2016.06.02-17.08.42:022][681]LogWorld: Game class is 'MenuGameMode_C'
+[2016.06.02-17.08.42:024][681]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.06.02-13.08.42
+[2016.06.02-17.08.42:024][681]LogWorld: Bringing up level for play took: 0.001124
+[2016.06.02-17.08.42:025][681]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.02-17.08.42:030][681]LogAudio:Warning: Detected orphaned looping sound 'Castle_in_the_Sky_Cue'.
+[2016.06.02-17.08.42:852][779]LogNet: Browse: /Game/Maps/ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.08.42:852][779]LogLoad: LoadMap: /Game/Maps/ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.08.42:876][779]Cmd: MEM
+[2016.06.02-17.08.42:898][779]LogMemory: Platform Memory Stats for Windows
+[2016.06.02-17.08.42:898][779]LogMemory: Process Physical Memory: 1807.45 MB used, 1829.89 MB peak
+[2016.06.02-17.08.42:898][779]LogMemory: Process Virtual Memory: 3122.01 MB used, 3122.01 MB peak
+[2016.06.02-17.08.42:898][779]LogMemory: Physical Memory: 7107.54 MB used, 16302.16 MB total
+[2016.06.02-17.08.42:898][779]LogMemory: Virtual Memory: 4435.60 MB used, 134217728.00 MB total
+[2016.06.02-17.08.42:898][779]LogMemory: 
+[2016.06.02-17.08.42:898][779]Allocator Stats for TBB: (not implemented)
+[2016.06.02-17.08.42:898][779]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.08.42:916][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018513s)
+[2016.06.02-17.08.42:917][779]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.08.42:917][779]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2016.06.02-17.08.42:917][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting (0.019541s)
+[2016.06.02-17.08.42:917][779]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-17.08.42:925][779]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting up for play (max tick rate 0) at 2016.06.02-13.08.42
+[2016.06.02-17.08.42:926][779]LogWorld: Bringing up level for play took: 0.006601
+[2016.06.02-17.08.43:802][881]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Pressed
+[2016.06.02-17.08.43:802][881]LogBlueprintUserMessages: [ThirdPersonCharacter_167] None
+[2016.06.02-17.08.43:902][893]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.08.44:102][917]LogBlueprintUserMessages: [BPC_ExampleDialogue] Row Found
+[2016.06.02-17.08.44:102][917]LogBlueprintUserMessages: [BPC_ExampleDialogue] 0
+[2016.06.02-17.08.44:104][917]LogBlueprintUserMessages: [BPC_ExampleDialogue] Row Found
+[2016.06.02-17.08.44:104][917]LogBlueprintUserMessages: [BPC_ExampleDialogue] 0
+[2016.06.02-17.08.45:788][119]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.08.48:299][420]LogBlueprintUserMessages: [BPC_ExampleDialogue] Row Found
+[2016.06.02-17.08.48:299][420]LogBlueprintUserMessages: [BPC_ExampleDialogue] 0
+[2016.06.02-17.08.48:300][420]LogBlueprintUserMessages: [BPC_ExampleDialogue] Row Found
+[2016.06.02-17.08.48:301][420]LogBlueprintUserMessages: [BPC_ExampleDialogue] 0
+[2016.06.02-17.08.48:776][477]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.08.50:009][625]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.08.50:058][625]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.09.30:899][513]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.09.30:899][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.02-17.09.30:899][513]PIE: New page: PIE session: StartScreen (Jun 2, 2016, 8:09:30 AM)
+[2016.06.02-17.09.30:899][513]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartScreen
+[2016.06.02-17.09.30:902][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002690s)
+[2016.06.02-17.09.30:902][513]LogAIModule: Creating AISystem for world StartScreen
+[2016.06.02-17.09.30:902][513]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2016.06.02-17.09.30:903][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartScreen.StartScreen to /Game/Maps/UEDPIE_0_StartScreen.StartScreen (0.003439s)
+[2016.06.02-17.09.30:932][513]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.02-17.09.31:042][513]LogInit: FAudioDevice initialized.
+[2016.06.02-17.09.31:084][513]LogWorld: Game class is 'MenuGameMode_C'
+[2016.06.02-17.09.31:087][513]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartScreen.StartScreen up for play (max tick rate 0) at 2016.06.02-13.09.31
+[2016.06.02-17.09.31:087][513]LogWorld: Bringing up level for play took: 0.001465
+[2016.06.02-17.09.31:088][513]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.02-17.09.31:093][513]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_StartScreen -0.037
+[2016.06.02-17.09.31:093][513]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.09.31:638][575]LogNet: Browse: /Game/Maps/MainMenu
+[2016.06.02-17.09.31:638][575]LogLoad: LoadMap: /Game/Maps/MainMenu
+[2016.06.02-17.09.31:661][575]Cmd: MEM
+[2016.06.02-17.09.31:684][575]LogMemory: Platform Memory Stats for Windows
+[2016.06.02-17.09.31:684][575]LogMemory: Process Physical Memory: 1794.82 MB used, 1835.83 MB peak
+[2016.06.02-17.09.31:685][575]LogMemory: Process Virtual Memory: 3044.55 MB used, 3150.44 MB peak
+[2016.06.02-17.09.31:685][575]LogMemory: Physical Memory: 7088.17 MB used, 16302.16 MB total
+[2016.06.02-17.09.31:685][575]LogMemory: Virtual Memory: 4389.47 MB used, 134217728.00 MB total
+[2016.06.02-17.09.31:685][575]LogMemory: 
+[2016.06.02-17.09.31:685][575]Allocator Stats for TBB: (not implemented)
+[2016.06.02-17.09.31:891][575]LogAIModule: Creating AISystem for world MainMenu
+[2016.06.02-17.09.31:892][575]LogWorld: Game class is 'MenuGameMode_C'
+[2016.06.02-17.09.31:893][575]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.06.02-13.09.31
+[2016.06.02-17.09.31:894][575]LogWorld: Bringing up level for play took: 0.001130
+[2016.06.02-17.09.31:894][575]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.02-17.09.31:899][575]LogAudio:Warning: Detected orphaned looping sound 'Castle_in_the_Sky_Cue'.
+[2016.06.02-17.09.32:620][661]LogNet: Browse: /Game/Maps/ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.09.32:620][661]LogLoad: LoadMap: /Game/Maps/ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.09.32:645][661]Cmd: MEM
+[2016.06.02-17.09.32:667][661]LogMemory: Platform Memory Stats for Windows
+[2016.06.02-17.09.32:667][661]LogMemory: Process Physical Memory: 1808.87 MB used, 1835.83 MB peak
+[2016.06.02-17.09.32:667][661]LogMemory: Process Virtual Memory: 3126.64 MB used, 3150.44 MB peak
+[2016.06.02-17.09.32:667][661]LogMemory: Physical Memory: 7115.25 MB used, 16302.16 MB total
+[2016.06.02-17.09.32:667][661]LogMemory: Virtual Memory: 4449.22 MB used, 134217728.00 MB total
+[2016.06.02-17.09.32:667][661]LogMemory: 
+[2016.06.02-17.09.32:667][661]Allocator Stats for TBB: (not implemented)
+[2016.06.02-17.09.32:667][661]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.09.32:686][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018818s)
+[2016.06.02-17.09.32:686][661]LogAIModule: Creating AISystem for world ThirdPersonExampleMap_DialogueTesting
+[2016.06.02-17.09.32:687][661]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2016.06.02-17.09.32:687][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting (0.019834s)
+[2016.06.02-17.09.32:687][661]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.02-17.09.32:702][661]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap_DialogueTesting.ThirdPersonExampleMap_DialogueTesting up for play (max tick rate 0) at 2016.06.02-13.09.32
+[2016.06.02-17.09.32:702][661]LogWorld: Bringing up level for play took: 0.014061
+[2016.06.02-17.09.35:415][984]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Pressed
+[2016.06.02-17.09.35:415][984]LogBlueprintUserMessages: [ThirdPersonCharacter_167] None
+[2016.06.02-17.09.35:656][ 13]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.09.36:198][ 78]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Pressed
+[2016.06.02-17.09.36:198][ 78]LogBlueprintUserMessages: [ThirdPersonCharacter_167] None
+[2016.06.02-17.09.36:465][110]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Released
+[2016.06.02-17.09.42:285][808]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Maps/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Maps/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2016.06.02-17.09.42:338][808]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Star
