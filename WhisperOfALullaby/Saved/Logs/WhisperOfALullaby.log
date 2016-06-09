@@ -1,9 +1,9 @@
-﻿Log file open, 06/06/16 11:30:51
+﻿Log file open, 06/09/16 11:32:27
 LogInit:Display: Running engine for game: WhisperOfALullaby
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(2096442262) SRandInit(2096442264).
+LogInit:Display: RandInit(-1793438577) SRandInit(-1793438575).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-LogStats: Stats thread started at 0.069305
+LogStats: Stats thread started at 0.070209
 LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
@@ -29,338 +29,921 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.06.06-15.30.51:970][  0]LogInit: Selected Device Profile: [Windows]
-[2016.06.06-15.30.51:970][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.06.06-15.30.51:978][  0]LogInit: Computer: MAGIC09
-[2016.06.06-15.30.51:978][  0]LogInit: User: MagicUser
-[2016.06.06-15.30.51:978][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.06.06-15.30.51:978][  0]LogInit: High frequency timer resolution =3.613284 MHz
-[2016.06.06-15.30.51:978][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.06.06-15.30.51:978][  0]LogMemory: Platform Memory Stats for Windows
-[2016.06.06-15.30.51:978][  0]LogMemory: Process Physical Memory: 313.20 MB used, 313.20 MB peak
-[2016.06.06-15.30.51:978][  0]LogMemory: Process Virtual Memory: 314.87 MB used, 314.87 MB peak
-[2016.06.06-15.30.51:978][  0]LogMemory: Physical Memory: 3207.23 MB used, 16302.16 MB total
-[2016.06.06-15.30.51:978][  0]LogMemory: Virtual Memory: 653.23 MB used, 134217728.00 MB total
-[2016.06.06-15.30.52:007][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.06.06-15.30.52:327][  0]LogD3D11RHI: D3D11 adapters:
-[2016.06.06-15.30.52:345][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
-[2016.06.06-15.30.52:345][  0]LogD3D11RHI:       3013MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 2 output[s]
-[2016.06.06-15.30.52:347][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.06.06-15.30.52:347][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
-[2016.06.06-15.30.52:347][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.06.06-15.30.52:350][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.06.06-15.30.52:351][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
-[2016.06.06-15.30.52:351][  0]LogD3D11RHI:   Driver Version: 10.18.13.6472 (internal 10.18.13.6472)
-[2016.06.06-15.30.52:351][  0]LogD3D11RHI:      Driver Date: 3-21-2016
-[2016.06.06-15.30.52:351][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.06.06-15.30.52:361][  0]LogD3D11RHI: Async texture creation enabled
-[2016.06.06-15.30.52:378][  0]LogShaderCompilers: Guid format shader working directory is -48 characters bigger than the processId version (../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Intermediate/Shaders/WorkingDirectory/7192/).
-[2016.06.06-15.30.52:378][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MAGICU~1/AppData/Local/Temp/UnrealShaderWorkingDir/D47C5F114F9AC4BA94515D846E91CD0A/'.
-[2016.06.06-15.30.52:378][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.06.06-15.30.53:239][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.06.06-15.30.53:243][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.06.06-15.30.53:247][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.06.06-15.30.53:251][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.06.06-15.30.53:255][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.06.06-15.30.53:257][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.06.06-15.30.53:260][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.06.06-15.30.53:262][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.06.06-15.30.53:265][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.06.06-15.30.53:268][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.06.06-15.30.53:270][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.06.06-15.30.53:275][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.06.06-15.30.53:275][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.06.06-15.30.53:276][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.06.06-15.30.53:292][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.06.06-15.30.53:294][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.06.06-15.30.53:297][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.06.06-15.30.53:299][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.06.06-15.30.53:302][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.06.06-15.30.53:302][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.06.06-15.30.53:366][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.06.06-15.30.53:407][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.06.06-15.30.53:407][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.06.06-15.30.53:407][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.06.06-15.30.53:407][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.06.06-15.30.53:407][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.06.06-15.30.53:407][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.06.06-15.30.53:419][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.06.06-15.30.53:431][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MagicUser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.06.06-15.30.53:583][  0]LogInit: Selected Device Profile: [Windows]
-[2016.06.06-15.30.53:584][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.06.06-15.30.53:617][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.06.06-15.30.53:724][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.06.06-15.30.53:724][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.06.06-15.30.53:724][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.06.06-15.30.53:914][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.06.06-15.30.53:914][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.06.06-15.30.53:914][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.06.06-15.30.53:919][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.06.06-15.30.53:992][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.06.06-15.30.53:992][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.06.06-15.30.54:073][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.06.06-15.30.54:073][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.06.06-15.30.54:073][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.06.06-15.30.54:073][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.06.06-15.30.54:073][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.06.06-15.30.54:073][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.06.06-15.30.54:549][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2016.06.06-15.30.54:556][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.06.06-15.30.54:656][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
-[2016.06.06-15.30.54:786][  0]SourceControl: Info Source control is disabled
-[2016.06.06-15.30.54:814][  0]SourceControl: Info Source control is disabled
-[2016.06.06-15.30.54:823][  0]SourceControl: Info Source control is disabled
-[2016.06.06-15.30.54:831][  0]SourceControl: Info Source control is disabled
-[2016.06.06-15.30.54:945][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.06.06-15.30.55:019][  0]LogEngine: Initializing Engine...
-[2016.06.06-15.30.55:131][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.06.06-15.30.55:137][  0]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.06.06-15.30.55:148][  0]LogInit: FAudioDevice initialized.
-[2016.06.06-15.30.55:170][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.06.06-15.30.55:176][  0]LogInit: Texture streaming: Enabled
-[2016.06.06-15.30.55:196][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.06.06-15.30.55:196][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.06.06-15.30.55:211][  0]LogInit: Transaction tracking system initialized
-[2016.06.06-15.30.55:231][  0]BlueprintLog: New page: Editor Load
-[2016.06.06-15.30.55:291][  0]LocalizationService: Info Localization service is disabled
-[2016.06.06-15.30.55:354][  0]LogConsoleResponse:Display: 
-[2016.06.06-15.30.55:446][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.06.06-15.30.55:446][  0]LogCook:Display: Mobile HDR setting 1
-[2016.06.06-15.30.55:446][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.06.06-15.30.55:506][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/' took 0.02s
-[2016.06.06-15.30.55:506][  0]SourceControl: Info Source control is disabled
-[2016.06.06-15.30.55:506][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.06-15.30.55:506][  0]LightingResults: New page: Lighting Build
-[2016.06.06-15.30.55:509][  0]MapCheck: New page: Map Check
-[2016.06.06-15.30.55:509][  0]LightingResults: New page: Lighting Build
-[2016.06.06-15.30.56:130][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning 'Item' is already a 'Manager', you don't need  Cast To Manager .
-[2016.06.06-15.30.56:131][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.82] Compile of CrowdSpawner_Blueprint successful, but with 1 Warning(s) [in 4 ms]
-[2016.06.06-15.30.56:131][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.82] Compile of CrowdSpawner_Blueprint successful, but with 2 Warning(s) [in 0 ms]
-[2016.06.06-15.30.56:131][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.82] Compile of CrowdSpawner_Blueprint successful, but with 3 Warning(s) [in 0 ms]
-[2016.06.06-15.30.56:178][  0]LogBlueprint:Warning: [compiler Manager] Warning Can't connect pins  Target Array  and  Out Actors : Array of References is not compatible with Array of Actor References.
-[2016.06.06-15.30.56:178][  0]LogBlueprint:Warning: [compiler Manager] Warning Can't connect pins  Out Actors  and  Target Array : Array of Actor References is not compatible with Array of References.
-[2016.06.06-15.30.56:178][  0]LogBlueprint:Error: [compiler Manager] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
-[2016.06.06-15.30.56:188][  0]LogBlueprint:Warning: [compiler Manager] Warning [0004.88] Compile of Manager failed. 1 Fatal Issue(s) 2 Warning(s) [in 31 ms]
-[2016.06.06-15.30.56:189][  0]LogBlueprint:Warning: [compiler Manager] Warning [0004.88] Compile of Manager failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
-[2016.06.06-15.30.56:189][  0]LogBlueprint:Warning: [compiler Manager] Warning [0004.88] Compile of Manager failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
-[2016.06.06-15.30.58:104][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning 'Item' is already a 'Manager', you don't need  Cast To Manager .
-[2016.06.06-15.30.58:961][  0]Warning: Unknown property in Dialogue_TableItem: DataTable=None,RowName=) 
-[2016.06.06-15.30.58:961][  0]Warning: Unknown property in Dialogue_TableItem: RowName=) 
-[2016.06.06-15.31.00:590][  0]Warning: Unknown property in Dialogue_TableItem: DataTable=None,RowName=) 
-[2016.06.06-15.31.00:590][  0]Warning: Unknown property in Dialogue_TableItem: RowName=) 
-[2016.06.06-15.31.03:555][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.06.06-15.31.03:617][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.06-15.31.03:618][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.06-15.31.03:683][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.218ms to complete.
-[2016.06.06-15.31.03:683][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 8.177
-[2016.06.06-15.31.03:843][  0]LogCollectionManager: Loaded 0 collections in 0.001695 seconds
-[2016.06.06-15.31.03:885][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Saved/Collections/' took 0.01s
-[2016.06.06-15.31.03:885][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Developers/MagicUser/Collections/' took 0.01s
-[2016.06.06-15.31.03:885][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Collections/' took 0.01s
-[2016.06.06-15.31.03:885][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2016.06.06-15.31.03:892][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 1994 classes and 349 folders.
-[2016.06.06-15.31.03:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.06.06-15.31.03:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.06.06-15.31.03:897][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
-[2016.06.06-15.31.03:903][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.06.06-15.31.04:142][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.06.06-15.31.04:147][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.06.06-15.31.04:159][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.06.06-15.31.04:162][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.06.06-15.31.04:167][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.06.06-15.31.04:194][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.06.06-15.31.04:194][  0]LogLoad: Full Startup: 12.88 seconds (BP compile: 2.30 seconds)
-[2016.06.06-15.31.04:194][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.06.06-15.31.04:194][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.06.06-15.31.04:204][  0]LogOcInput: OculusInput pre-init called
-[2016.06.06-15.31.04:290][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.06.06-15.31.04:591][  0]LogRenderer: Reallocating scene render targets to support 1168x684 (Frame:2).
-[2016.06.06-15.31.06:259][165]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.06.06-15.31.09:383][492]LogAssetRegistry: Asset discovery search completed in 14.7487 seconds
-[2016.06.06-15.31.09:383][492]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
-[2016.06.06-15.33.07:078][100]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
-[2016.06.06-15.33.08:773][273]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.06-15.33.08:773][273]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.06-15.33.08:775][273]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.06-15.33.08:777][273]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.06-15.33.08:777][273]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.06-15.33.16:552][273]LogAIModule: Creating AISystem for world Town
-[2016.06.06-15.33.16:580][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.06.06-15.33.16:580][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
-[2016.06.06-15.33.16:580][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2016.06.06-15.33.16:580][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
-[2016.06.06-15.33.16:580][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2016.06.06-15.33.16:580][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
-[2016.06.06-15.33.16:804][273]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.06-15.33.16:804][273]LightingResults: New page: Lighting Build
-[2016.06.06-15.33.16:820][273]LoadErrors: New page: Loading map: Town.umap
-[2016.06.06-15.33.16:821][273]MapCheck: New page: Map Check
-[2016.06.06-15.33.16:821][273]LightingResults: New page: Lighting Build
-[2016.06.06-15.33.16:876][273]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.06-15.33.16:896][273]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.06-15.33.16:959][273]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.64ms to complete.
-[2016.06.06-15.33.16:959][273]LogFileHelpers: Loading map 'Town' took 0.157
-[2016.06.06-15.33.21:068][292]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Level1landscape)
-[2016.06.06-15.33.22:144][404]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2016.06.06-15.34.16:224][623]LogCSVImportFactory: Imported DataTable 'DT_DemoDialogue' - 0 Problems
-[2016.06.06-15.34.21:693][169]LogSavePackage: Save=5.31ms
-[2016.06.06-15.34.21:693][169]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Saved/DT_DemoDialogue49B97BA84D353DE7B34626B5FBF5A2A9.tmp' to '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_DemoDialogue.uasset'
-[2016.06.06-15.34.21:697][169]LogSavePackage: Total save time: 9.19ms
-[2016.06.06-15.34.21:697][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Data/DT_DemoDialogue.uasset
-[2016.06.06-15.34.58:831][387]LogSavePackage: Save=9.08ms
-[2016.06.06-15.34.58:831][387]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_DemoDialogueE7A05F3B4D4339A7B6BA5C92A0BB3461.tmp' to '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_DemoDialogue.uasset'
-[2016.06.06-15.34.58:833][387]LogSavePackage: Total save time: 11.24ms
-[2016.06.06-15.34.58:833][387]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_DemoDialogue.uasset
-[2016.06.06-15.35.01:892][697]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 108 classes and 0 folders.
-[2016.06.06-15.35.16:618][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_DynamicCast_542 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_542
-[2016.06.06-15.35.16:619][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_DynamicCast_542 or K2Node_DynamicCast /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_DynamicCast_542
-[2016.06.06-15.35.16:619][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_DynamicCast_542 or K2Node_DynamicCast /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:EventGraph.K2Node_DynamicCast_542
-[2016.06.06-15.35.16:619][842]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_DynamicCast_542.EdGraphPin_88821) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_Event_355.EdGraphPin_88628).  Import failed...
-[2016.06.06-15.35.16:619][842]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_542.EdGraphPin_88821''
-[2016.06.06-15.35.16:619][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchEnum /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_SwitchEnum_77 or K2Node_SwitchEnum /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_SwitchEnum_77
-[2016.06.06-15.35.16:619][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchEnum /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_SwitchEnum_77 or K2Node_SwitchEnum /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_SwitchEnum_77
-[2016.06.06-15.35.16:619][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchEnum /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_SwitchEnum_77 or K2Node_SwitchEnum /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:EventGraph.K2Node_SwitchEnum_77
-[2016.06.06-15.35.16:619][842]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_SwitchEnum_77.EdGraphPin_88696) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_DynamicCast_542.EdGraphPin_88822).  Import failed...
-[2016.06.06-15.35.16:619][842]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SwitchEnum_77.EdGraphPin_88696''
-[2016.06.06-15.35.16:619][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_CallFunction_5475 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:EventGraph.K2Node_CallFunction_5475
-[2016.06.06-15.35.16:619][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_CallFunction_5475 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_5475
-[2016.06.06-15.35.16:619][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_CallFunction_5475 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_CallFunction_5475
-[2016.06.06-15.35.16:619][842]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_CallFunction_5475.EdGraphPin_88847) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_DynamicCast_542.EdGraphPin_88824).  Import failed...
-[2016.06.06-15.35.16:619][842]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5475.EdGraphPin_88847''
-[2016.06.06-15.35.16:619][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_VariableGet_2056 or K2Node_VariableGet /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_VariableGet_2056
-[2016.06.06-15.35.16:619][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_VariableGet_2056 or K2Node_VariableGet /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:EventGraph.K2Node_VariableGet_2056
-[2016.06.06-15.35.16:619][842]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_VariableGet_2056.EdGraphPin_88840) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_DynamicCast_542.EdGraphPin_88825).  Import failed...
-[2016.06.06-15.35.16:619][842]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2056.EdGraphPin_88840''
-[2016.06.06-15.35.16:619][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchEnum /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_SwitchEnum_77 or K2Node_SwitchEnum /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_SwitchEnum_77
-[2016.06.06-15.35.16:619][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchEnum /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_SwitchEnum_77 or K2Node_SwitchEnum /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_SwitchEnum_77
-[2016.06.06-15.35.16:619][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchEnum /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_SwitchEnum_77 or K2Node_SwitchEnum /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:EventGraph.K2Node_SwitchEnum_77
-[2016.06.06-15.35.16:619][842]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_SwitchEnum_77.EdGraphPin_88697) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_VariableGet_2056.EdGraphPin_88839).  Import failed...
-[2016.06.06-15.35.16:619][842]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SwitchEnum_77.EdGraphPin_88697''
-[2016.06.06-15.35.16:620][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_CallFunction_12923 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:EventGraph.K2Node_CallFunction_12923
-[2016.06.06-15.35.16:620][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_CallFunction_12923 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_CallFunction_12923
-[2016.06.06-15.35.16:620][842]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_CallFunction_12923.EdGraphPin_88854) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_SwitchEnum_77.EdGraphPin_88699).  Import failed...
-[2016.06.06-15.35.16:620][842]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12923.EdGraphPin_88854''
-[2016.06.06-15.35.16:620][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_CallFunction_12922 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_CallFunction_12922
-[2016.06.06-15.35.16:620][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_CallFunction_12922 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:EventGraph.K2Node_CallFunction_12922
-[2016.06.06-15.35.16:620][842]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_CallFunction_12922.EdGraphPin_88872) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_SwitchEnum_77.EdGraphPin_88700).  Import failed...
-[2016.06.06-15.35.16:620][842]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12922.EdGraphPin_88872''
-[2016.06.06-15.35.16:621][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_CallFunction_12923 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:EventGraph.K2Node_CallFunction_12923
-[2016.06.06-15.35.16:621][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_CallFunction_12923 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_CallFunction_12923
-[2016.06.06-15.35.16:621][842]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_CallFunction_12923.EdGraphPin_88855) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_VariableSet_1660.EdGraphPin_88711).  Import failed...
-[2016.06.06-15.35.16:621][842]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12923.EdGraphPin_88855''
-[2016.06.06-15.35.16:622][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_CallFunction_12922 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_CallFunction_12922
-[2016.06.06-15.35.16:622][842]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_CallFunction_12922 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:EventGraph.K2Node_CallFunction_12922
-[2016.06.06-15.35.16:622][842]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:EventGraph.K2Node_CallFunction_12922.EdGraphPin_88873) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EventGraph.K2Node_VariableSet_1640.EdGraphPin_88744).  Import failed...
-[2016.06.06-15.35.16:622][842]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12922.EdGraphPin_88873''
-[2016.06.06-15.35.22:971][434]LogEditorTransaction: Undo Paste clipboard contents
-[2016.06.06-15.35.26:106][725]LogEditorTransaction: Redo Paste clipboard contents
-[2016.06.06-15.35.46:815][658]LogSavePackage: Save=27.31ms
-[2016.06.06-15.35.46:815][658]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_DemoDialogue9CE9E73C4DE43D0323F8E1AF767AD8E9.tmp' to '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_DemoDialogue.uasset'
-[2016.06.06-15.35.46:817][658]LogSavePackage: Total save time: 44.96ms
-[2016.06.06-15.35.46:817][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_DemoDialogue.uasset
-[2016.06.06-15.36.20:159][786]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_MacroInstance_5297 or K2Node_MacroInstance /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_MacroInstance_5297
-[2016.06.06-15.36.20:159][786]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_MacroInstance_5297.EdGraphPin_89293) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_FunctionResult_9.EdGraphPin_89282).  Import failed...
-[2016.06.06-15.36.20:159][786]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_5297.EdGraphPin_89293''
-[2016.06.06-15.36.20:159][786]LogUObjectHash:Warning: Ambiguous search, could be K2Node_GetDataTableRow /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_GetDataTableRow_2 or K2Node_GetDataTableRow /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_GetDataTableRow_2
-[2016.06.06-15.36.20:159][786]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_GetDataTableRow_2.EdGraphPin_89007) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_FunctionResult_9.EdGraphPin_89283).  Import failed...
-[2016.06.06-15.36.20:159][786]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_GetDataTableRow_2.EdGraphPin_89007''
-[2016.06.06-15.36.20:159][786]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_MacroInstance_5297 or K2Node_MacroInstance /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_MacroInstance_5297
-[2016.06.06-15.36.20:159][786]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_MacroInstance_5297.EdGraphPin_89294) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_FunctionResult_9.EdGraphPin_89284).  Import failed...
-[2016.06.06-15.36.20:159][786]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_5297.EdGraphPin_89294''
-[2016.06.06-15.36.20:160][786]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/UI/UI_Dialogue.UI_Dialogue:ParseOptionTag.K2Node_SwitchString_1
-[2016.06.06-15.36.20:160][786]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_SwitchString_1
-[2016.06.06-15.36.20:160][786]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_SwitchString_1
-[2016.06.06-15.36.20:160][786]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_SwitchString_1.EdGraphPin_88979) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_GetDataTableRow_2.EdGraphPin_89002).  Import failed...
-[2016.06.06-15.36.20:160][786]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SwitchString_1.EdGraphPin_88979''
-[2016.06.06-15.36.20:160][786]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_MacroInstance_5297 or K2Node_MacroInstance /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_MacroInstance_5297
-[2016.06.06-15.36.20:160][786]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_MacroInstance_5297.EdGraphPin_89291) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_GetDataTableRow_2.EdGraphPin_89003).  Import failed...
-[2016.06.06-15.36.20:160][786]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_5297.EdGraphPin_89291''
-[2016.06.06-15.36.20:160][786]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_MacroInstance_5297 or K2Node_MacroInstance /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_MacroInstance_5297
-[2016.06.06-15.36.20:160][786]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_MacroInstance_5297.EdGraphPin_89292) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_GetDataTableRow_2.EdGraphPin_89004).  Import failed...
-[2016.06.06-15.36.20:160][786]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_5297.EdGraphPin_89292''
-[2016.06.06-15.36.20:160][786]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_FunctionEntry_1784.EdGraphPin_89277) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_GetDataTableRow_2.EdGraphPin_89006).  Import failed...
-[2016.06.06-15.36.20:160][786]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_1784.EdGraphPin_89277''
-[2016.06.06-15.36.20:161][786]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_FunctionEntry_1784.EdGraphPin_89276) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_CallFunction_10295.EdGraphPin_89303).  Import failed...
-[2016.06.06-15.36.20:161][786]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_1784.EdGraphPin_89276''
-[2016.06.06-15.36.20:161][786]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/UI/UI_Dialogue.UI_Dialogue:ParseOptionTag.K2Node_SwitchString_1
-[2016.06.06-15.36.20:161][786]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_SwitchString_1
-[2016.06.06-15.36.20:161][786]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_SwitchString_1
-[2016.06.06-15.36.20:161][786]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_SwitchString_1.EdGraphPin_88976) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_CallFunction_10295.EdGraphPin_89304).  Import failed...
-[2016.06.06-15.36.20:161][786]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SwitchString_1.EdGraphPin_88976''
-[2016.06.06-15.36.20:161][786]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/UI/UI_Dialogue.UI_Dialogue:ParseOptionTag.K2Node_SwitchString_1
-[2016.06.06-15.36.20:161][786]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_SwitchString_1
-[2016.06.06-15.36.20:161][786]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_SwitchString_1
-[2016.06.06-15.36.20:161][786]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_SwitchString_1.EdGraphPin_88977) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_CallFunction_10295.EdGraphPin_89308).  Import failed...
-[2016.06.06-15.36.20:161][786]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SwitchString_1.EdGraphPin_88977''
-[2016.06.06-15.36.34:983][116]LogSavePackage: Save=41.11ms
-[2016.06.06-15.36.34:983][116]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_DemoDialogueA024B8684AAEF541D20515BD9CB089B1.tmp' to '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_DemoDialogue.uasset'
-[2016.06.06-15.36.34:986][116]LogSavePackage: Total save time: 46.91ms
-[2016.06.06-15.36.34:986][116]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_DemoDialogue.uasset
-[2016.06.06-15.36.44:586][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_Dialogue.BPC_Dialogue:GetDialogueRowNames.K2Node_CallFunction_2230 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_CallFunction_2230
-[2016.06.06-15.36.44:586][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_Dialogue.BPC_Dialogue:GetDialogueRowNames.K2Node_CallFunction_2230 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_CallFunction_2230
-[2016.06.06-15.36.44:586][ 13]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_CallFunction_2230.EdGraphPin_89331) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_FunctionResult_6.EdGraphPin_89324).  Import failed...
-[2016.06.06-15.36.44:586][ 13]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2230.EdGraphPin_89331''
-[2016.06.06-15.36.44:586][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_Dialogue.BPC_Dialogue:GetDialogueRowNames.K2Node_CallFunction_2230 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_CallFunction_2230
-[2016.06.06-15.36.44:586][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_Dialogue.BPC_Dialogue:GetDialogueRowNames.K2Node_CallFunction_2230 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_CallFunction_2230
-[2016.06.06-15.36.44:586][ 13]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_CallFunction_2230.EdGraphPin_89334) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_FunctionResult_6.EdGraphPin_89325).  Import failed...
-[2016.06.06-15.36.44:586][ 13]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2230.EdGraphPin_89334''
-[2016.06.06-15.36.44:587][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EdGraph_1334.K2Node_SwitchString_1
-[2016.06.06-15.36.44:587][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_SwitchString_1
-[2016.06.06-15.36.44:587][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/UI/UI_Dialogue.UI_Dialogue:ParseOptionTag.K2Node_SwitchString_1
-[2016.06.06-15.36.44:587][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_SwitchString_1
-[2016.06.06-15.36.44:587][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_SwitchString_1
-[2016.06.06-15.36.44:587][ 13]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_SwitchString_1.EdGraphPin_89081) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_CallFunction_2230.EdGraphPin_89330).  Import failed...
-[2016.06.06-15.36.44:587][ 13]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SwitchString_1.EdGraphPin_89081''
-[2016.06.06-15.36.44:587][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EdGraph_1334.K2Node_SwitchString_1
-[2016.06.06-15.36.44:587][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_SwitchString_1
-[2016.06.06-15.36.44:587][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/UI/UI_Dialogue.UI_Dialogue:ParseOptionTag.K2Node_SwitchString_1
-[2016.06.06-15.36.44:587][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_SwitchString_1
-[2016.06.06-15.36.44:587][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_SwitchString_1
-[2016.06.06-15.36.44:587][ 13]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_SwitchString_1.EdGraphPin_89077) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_CallFunction_2230.EdGraphPin_89330).  Import failed...
-[2016.06.06-15.36.44:587][ 13]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SwitchString_1.EdGraphPin_89077''
-[2016.06.06-15.36.44:587][ 13]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_FunctionEntry_1835.EdGraphPin_89321) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_CallFunction_10295.EdGraphPin_89345).  Import failed...
-[2016.06.06-15.36.44:588][ 13]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_1835.EdGraphPin_89321''
-[2016.06.06-15.36.44:588][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EdGraph_1334.K2Node_SwitchString_1
-[2016.06.06-15.36.44:588][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_SwitchString_1
-[2016.06.06-15.36.44:588][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/UI/UI_Dialogue.UI_Dialogue:ParseOptionTag.K2Node_SwitchString_1
-[2016.06.06-15.36.44:588][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_SwitchString_1
-[2016.06.06-15.36.44:588][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_SwitchString_1
-[2016.06.06-15.36.44:588][ 13]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_SwitchString_1.EdGraphPin_89078) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_CallFunction_10295.EdGraphPin_89346).  Import failed...
-[2016.06.06-15.36.44:588][ 13]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SwitchString_1.EdGraphPin_89078''
-[2016.06.06-15.36.44:588][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:EdGraph_1334.K2Node_SwitchString_1
-[2016.06.06-15.36.44:588][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueItem.K2Node_SwitchString_1
-[2016.06.06-15.36.44:588][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/UI/UI_Dialogue.UI_Dialogue:ParseOptionTag.K2Node_SwitchString_1
-[2016.06.06-15.36.44:588][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueItem.K2Node_SwitchString_1
-[2016.06.06-15.36.44:588][ 13]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_SwitchString_1 or K2Node_SwitchString /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_SwitchString_1
-[2016.06.06-15.36.44:588][ 13]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetDialogueRowNames.K2Node_SwitchString_1.EdGraphPin_89079) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetDialogueRowNames.K2Node_CallFunction_10295.EdGraphPin_89350).  Import failed...
-[2016.06.06-15.36.44:588][ 13]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SwitchString_1.EdGraphPin_89079''
-[2016.06.06-15.36.50:252][558]LogSavePackage: Save=43.68ms
-[2016.06.06-15.36.50:252][558]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_DemoDialogueB4938C2F41C4ED7C05BD37BED95CD851.tmp' to '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_DemoDialogue.uasset'
-[2016.06.06-15.36.50:255][558]LogSavePackage: Total save time: 49.73ms
-[2016.06.06-15.36.50:255][558]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_DemoDialogue.uasset
-[2016.06.06-15.36.52:439][769]BlueprintLog: New page: Compile BPC_DemoDialogue
-[2016.06.06-15.36.52:551][769]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
-[2016.06.06-15.37.04:879][981]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetScriptInterpreter.K2Node_FunctionEntry_513.EdGraphPin_89243) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetScriptInterpreter.K2Node_FunctionResult_1.EdGraphPin_89246).  Import failed...
-[2016.06.06-15.37.04:879][981]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_513.EdGraphPin_89243''
-[2016.06.06-15.37.04:879][981]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetScriptInterpreter.K2Node_VariableGet_1606 or K2Node_VariableGet /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetScriptInterpreter.K2Node_VariableGet_1606
-[2016.06.06-15.37.04:879][981]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetScriptInterpreter.K2Node_VariableGet_1606 or K2Node_VariableGet /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetScriptInterpreter.K2Node_VariableGet_1606
-[2016.06.06-15.37.04:879][981]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetScriptInterpreter.K2Node_VariableGet_1606.EdGraphPin_89261) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetScriptInterpreter.K2Node_FunctionResult_1.EdGraphPin_89247).  Import failed...
-[2016.06.06-15.37.04:879][981]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1606.EdGraphPin_89261''
-[2016.06.06-15.37.04:879][981]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetScriptInterpreter.K2Node_CallFunction_12724 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetScriptInterpreter.K2Node_CallFunction_12724
-[2016.06.06-15.37.04:879][981]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetScriptInterpreter.K2Node_CallFunction_12724 or K2Node_CallFunction /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetScriptInterpreter.K2Node_CallFunction_12724
-[2016.06.06-15.37.04:879][981]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetScriptInterpreter.K2Node_CallFunction_12724.EdGraphPin_89269) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetScriptInterpreter.K2Node_DynamicCast_581.EdGraphPin_89252).  Import failed...
-[2016.06.06-15.37.04:879][981]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12724.EdGraphPin_89269''
-[2016.06.06-15.37.04:880][981]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetScriptInterpreter.K2Node_VariableGet_1606 or K2Node_VariableGet /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetScriptInterpreter.K2Node_VariableGet_1606
-[2016.06.06-15.37.04:880][981]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/BlueprintDialogues/Blueprints/BPC_ExampleDialogue.BPC_ExampleDialogue:GetScriptInterpreter.K2Node_VariableGet_1606 or K2Node_VariableGet /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetScriptInterpreter.K2Node_VariableGet_1606
-[2016.06.06-15.37.04:880][981]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_ExampleLevelLoad.BPC_ExampleLevelLoad:GetScriptInterpreter.K2Node_VariableGet_1606.EdGraphPin_89262) from referencer (EdGraphPin /Game/BlueprintDialogues/Blueprints/BPC_DemoDialogue.BPC_DemoDialogue:GetScriptInterpreter.K2Node_DynamicCast_581.EdGraphPin_89253).  Import failed...
-[2016.06.06-15.37.04:880][981]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1606.EdGraphPin_89262''
-[2016.06.06-15.37.12:573][758]LogSavePackage: Save=47.96ms
-[2016.06.06-15.37.12:573][758]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_DemoDialogueD4FB8C8745BCDCC828431BB9A73B5507.tmp' to '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_DemoDialogue.uasset'
-[2016.06.06-15.37.12:575][758]LogSavePackage: Total save time: 53.89ms
-[2016.06.06-15.37.12:575][758]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_DemoDialogue.uasset
-[2016.06.06-15.37.14:259][925]BlueprintLog: New page: Compile BPC_DemoDialogue
-[2016.06.06-15.37.14:372][925]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
-[2016.06.06-15.38.19:311][ 12]LogSavePackage: Save=68.25ms
-[2016.06.06-15.38.19:311][ 12]LogSavePackage: Moving '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Saved/BPC_DemoDialogue51731BF34A6B11682B98288BA2960674.tmp' to '../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/BPC_DemoDialogue.uasset'
-[2016.06.06-15.38.19:313][ 12]LogSavePackage: Total save time: 74.00ms
-[2016.06.06-15.38.19:313][ 12]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Documents/Unreal Projects/ChildrenAmongGiants/WhisperOfALullaby/Content/BlueprintDialogues/Blueprints/
+[2016.06.09-15.32.27:382][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.09-15.32.27:382][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.06.09-15.32.27:390][  0]LogInit: Computer: MAGIC07
+[2016.06.09-15.32.27:390][  0]LogInit: User: MagicUser
+[2016.06.09-15.32.27:390][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.06.09-15.32.27:390][  0]LogInit: High frequency timer resolution =3.613279 MHz
+[2016.06.09-15.32.27:390][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.06.09-15.32.27:390][  0]LogMemory: Platform Memory Stats for Windows
+[2016.06.09-15.32.27:390][  0]LogMemory: Process Physical Memory: 313.02 MB used, 313.02 MB peak
+[2016.06.09-15.32.27:390][  0]LogMemory: Process Virtual Memory: 314.93 MB used, 314.93 MB peak
+[2016.06.09-15.32.27:390][  0]LogMemory: Physical Memory: 4714.63 MB used, 16302.16 MB total
+[2016.06.09-15.32.27:390][  0]LogMemory: Virtual Memory: 653.23 MB used, 134217728.00 MB total
+[2016.06.09-15.32.27:421][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.06.09-15.32.27:737][  0]LogD3D11RHI: D3D11 adapters:
+[2016.06.09-15.32.27:765][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2016.06.09-15.32.27:765][  0]LogD3D11RHI:       3013MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 2 output[s]
+[2016.06.09-15.32.27:766][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.06.09-15.32.27:766][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
+[2016.06.09-15.32.27:766][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.06.09-15.32.27:770][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.06.09-15.32.27:770][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2016.06.09-15.32.27:770][  0]LogD3D11RHI:   Driver Version: 10.18.13.6191 (internal 10.18.13.6191)
+[2016.06.09-15.32.27:770][  0]LogD3D11RHI:      Driver Date: 2-8-2016
+[2016.06.09-15.32.27:770][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.06.09-15.32.27:781][  0]LogD3D11RHI: Async texture creation enabled
+[2016.06.09-15.32.27:797][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Intermediate/Shaders/WorkingDirectory/10532/).
+[2016.06.09-15.32.27:797][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MAGICU~1/AppData/Local/Temp/UnrealShaderWorkingDir/FC8C12234E7FF206FF1A43867E321121/'.
+[2016.06.09-15.32.27:797][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.06.09-15.32.28:643][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.06.09-15.32.28:647][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.06.09-15.32.28:650][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.06.09-15.32.28:654][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.06.09-15.32.28:658][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.06.09-15.32.28:661][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.06.09-15.32.28:664][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.06.09-15.32.28:666][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.06.09-15.32.28:669][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.06.09-15.32.28:671][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.06.09-15.32.28:674][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.06.09-15.32.28:679][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.06.09-15.32.28:679][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.06.09-15.32.28:680][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.06.09-15.32.28:696][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.06.09-15.32.28:698][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.06.09-15.32.28:701][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.06.09-15.32.28:703][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.06.09-15.32.28:706][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.06.09-15.32.28:706][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.06.09-15.32.28:769][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.06.09-15.32.28:810][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.09-15.32.28:810][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.06.09-15.32.28:810][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.06.09-15.32.28:810][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.06.09-15.32.28:810][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.06.09-15.32.28:810][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.06.09-15.32.28:822][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.06.09-15.32.28:834][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MagicUser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.06.09-15.32.28:988][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.09-15.32.28:988][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.06.09-15.32.29:020][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.06.09-15.32.29:125][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.06.09-15.32.29:125][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.06.09-15.32.29:125][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.06.09-15.32.29:320][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.06.09-15.32.29:320][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.06.09-15.32.29:320][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.06.09-15.32.29:326][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.09-15.32.29:400][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.09-15.32.29:400][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.09-15.32.29:481][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.09-15.32.29:481][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.09-15.32.29:481][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.09-15.32.29:481][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.09-15.32.29:481][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.09-15.32.29:481][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.09-15.32.29:947][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.06.09-15.32.29:955][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.06.09-15.32.30:056][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2016.06.09-15.32.30:195][  0]SourceControl: Info Source control is disabled
+[2016.06.09-15.32.30:225][  0]SourceControl: Info Source control is disabled
+[2016.06.09-15.32.30:233][  0]SourceControl: Info Source control is disabled
+[2016.06.09-15.32.30:245][  0]SourceControl: Info Source control is disabled
+[2016.06.09-15.32.30:363][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.06.09-15.32.30:441][  0]LogEngine: Initializing Engine...
+[2016.06.09-15.32.30:574][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.06.09-15.32.30:580][  0]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.09-15.32.30:591][  0]LogInit: FAudioDevice initialized.
+[2016.06.09-15.32.30:612][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.09-15.32.30:617][  0]LogInit: Texture streaming: Enabled
+[2016.06.09-15.32.30:635][  0]LogInit: Transaction tracking system initialized
+[2016.06.09-15.32.30:654][  0]BlueprintLog: New page: Editor Load
+[2016.06.09-15.32.30:712][  0]LocalizationService: Info Localization service is disabled
+[2016.06.09-15.32.30:772][  0]LogConsoleResponse:Display: 
+[2016.06.09-15.32.30:861][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.06.09-15.32.30:861][  0]LogCook:Display: Mobile HDR setting 1
+[2016.06.09-15.32.30:861][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.06.09-15.32.30:915][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/' took 0.02s
+[2016.06.09-15.32.30:915][  0]SourceControl: Info Source control is disabled
+[2016.06.09-15.32.30:916][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.09-15.32.30:916][  0]LightingResults: New page: Lighting Build
+[2016.06.09-15.32.30:918][  0]MapCheck: New page: Map Check
+[2016.06.09-15.32.30:918][  0]LightingResults: New page: Lighting Build
+[2016.06.09-15.32.31:487][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning 'Item' is already a 'Manager', you don't need  Cast To Manager .
+[2016.06.09-15.32.31:488][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.77] Compile of CrowdSpawner_Blueprint successful, but with 1 Warning(s) [in 4 ms]
+[2016.06.09-15.32.31:488][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.77] Compile of CrowdSpawner_Blueprint successful, but with 2 Warning(s) [in 0 ms]
+[2016.06.09-15.32.31:488][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.77] Compile of CrowdSpawner_Blueprint successful, but with 3 Warning(s) [in 0 ms]
+[2016.06.09-15.32.31:522][  0]LogBlueprint:Warning: [compiler Manager] Warning Can't connect pins  Target Array  and  Out Actors : Array of References is not compatible with Array of Actor References.
+[2016.06.09-15.32.31:522][  0]LogBlueprint:Warning: [compiler Manager] Warning Can't connect pins  Out Actors  and  Target Array : Array of Actor References is not compatible with Array of References.
+[2016.06.09-15.32.31:522][  0]LogBlueprint:Error: [compiler Manager] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.06.09-15.32.31:532][  0]LogBlueprint:Warning: [compiler Manager] Warning [0004.82] Compile of Manager failed. 1 Fatal Issue(s) 2 Warning(s) [in 24 ms]
+[2016.06.09-15.32.31:532][  0]LogBlueprint:Warning: [compiler Manager] Warning [0004.82] Compile of Manager failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.06.09-15.32.31:533][  0]LogBlueprint:Warning: [compiler Manager] Warning [0004.82] Compile of Manager failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.06.09-15.32.33:830][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning 'Item' is already a 'Manager', you don't need  Cast To Manager .
+[2016.06.09-15.32.34:852][  0]Warning: Unknown property in Dialogue_TableItem: DataTable=None,RowName=) 
+[2016.06.09-15.32.34:852][  0]Warning: Unknown property in Dialogue_TableItem: RowName=) 
+[2016.06.09-15.32.36:469][  0]Warning: Unknown property in Dialogue_TableItem: DataTable=None,RowName=) 
+[2016.06.09-15.32.36:469][  0]Warning: Unknown property in Dialogue_TableItem: RowName=) 
+[2016.06.09-15.32.36:919][  0]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.09-15.32.36:919][  0]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.09-15.32.36:921][  0]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.09-15.32.36:923][  0]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.09-15.32.36:924][  0]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.09-15.32.38:636][  0]LogTexture:Display: Building textures: DuskTexture8 (AutoDXT)
+[2016.06.09-15.32.41:465][  0]LogMaterial: Missing cached shader map for material Dusk_Translucent, compiling. 
+[2016.06.09-15.32.41:651][  0]LogTexture:Display: Building textures: DuskTexture8 (AutoDXT)
+[2016.06.09-15.32.45:359][  0]LogMaterial: Missing cached shader map for material pasted__lambert12, compiling. 
+[2016.06.09-15.32.45:547][  0]LogTexture:Display: Building textures: HealthDeco1 (AutoDXT)
+[2016.06.09-15.32.45:565][  0]LogTexture:Display: Building textures: crosshair (AutoDXT)
+[2016.06.09-15.32.45:757][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.06.09-15.32.45:839][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.09-15.32.45:839][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.09-15.32.45:941][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 101.785ms to complete.
+[2016.06.09-15.32.45:941][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 15.026
+[2016.06.09-15.32.46:081][  0]LogCollectionManager: Loaded 0 collections in 0.002170 seconds
+[2016.06.09-15.32.46:130][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/Collections/' took 0.01s
+[2016.06.09-15.32.46:130][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Developers/MagicUser/Collections/' took 0.01s
+[2016.06.09-15.32.46:130][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Collections/' took 0.01s
+[2016.06.09-15.32.46:130][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.06.09-15.32.46:141][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 1994 classes and 349 folders.
+[2016.06.09-15.32.46:147][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.06.09-15.32.46:147][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.06.09-15.32.46:148][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.06.09-15.32.46:158][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.06.09-15.32.46:166][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.06.09-15.32.46:228][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.06.09-15.32.46:235][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.06.09-15.32.46:252][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.06.09-15.32.46:260][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.06.09-15.32.46:288][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.06.09-15.32.46:289][  0]LogLoad: Full Startup: 19.57 seconds (BP compile: 2.47 seconds)
+[2016.06.09-15.32.46:289][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.06.09-15.32.46:289][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.06.09-15.32.46:629][  0]LogOcInput: OculusInput pre-init called
+[2016.06.09-15.32.46:685][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.06.09-15.32.46:932][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.06.09-15.32.47:355][  2]LogAssetRegistry: Asset discovery search completed in 17.3214 seconds
+[2016.06.09-15.32.47:355][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.06.09-15.32.47:355][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2016.06.09-15.32.55:212][269]LogAIModule: Creating AISystem for world Town
+[2016.06.09-15.32.55:260][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_986.ActiveParticles
+[2016.06.09-15.32.55:260][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_986.DeactiveParticles
+[2016.06.09-15.32.55:260][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_1645.ActiveParticles
+[2016.06.09-15.32.55:260][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_1645.DeactiveParticles
+[2016.06.09-15.32.55:260][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_2360.ActiveParticles
+[2016.06.09-15.32.55:260][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_2360.DeactiveParticles
+[2016.06.09-15.32.55:261][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_3171.ActiveParticles
+[2016.06.09-15.32.55:261][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_3171.DeactiveParticles
+[2016.06.09-15.32.55:261][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_3758.ActiveParticles
+[2016.06.09-15.32.55:261][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_3758.DeactiveParticles
+[2016.06.09-15.32.55:261][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint6_4241.ActiveParticles
+[2016.06.09-15.32.55:261][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint6_4241.DeactiveParticles
+[2016.06.09-15.32.55:261][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Water_Spout.P_Water_Spout Component=/Game/Maps/Town.Town:PersistentLevel.Fountain_542.ParticleSystem
+[2016.06.09-15.32.55:286][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_986.DeactiveParticles
+[2016.06.09-15.32.55:286][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_986.ActiveParticles
+[2016.06.09-15.32.55:287][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_986.DeactiveParticles
+[2016.06.09-15.32.55:287][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_986.ActiveParticles
+[2016.06.09-15.32.55:287][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_1645.DeactiveParticles
+[2016.06.09-15.32.55:287][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_1645.ActiveParticles
+[2016.06.09-15.32.55:288][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_1645.DeactiveParticles
+[2016.06.09-15.32.55:288][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_1645.ActiveParticles
+[2016.06.09-15.32.55:288][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_2360.DeactiveParticles
+[2016.06.09-15.32.55:288][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_2360.ActiveParticles
+[2016.06.09-15.32.55:288][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_2360.DeactiveParticles
+[2016.06.09-15.32.55:289][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_2360.ActiveParticles
+[2016.06.09-15.32.55:289][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_3171.DeactiveParticles
+[2016.06.09-15.32.55:289][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_3171.ActiveParticles
+[2016.06.09-15.32.55:289][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_3171.DeactiveParticles
+[2016.06.09-15.32.55:289][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_3171.ActiveParticles
+[2016.06.09-15.32.55:290][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_3758.DeactiveParticles
+[2016.06.09-15.32.55:290][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_3758.ActiveParticles
+[2016.06.09-15.32.55:290][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_3758.DeactiveParticles
+[2016.06.09-15.32.55:290][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_3758.ActiveParticles
+[2016.06.09-15.32.55:291][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint6_4241.DeactiveParticles
+[2016.06.09-15.32.55:291][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint6_4241.ActiveParticles
+[2016.06.09-15.32.55:291][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint6_4241.DeactiveParticles
+[2016.06.09-15.32.55:291][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint6_4241.ActiveParticles
+[2016.06.09-15.32.55:293][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Water_Spout.P_Water_Spout Component=/Game/Maps/Town.Town:PersistentLevel.Fountain_542.ParticleSystem
+[2016.06.09-15.32.55:293][269]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Water_Spout.P_Water_Spout Component=/Game/Maps/Town.Town:PersistentLevel.Fountain_542.ParticleSystem
+[2016.06.09-15.32.55:312][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.09-15.32.55:312][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.09-15.32.55:312][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.06.09-15.32.55:312][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.06.09-15.32.55:312][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.09-15.32.55:312][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.06.09-15.32.55:312][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2016.06.09-15.32.55:569][269]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.09-15.32.55:571][269]LightingResults: New page: Lighting Build
+[2016.06.09-15.32.55:587][269]LoadErrors: New page: Loading map: Town.umap
+[2016.06.09-15.32.55:588][269]MapCheck: New page: Map Check
+[2016.06.09-15.32.55:588][269]LightingResults: New page: Lighting Build
+[2016.06.09-15.32.55:683][269]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.09-15.32.55:723][269]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.09-15.32.55:792][269]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.094ms to complete.
+[2016.06.09-15.32.55:793][269]LogFileHelpers: Loading map 'Town' took 0.225
+[2016.06.09-15.34.01:527][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\town_genericB2.fbx)
+[2016.06.09-15.34.01:744][625]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.06.09-15.34.01:744][625]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.06.09-15.34.01:744][625]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.06.09-15.34.01:744][625]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.06.09-15.34.01:744][625]LogFbx: ItemName: Material, ItemCount : 1
+[2016.06.09-15.34.01:744][625]LogFbx: ItemName: Model, ItemCount : 1
+[2016.06.09-15.34.01:749][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\town_genericB2.fbx
+[2016.06.09-15.34.01:755][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.02:741][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\town_genericB2.fbx
+[2016.06.09-15.34.02:747][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.02:749][625]LogLinker:Warning: Can't find file '/Game/Models/Town/lambert1'
+[2016.06.09-15.34.02:750][625]LogLinker:Warning: Can't find file '/Game/Models/Town/lambert1'
+[2016.06.09-15.34.02:755][625]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.06.09-15.34.02:774][625]LogFbx:Warning: Triangulating static mesh pCube1
+[2016.06.09-15.34.03:032][625]LogStaticMesh: Building static mesh town_genericB2...
+[2016.06.09-15.34.03:086][625]LogStaticMesh: Built static mesh [0.05s] /Game/Models/Town/town_genericB2.town_genericB2
+[2016.06.09-15.34.03:092][625]LogStaticMesh:Warning: town_genericB2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.06.09-15.34.03:101][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.03:101][625]FBXImport:Warning: Warning town_genericB2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.06.09-15.34.03:121][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\town_genericB3.fbx)
+[2016.06.09-15.34.03:392][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\town_genericB3.fbx
+[2016.06.09-15.34.03:401][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.03:404][625]LogFbx:Warning: Triangulating static mesh pCube1
+[2016.06.09-15.34.03:669][625]LogStaticMesh: Building static mesh town_genericB3...
+[2016.06.09-15.34.03:715][625]LogStaticMesh: Built static mesh [0.05s] /Game/Models/Town/town_genericB3.town_genericB3
+[2016.06.09-15.34.03:721][625]LogStaticMesh:Warning: town_genericB3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.06.09-15.34.03:730][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.03:730][625]FBXImport:Warning: Warning town_genericB3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.06.09-15.34.03:740][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\town_House1.fbx)
+[2016.06.09-15.34.03:754][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\town_House1.fbx
+[2016.06.09-15.34.03:764][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.03:767][625]LogFbx:Warning: Triangulating static mesh pasted__pCube4
+[2016.06.09-15.34.04:117][625]LogStaticMesh: Building static mesh town_House1...
+[2016.06.09-15.34.04:175][625]LogStaticMesh: Built static mesh [0.06s] /Game/Models/Town/town_House1.town_House1
+[2016.06.09-15.34.04:183][625]LogStaticMesh:Warning: town_House1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.06.09-15.34.04:192][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.04:192][625]FBXImport:Warning: Warning town_House1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.06.09-15.34.04:201][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\town_House2.fbx)
+[2016.06.09-15.34.04:233][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\town_House2.fbx
+[2016.06.09-15.34.04:241][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.04:243][625]LogFbx:Warning: Triangulating static mesh pasted__pCube6
+[2016.06.09-15.34.04:578][625]LogStaticMesh: Building static mesh town_House2...
+[2016.06.09-15.34.04:620][625]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Town/town_House2.town_House2
+[2016.06.09-15.34.04:626][625]LogStaticMesh:Warning: town_House2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.06.09-15.34.04:632][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.04:632][625]FBXImport:Warning: Warning town_House2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.06.09-15.34.04:640][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\town_House3.fbx)
+[2016.06.09-15.34.04:723][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\town_House3.fbx
+[2016.06.09-15.34.04:731][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.04:733][625]LogFbx:Warning: Triangulating static mesh pasted__pCube1
+[2016.06.09-15.34.05:056][625]LogStaticMesh: Building static mesh town_House3...
+[2016.06.09-15.34.05:100][625]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Town/town_House3.town_House3
+[2016.06.09-15.34.05:106][625]LogStaticMesh:Warning: town_House3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.06.09-15.34.05:112][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.05:112][625]FBXImport:Warning: Warning town_House3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.06.09-15.34.05:121][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\town_starterHouse.fbx)
+[2016.06.09-15.34.05:181][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\town_starterHouse.fbx
+[2016.06.09-15.34.05:187][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.05:188][625]LogFbx:Warning: Triangulating static mesh pPipe2
+[2016.06.09-15.34.05:228][625]LogStaticMesh: Building static mesh town_starterHouse...
+[2016.06.09-15.34.05:238][625]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Town/town_starterHouse.town_starterHouse
+[2016.06.09-15.34.05:239][625]LogStaticMesh:Warning: town_starterHouse has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.06.09-15.34.05:245][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.05:245][625]FBXImport:Warning: Warning town_starterHouse has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.06.09-15.34.05:248][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\whiteFence_end.fbx)
+[2016.06.09-15.34.05:301][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\whiteFence_end.fbx
+[2016.06.09-15.34.05:306][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.05:308][625]LogFbx:Warning: Triangulating static mesh pCube12
+[2016.06.09-15.34.05:323][625]LogStaticMesh: Building static mesh whiteFence_end...
+[2016.06.09-15.34.05:326][625]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Town/whiteFence_end.whiteFence_end
+[2016.06.09-15.34.05:331][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.05:335][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\whiteFence_middle.fbx)
+[2016.06.09-15.34.05:408][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\whiteFence_middle.fbx
+[2016.06.09-15.34.05:419][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.05:422][625]LogFbx:Warning: Triangulating static mesh pCube11
+[2016.06.09-15.34.05:446][625]LogStaticMesh: Building static mesh whiteFence_middle...
+[2016.06.09-15.34.05:459][625]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Town/whiteFence_middle.whiteFence_middle
+[2016.06.09-15.34.05:465][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.05:470][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\clocktower_inside.fbx)
+[2016.06.09-15.34.05:480][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\clocktower_inside.fbx
+[2016.06.09-15.34.05:485][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.05:487][625]LogFbx:Warning: Triangulating static mesh pCube1
+[2016.06.09-15.34.05:533][625]LogStaticMesh: Building static mesh clocktower_inside...
+[2016.06.09-15.34.05:542][625]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Town/clocktower_inside.clocktower_inside
+[2016.06.09-15.34.05:543][625]LogStaticMesh:Warning: clocktower_inside has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.06.09-15.34.05:548][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.05:548][625]FBXImport:Warning: Warning clocktower_inside has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.06.09-15.34.05:553][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\genericDoor.fbx)
+[2016.06.09-15.34.05:612][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\genericDoor.fbx
+[2016.06.09-15.34.05:617][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.05:618][625]LogFbx:Warning: Triangulating static mesh pCube1
+[2016.06.09-15.34.05:652][625]LogStaticMesh: Building static mesh genericDoor...
+[2016.06.09-15.34.05:660][625]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Town/genericDoor.genericDoor
+[2016.06.09-15.34.05:665][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.05:669][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\town_B1.fbx)
+[2016.06.09-15.34.05:679][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\town_B1.fbx
+[2016.06.09-15.34.05:690][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.05:692][625]LogFbx:Warning: Triangulating static mesh pCube1
+[2016.06.09-15.34.07:210][625]LogStaticMesh: Building static mesh town_B1...
+[2016.06.09-15.34.07:446][625]LogStaticMesh: Built static mesh [0.24s] /Game/Models/Town/town_B1.town_B1
+[2016.06.09-15.34.07:478][625]LogStaticMesh:Warning: town_B1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.06.09-15.34.07:489][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.07:489][625]FBXImport:Warning: Warning town_B1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.06.09-15.34.07:535][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\town_B2.fbx)
+[2016.06.09-15.34.07:544][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\town_B2.fbx
+[2016.06.09-15.34.07:552][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.07:554][625]LogFbx:Warning: Triangulating static mesh pCube3
+[2016.06.09-15.34.08:060][625]LogStaticMesh: Building static mesh town_B2...
+[2016.06.09-15.34.08:067][625]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.06.09-15.34.08:140][625]LogStaticMesh: Built static mesh [0.08s] /Game/Models/Town/town_B2.town_B2
+[2016.06.09-15.34.08:150][625]LogStaticMesh:Warning: town_B2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.06.09-15.34.08:156][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.08:156][625]FBXImport:Warning: Warning town_B2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.06.09-15.34.08:169][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\town_B3.fbx)
+[2016.06.09-15.34.08:176][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\town_B3.fbx
+[2016.06.09-15.34.08:181][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.08:183][625]LogFbx:Warning: Triangulating static mesh pCube1
+[2016.06.09-15.34.08:185][625]LogStaticMesh: Building static mesh town_B3...
+[2016.06.09-15.34.08:186][625]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Town/town_B3.town_B3
+[2016.06.09-15.34.08:191][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.08:194][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\town_clockTower.fbx)
+[2016.06.09-15.34.08:203][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\town_clockTower.fbx
+[2016.06.09-15.34.08:210][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.08:212][625]LogFbx:Warning: Triangulating static mesh pCylinder3
+[2016.06.09-15.34.08:390][625]LogStaticMesh: Building static mesh town_clockTower...
+[2016.06.09-15.34.08:417][625]LogStaticMesh: Built static mesh [0.03s] /Game/Models/Town/town_clockTower.town_clockTower
+[2016.06.09-15.34.08:421][625]LogStaticMesh:Warning: town_clockTower has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.06.09-15.34.08:427][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.08:427][625]FBXImport:Warning: Warning town_clockTower has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.06.09-15.34.08:433][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\MagicUser\Desktop\Assets\FBX\town_genericB1.fbx)
+[2016.06.09-15.34.08:507][625]LogFbx: Loading FBX Scene from C:\Users\MagicUser\Desktop\Assets\FBX\town_genericB1.fbx
+[2016.06.09-15.34.08:513][625]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.09-15.34.08:515][625]LogFbx:Warning: Triangulating static mesh pCube1
+[2016.06.09-15.34.08:685][625]LogStaticMesh: Building static mesh town_genericB1...
+[2016.06.09-15.34.08:710][625]LogStaticMesh: Built static mesh [0.03s] /Game/Models/Town/town_genericB1.town_genericB1
+[2016.06.09-15.34.08:715][625]LogStaticMesh:Warning: town_genericB1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.06.09-15.34.08:721][625]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.09-15.34.08:722][625]FBXImport:Warning: Warning town_genericB1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.06.09-15.34.17:837][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Town/town_B1" FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_B1.uasset" SILENT=true
+[2016.06.09-15.34.17:850][557]LogSavePackage: Save=11.58ms
+[2016.06.09-15.34.17:850][557]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/town_B17D3125194F7555793CD494957B1DCC07.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_B1.uasset'
+[2016.06.09-15.34.17:852][557]LogSavePackage: Total save time: 13.73ms
+[2016.06.09-15.34.17:852][557]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_B1.uasset
+[2016.06.09-15.34.23:302][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Town/town_B2" FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_B2.uasset" SILENT=true
+[2016.06.09-15.34.23:314][136]LogSavePackage: Save=10.73ms
+[2016.06.09-15.34.23:314][136]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/town_B27D3DB7E34DA668D78D9B8AB1DD297AFD.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_B2.uasset'
+[2016.06.09-15.34.23:316][136]LogSavePackage: Total save time: 12.71ms
+[2016.06.09-15.34.23:316][136]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_B2.uasset
+[2016.06.09-15.34.28:785][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Town/town_B3" FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_B3.uasset" SILENT=true
+[2016.06.09-15.34.28:797][726]LogSavePackage: Save=10.52ms
+[2016.06.09-15.34.28:797][726]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/town_B38B61F1FE47E9128BAE4A71959D433DB5.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_B3.uasset'
+[2016.06.09-15.34.28:799][726]LogSavePackage: Total save time: 12.61ms
+[2016.06.09-15.34.28:799][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_B3.uasset
+[2016.06.09-15.34.34:114][291]LogSavePackage: Save=10.67ms
+[2016.06.09-15.34.34:114][291]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/town_clockTower54AFD26F40A94F33689EA18FEB16A6C8.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_clockTower.uasset'
+[2016.06.09-15.34.34:116][291]LogSavePackage: Total save time: 12.73ms
+[2016.06.09-15.34.34:116][291]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_clockTower.uasset
+[2016.06.09-15.34.44:152][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Town/town_House1" FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_House1.uasset" SILENT=true
+[2016.06.09-15.34.44:164][355]LogSavePackage: Save=10.77ms
+[2016.06.09-15.34.44:164][355]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/town_House1CD5E38404F5DC24E24E516833D751727.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_House1.uasset'
+[2016.06.09-15.34.44:166][355]LogSavePackage: Total save time: 12.68ms
+[2016.06.09-15.34.44:166][355]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_House1.uasset
+[2016.06.09-15.34.49:319][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Town/town_House2" FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_House2.uasset" SILENT=true
+[2016.06.09-15.34.49:331][908]LogSavePackage: Save=10.63ms
+[2016.06.09-15.34.49:331][908]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/town_House2279F68DF40EFCFAA57EBF59840A5CFF7.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_House2.uasset'
+[2016.06.09-15.34.49:333][908]LogSavePackage: Total save time: 12.65ms
+[2016.06.09-15.34.49:333][908]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_House2.uasset
+[2016.06.09-15.34.53:601][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Town/town_House3" FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_House3.uasset" SILENT=true
+[2016.06.09-15.34.53:614][360]LogSavePackage: Save=10.69ms
+[2016.06.09-15.34.53:614][360]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/town_House3AA5569484C84DD61E916B796251BCE63.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_House3.uasset'
+[2016.06.09-15.34.53:616][360]LogSavePackage: Total save time: 12.75ms
+[2016.06.09-15.34.53:616][360]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_House3.uasset
+[2016.06.09-15.34.59:730][  6]LogSavePackage: Save=77.38ms
+[2016.06.09-15.34.59:730][  6]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/town_starterHouseD67ECF354E4E6C1CB4C858B39546D27F.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_starterHouse.uasset'
+[2016.06.09-15.34.59:732][  6]LogSavePackage: Total save time: 79.60ms
+[2016.06.09-15.34.59:732][  6]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_starterHouse.uasset
+[2016.06.09-15.35.15:448][568]LogSavePackage: Save=10.65ms
+[2016.06.09-15.35.15:448][568]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/whiteFence_middleA471D71F41DB096E1CD7E395E30F6522.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/whiteFence_middle.uasset'
+[2016.06.09-15.35.15:450][568]LogSavePackage: Total save time: 12.90ms
+[2016.06.09-15.35.15:450][568]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/whiteFence_middle.uasset
+[2016.06.09-15.35.18:113][847]LogSavePackage: Save=26.83ms
+[2016.06.09-15.35.18:113][847]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/whiteFence_end7EAE3B4740F4F25FC4032CB811ADC19B.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/whiteFence_end.uasset'
+[2016.06.09-15.35.18:115][847]LogSavePackage: Total save time: 28.81ms
+[2016.06.09-15.35.18:115][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/whiteFence_end.uasset
+[2016.06.09-15.35.21:881][213]LogSavePackage: Save=11.20ms
+[2016.06.09-15.35.21:881][213]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/town_genericB38FFFDE58429F42E945A8E7A53159169E.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_genericB3.uasset'
+[2016.06.09-15.35.21:883][213]LogSavePackage: Total save time: 13.35ms
+[2016.06.09-15.35.21:883][213]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_genericB3.uasset
+[2016.06.09-15.35.33:265][486]LogSavePackage: Save=11.43ms
+[2016.06.09-15.35.33:265][486]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/town_genericB1CA3D84C0447F496EA538DC8A78645946.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_genericB1.uasset'
+[2016.06.09-15.35.33:267][486]LogSavePackage: Total save time: 13.62ms
+[2016.06.09-15.35.33:267][486]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_genericB1.uasset
+[2016.06.09-15.35.33:330][486]LogSavePackage: Save=42.82ms
+[2016.06.09-15.35.33:330][486]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/town_genericB2FA1D506047CE86B8B951F2A9455FF1E4.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_genericB2.uasset'
+[2016.06.09-15.35.33:332][486]LogSavePackage: Total save time: 45.08ms
+[2016.06.09-15.35.33:332][486]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_genericB2.uasset
+[2016.06.09-15.35.33:351][486]LogSavePackage: Save=4.60ms
+[2016.06.09-15.35.33:351][486]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/town_genericB36AD7C582486FA9891F795893CC75A1BB.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_genericB3.uasset'
+[2016.06.09-15.35.33:352][486]LogSavePackage: Total save time: 12.55ms
+[2016.06.09-15.35.33:352][486]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/town_genericB3.uasset
+[2016.06.09-15.35.37:072][889]LogSavePackage: Save=18.18ms
+[2016.06.09-15.35.37:072][889]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/clocktower_inside247584B44E419EA0D7AD62B3EED02541.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/clocktower_inside.uasset'
+[2016.06.09-15.35.37:074][889]LogSavePackage: Total save time: 20.28ms
+[2016.06.09-15.35.37:074][889]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/clocktower_inside.uasset
+[2016.06.09-15.35.37:093][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Town/genericDoor" FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/genericDoor.uasset" SILENT=true
+[2016.06.09-15.35.37:105][889]LogSavePackage: Save=11.06ms
+[2016.06.09-15.35.37:106][889]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/genericDoor7C1DFFD245B061C5F06D5AA0DC7F25E8.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/genericDoor.uasset'
+[2016.06.09-15.35.37:107][889]LogSavePackage: Total save time: 13.13ms
+[2016.06.09-15.35.37:107][889]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/genericDoor.uasset
+[2016.06.09-15.35.37:128][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Town/lambert1" FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/lambert1.uasset" SILENT=true
+[2016.06.09-15.35.37:141][889]LogSavePackage: Save=11.29ms
+[2016.06.09-15.35.37:141][889]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/lambert1FF7F98604ED93E0E4845E99E0E8F345A.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/lambert1.uasset'
+[2016.06.09-15.35.37:143][889]LogSavePackage: Total save time: 13.40ms
+[2016.06.09-15.35.37:143][889]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/lambert1.uasset
+[2016.06.09-15.35.41:403][338]LogSavePackage: Save=10.44ms
+[2016.06.09-15.35.41:403][338]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/clocktower_inside27B102C747A569FB2D071EA202642EB7.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/clocktower_inside.uasset'
+[2016.06.09-15.35.41:405][338]LogSavePackage: Total save time: 19.64ms
+[2016.06.09-15.35.41:405][338]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Models/Town/clocktower_inside.uasset
+[2016.06.09-15.35.50:188][348]LogActorFactory: Actor Factory created town_clockTower
+[2016.06.09-15.35.51:465][497]LogActorFactory: Actor Factory created town_clockTower
+[2016.06.09-15.36.07:394][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube37)
+[2016.06.09-15.36.09:520][517]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_clockTower)
+[2016.06.09-15.36.11:530][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube37)
+[2016.06.09-15.36.15:849][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_clockTower)
+[2016.06.09-15.36.22:233][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_clockTower)
+[2016.06.09-15.36.22:802][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_clockTower)
+[2016.06.09-15.36.23:241][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_clockTower)
+[2016.06.09-15.36.23:639][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_clockTower)
+[2016.06.09-15.36.24:355][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_clockTower)
+[2016.06.09-15.36.24:864][267]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (clocktower_trigger)
+[2016.06.09-15.36.28:244][659]LogEditorViewport: Clicking on Actor (LMB): EllianaCharacter_C (EllianaCharacter)
+[2016.06.09-15.36.51:629][245]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.36.51:631][245]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.36.51:632][245]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.36.51:633][245]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.36.51:634][245]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.36.51:636][245]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.36.51:637][245]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.36.51:638][245]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.36.51:639][245]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.36.51:640][245]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.36.53:012][245]LogEditorActor: Deleted 10 Actors (1.390 secs)
+[2016.06.09-15.37.07:943][964]LogActorFactory: Actor Factory created town_B1
+[2016.06.09-15.37.09:052][ 94]LogActorFactory: Actor Factory created town_B1
+[2016.06.09-15.37.13:328][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube34)
+[2016.06.09-15.37.15:528][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_B1)
+[2016.06.09-15.37.18:219][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube34)
+[2016.06.09-15.37.21:694][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_B1)
+[2016.06.09-15.37.25:237][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube34)
+[2016.06.09-15.37.27:923][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_B1)
+[2016.06.09-15.37.37:914][433]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube34)
+[2016.06.09-15.37.39:892][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_B1)
+[2016.06.09-15.37.48:926][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube34)
+[2016.06.09-15.37.53:081][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_B1)
+[2016.06.09-15.38.03:118][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube34)
+[2016.06.09-15.38.08:144][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_B1)
+[2016.06.09-15.38.25:879][  1]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.38.25:881][  1]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.38.25:882][  1]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.38.25:883][  1]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.38.25:885][  1]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.38.25:886][  1]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.38.25:887][  1]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.38.27:250][  1]LogEditorActor: Deleted 7 Actors (1.377 secs)
+[2016.06.09-15.38.32:060][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube32)
+[2016.06.09-15.38.33:861][716]LogActorFactory: Actor Factory created town_B2
+[2016.06.09-15.38.34:961][835]LogActorFactory: Actor Factory created town_B2
+[2016.06.09-15.39.00:254][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_B2)
+[2016.06.09-15.39.04:937][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_B2)
+[2016.06.09-15.39.15:277][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_B2)
+[2016.06.09-15.39.24:104][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube32)
+[2016.06.09-15.39.28:835][795]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.28:837][795]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.28:838][795]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.28:839][795]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.28:841][795]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.28:842][795]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.28:843][795]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.28:844][795]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.28:845][795]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.28:845][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.28:848][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.28:849][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.28:850][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.28:851][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.28:852][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.28:853][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.28:855][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.28:855][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.28:857][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.28:858][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.28:859][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.28:861][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.28:862][795]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.28:863][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.28:864][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.30:070][795]LogEditorActor: Deleted 25 Actors (1.241 secs)
+[2016.06.09-15.39.34:541][293]Cmd: TRANSACTION UNDO
+[2016.06.09-15.39.34:541][293]LogEditorTransaction: Undo Delete selection
+[2016.06.09-15.39.38:475][623]Cmd: DELETE
+[2016.06.09-15.39.38:475][623]Cmd: ACTOR DELETE
+[2016.06.09-15.39.38:484][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:485][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:487][623]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.38:488][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:490][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:491][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:492][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:494][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:495][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:496][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:497][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:499][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:500][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:501][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:502][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:504][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.09-15.39.38:505][623]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.38:506][623]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.38:507][623]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.38:508][623]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.38:509][623]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.38:510][623]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.38:511][623]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.38:513][623]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.38:514][623]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.39.39:558][623]LogEditorActor: Deleted 25 Actors (1.080 secs)
+[2016.06.09-15.39.51:483][  3]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (town_B1)
+[2016.06.09-15.39.52:460][ 97]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.09-15.39.52:460][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.09-15.39.52:460][ 97]PIE: New page: PIE session: Town (Jun 9, 2016, 6:39:52 AM)
+[2016.06.09-15.39.52:461][ 97]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.09-15.39.52:755][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.294598s)
+[2016.06.09-15.39.52:756][ 97]LogAIModule: Creating AISystem for world Town
+[2016.06.09-15.39.52:756][ 97]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2016.06.09-15.39.52:756][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.295757s)
+[2016.06.09-15.39.52:781][ 97]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.09-15.39.52:785][ 97]LogInit: FAudioDevice initialized.
+[2016.06.09-15.39.52:827][ 97]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.09-15.39.52:903][ 97]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.09-11.39.52
+[2016.06.09-15.39.52:929][ 97]LogWorld: Bringing up level for play took: 0.100281
+[2016.06.09-15.39.52:933][ 97]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 9 classes and 0 folders.
+[2016.06.09-15.39.52:935][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue2 out of bounds [0/0]!
+[2016.06.09-15.39.52:935][ 97]PIE:Warning: Warning ThirdPersonCharacter_C_7.StaticMeshComponent_47 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.09-15.39.53:799][ 97]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.667
+[2016.06.09-15.39.53:799][ 97]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.09-15.39.53:911][ 98]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.069789 > MaxSimulationTimeStep (0.050) for 'EllianaCharacter_2', movement 'Walking'
+[2016.06.09-15.40.06:598][543]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.09-15.40.06:659][543]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.09-15.40.10:506][923]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (town_B1)
+[2016.06.09-15.40.11:477][  4]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.09-15.40.11:477][  4]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.09-15.40.11:477][  4]PIE: New page: PIE session: Town (Jun 9, 2016, 6:40:11 AM)
+[2016.06.09-15.40.11:478][  4]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.09-15.40.11:770][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.292626s)
+[2016.06.09-15.40.11:771][  4]LogAIModule: Creating AISystem for world Town
+[2016.06.09-15.40.11:771][  4]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2016.06.09-15.40.11:771][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.293684s)
+[2016.06.09-15.40.11:795][  4]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.09-15.40.11:799][  4]LogInit: FAudioDevice initialized.
+[2016.06.09-15.40.11:830][  4]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.09-15.40.11:904][  4]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.09-11.40.11
+[2016.06.09-15.40.11:929][  4]LogWorld: Bringing up level for play took: 0.098518
+[2016.06.09-15.40.11:932][  4]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue2 out of bounds [0/0]!
+[2016.06.09-15.40.11:932][  4]PIE:Warning: Warning ThirdPersonCharacter_C_8.StaticMeshComponent_49 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.09-15.40.11:935][  4]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.197
+[2016.06.09-15.40.11:935][  4]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.09-15.40.11:952][  5]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.070456 > MaxSimulationTimeStep (0.050) for 'EllianaCharacter_2', movement 'Walking'
+[2016.06.09-15.40.37:897][ 96]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue2 out of bounds [0/0]!
+[2016.06.09-15.40.38:138][125]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue out of bounds [0/0]!
+[2016.06.09-15.40.43:506][769]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue2 out of bounds [0/0]!
+[2016.06.09-15.40.44:716][914]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.09-15.40.44:776][914]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.09-15.41.16:614][426]LogActorFactory: Actor Factory created town_House1
+[2016.06.09-15.41.17:549][511]LogActorFactory: Actor Factory created town_House1
+[2016.06.09-15.41.36:760][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_House1)
+[2016.06.09-15.41.45:803][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_House1)
+[2016.06.09-15.41.52:694][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_House1)
+[2016.06.09-15.42.04:900][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:901][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:902][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:904][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:904][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:906][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:907][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:908][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:909][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:910][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:911][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:912][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:913][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:914][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:915][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:916][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:918][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:919][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:920][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:921][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:922][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:923][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:924][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:925][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:926][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:927][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.04:928][978]LogEditorActor: Deleted Actor: Brush
+[2016.06.09-15.42.06:081][978]LogEditorActor: Deleted 27 Actors (1.187 secs)
+[2016.06.09-15.42.07:891][110]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.09-15.42.07:891][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.09-15.42.07:892][110]PIE: New page: PIE session: Town (Jun 9, 2016, 6:42:07 AM)
+[2016.06.09-15.42.07:892][110]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2016.06.09-15.42.08:181][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.289324s)
+[2016.06.09-15.42.08:182][110]LogAIModule: Creating AISystem for world Town
+[2016.06.09-15.42.08:182][110]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2016.06.09-15.42.08:182][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.290470s)
+[2016.06.09-15.42.08:207][110]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.09-15.42.08:211][110]LogInit: FAudioDevice initialized.
+[2016.06.09-15.42.08:243][110]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.09-15.42.08:316][110]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.09-11.42.08
+[2016.06.09-15.42.08:341][110]LogWorld: Bringing up level for play took: 0.096675
+[2016.06.09-15.42.08:344][110]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue2 out of bounds [0/0]!
+[2016.06.09-15.42.08:344][110]PIE:Warning: Warning ThirdPersonCharacter_C_9.StaticMeshComponent_51 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.06.09-15.42.08:347][110]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 0.215
+[2016.06.09-15.42.08:354][110]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.09-15.42.08:379][111]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.071017 > MaxSimulationTimeStep (0.050) for 'EllianaCharacter_2', movement 'Walking'
+[2016.06.09-15.42.11:262][390]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue2 out of bounds [0/0]!
+[2016.06.09-15.42.12:739][564]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue out of bounds [0/0]!
+[2016.06.09-15.42.15:380][879]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.09-15.42.15:431][879]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2016.06.09-15.42.17:521][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (town_House1)
+[2016.06.09-15.42.23:090][722]Cmd: TRANSACTION UNDO
+[2016.06.09-15.42.23:090][722]LogEditorTransaction: Undo Clicking on Actors
+[2016.06.09-15.42.23:318][733]Cmd: TRANSACTION UNDO
+[2016.06.09-15.42.23:318][733]LogEditorTransaction: Undo Select Surfaces
+[2016.06.09-15.42.23:535][744]Cmd: TRANSACTION UNDO
+[2016.06.09-15.42.23:535][744]LogEditorTransaction: Undo Delete selection
+[2016.06.09-15.42.23:690][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Placeholder_12.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:691][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:693][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.roof2.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:696][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.stairhole3.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:696][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush48_34.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:699][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.LinearStairBrush14.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:701][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.DecorativePlatform5_38.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:702][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush27_15.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:702][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BannerPole8_51.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:772][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.stove3.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:774][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BGB-a2.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:775][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush129.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:776][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BGB-B5.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:778][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.CurvedStairBrush2.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:780][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush117.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:781][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Boat7.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:784][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BannerPole23.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:786][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.InnerBalcony8.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:786][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Boat2_29.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:788][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.Couch11.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:789][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.stove16.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:789][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.INTERIORWALL52.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:791][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.stove7.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:791][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BoxBrush71.BrushComponent0) Component already registered.
+[2016.06.09-15.42.23:794][744]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Town.Town:PersistentLevel.BannerPole10_191.BrushComponent0) Component already registered.
+[2016.06.09-15.42.24:591][744]Cmd: TRANSACTION UNDO
+[2016.06.09-15.42.24:591][744]LogEditorTransaction: Undo Clicking on Actors
+[2016.06.09-15.42.24:600][744]Cmd: TRANSACTION UNDO
+[2016.06.09-15.42.24:600][744]LogEditorTransaction: Undo Clicking on Actors
+[2016.06.09-15.42.24:610][744]Cmd: TRANSACTION UNDO
+[2016.06.09-15.42.24:610][744]LogEditorTransaction: Undo Select Brush Surface
+[2016.06.09-15.42.24:832][751]Cmd: TRANSACTION UNDO
+[2016.06.09-15.42.24:832][751]LogEditorTransaction: Undo Set actor location
+[2016.06.09-15.42.25:414][810]Cmd: TRANSACTION UNDO
+[2016.06.09-15.42.25:414][810]LogEditorTransaction: Undo Clicking on Actors
+[2016.06.09-15.42.25:618][830]Cmd: TRANSACTION UNDO
+[2016.06.09-15.42.25:618][830]LogEditorTransaction: Undo Select Brush Surface
+[2016.06.09-15.42.25:889][857]Cmd: TRANSACTION UNDO
+[2016.06.09-15.42.25:889][857]LogEditorTransaction: Undo Clicking on Actors
+[2016.06.09-15.42.30:100][334]LogActorFactory: Actor Factory created town_House2
+[2016.06.09-15.42.30:818][407]LogActorFactory: Actor Factory created town_House2
+[2016.06.09-15.42.40:345][500]LogActorFactory: Actor Factory created town_House3
+[2016.06.09-15.42.40:792][541]LogActorFactory: Actor Factory created town_House3
+[2016.06.09-15.42.53:394][771]LogSavePackage: Save=1792.82ms
+[2016.06.09-15.42.53:394][771]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/TownCAB518EB4DA2AE54908BA88266E5B61B.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap'
+[2016.06.09-15.42.53:398][771]LogSavePackage: Total save time: 1813.41ms
+[2016.06.09-15.42.53:398][771]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap
+[2016.06.09-15.43.28:541][890]Cmd: QUIT_EDITOR
+[2016.06.09-15.43.28:799][890]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.06.09-15.43.28:800][890]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.06.09-15.43.28:836][890]LogExit: Preparing to exit.
+[2016.06.09-15.43.29:304][890]LogExit: Editor shut down
+[2016.06.09-15.43.29:304][890]LogExit: Transaction tracking system shut down
+[2016.06.09-15.43.29:472][890]LogObj: Freed 0b from 0 cluster array pools.
+[2016.06.09-15.43.29:473][890]LogExit: Object subsystem successfully closed.
+[2016.06.09-15.43.29:494][890]LogD3D11RHI: Shutdown
+[2016.06.09-15.43.29:494][890]LogD3D11RHI: CleanupD3DDevice
+[2016.06.09-15.43.29:572][890]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.09-15.43.29:648][890]LogDerivedDataCache: Shutdown
+[2016.06.09-15.43.29:649][890]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (208)
+[2016.06.09-15.43.29:649][890]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (207)
+[2016.06.09-15.43.29:649][890]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (206)
+[2016.06.09-15.43.29:649][890]LogModuleManager: Shutting down and abandoning module CrashTracker (205)
+[2016.06.09-15.43.29:649][890]LogModuleManager: Shutting down and abandoning module SceneOutliner (204)
+[2016.06.09-15.43.29:649][890]LogModuleManager: Shutting down and abandoning module SuperSearch (203)
+[2016.06.09-15.43.29:649][890]LogModuleManager: Shutting down and abandoning module WidgetCarousel (202)
+[2016.06.09-15.43.29:649][890]LogModuleManager: Shutting down and abandoning module AddContentDialog (201)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module GameplayTags (200)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module EditorWidgets (199)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module CollectionManager (198)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module StatsViewer (197)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module FoliageEdit (196)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module LandscapeEditor (195)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module ActorPickerMode (194)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module GeometryMode (193)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module TextureAlignMode (192)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module BspMode (191)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module PlacementMode (190)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module AutomationWorker (189)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module CharacterAI (188)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module SmartSnapping (187)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module ViewportSnapping (186)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module LogVisualizer (185)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (184)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module IntroTutorials (183)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (182)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (181)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (180)
+[2016.06.09-15.43.29:650][890]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (179)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (178)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (177)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (176)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module MergeActors (175)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module SizeMap (174)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module TreeMap (173)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module ReferenceViewer (172)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module LocalizationService (171)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (170)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module HardwareTargeting (169)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (168)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module UndoHistory (167)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module UserFeedback (166)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module XmlParser (165)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module Blutility (164)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (163)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (162)
+[2016.06.09-15.43.29:948][890]LogModuleManager: Shutting down and abandoning module InputBindingEditor (161)
+[2016.06.09-15.43.29:949][890]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (160)
+[2016.06.09-15.43.29:949][890]LogModuleManager: Shutting down and abandoning module SettingsEditor (159)
+[2016.06.09-15.43.29:949][890]LogModuleManager: Shutting down and abandoning module ProjectLauncher (158)
+[2016.06.09-15.43.29:949][890]LogModuleManager: Shutting down and abandoning module SessionFrontend (157)
+[2016.06.09-15.43.29:949][890]LogModuleManager: Shutting down and abandoning module ProfilerClient (156)
+[2016.06.09-15.43.29:949][890]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (155)
+[2016.06.09-15.43.29:949][890]LogModuleManager: Shutting down and abandoning module DeviceManager (154)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module AutomationController (153)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module AutomationWindow (152)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module Layers (151)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (150)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module DetailCustomizations (149)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module PackagesDialog (148)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module Persona (147)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module Kismet (146)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module GraphEditor (145)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module ClassViewer (144)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module Toolbox (143)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module ModuleUI (142)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module MovieSceneTools (141)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module OutputLog (140)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module GammaUI (139)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module Documentation (138)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (137)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module AnalyticsET (136)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module Analytics (135)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module PortalServices (134)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module PortalRpc (133)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module MessagingRpc (132)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module GameplayDebugger (130)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module AIModule (129)
+[2016.06.09-15.43.29:992][890]LogModuleManager: Shutting down and abandoning module ProfilerService (128)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module TaskGraph (127)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module SubstanceEditor (126)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module SlateRemote (125)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module SteamVRController (124)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module SteamVR (123)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (122)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module OculusLibrary (121)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module OculusInput (120)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (119)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module CableComponent (118)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (117)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (116)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module HTML5Networking (115)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.06.09-15.43.30:058][890]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.06.09-15.43.30:059][890]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.06.09-15.43.30:059][890]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.06.09-15.43.30:059][890]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (97)
+[2016.06.09-15.43.30:060][890]LogModuleManager: Shutting down and abandoning module AssetRegistry (96)
+[2016.06.09-15.43.30:182][890]LogModuleManager: Shutting down and abandoning module ContentBrowser (95)
+[2016.06.09-15.43.30:182][890]LogModuleManager: Shutting down and abandoning module Paper2DEditor (94)
+[2016.06.09-15.43.30:182][890]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.06.09-15.43.30:283][890]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.06.09-15.43.30:285][890]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.06.09-15.43.30:285][890]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.06.09-15.43.30:285][890]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.06.09-15.43.30:285][890]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.06.09-15.43.30:285][890]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.06.09-15.43.30:285][890]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.06.09-15.43.30:285][890]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.06.09-15.43.30:285][890]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.06.09-15.43.30:285][890]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.06.09-15.43.30:285][890]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.06.09-15.43.30:287][890]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.06.09-15.43.30:287][890]LogDerivedDataCache: Shutdown
+[2016.06.09-15.43.30:287][890]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.06.09-15.43.30:288][890]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.06.09-15.43.32:291][890]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.06.09-15.43.32:291][890]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.06.09-15.43.32:291][890]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.09-15.43.32:291][890]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.06.09-15.43.32:291][890]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.09-15.43.32:291][890]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.09-15.43.32:291][890]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.09-15.43.32:292][890]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.09-15.43.32:292][890]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.09-15.43.32:292][890]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.09-15.43.32:292][890]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.09-15.43.32:292][890]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.09-15.43.32:292][890]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.09-15.43.32:292][890]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.09-15.43.32:292][890]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.09-15.43.32:292][890]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.09-15.43.32:292][890]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.09-15.43.32:293][890]LogExit: Exiting.
+[2016.06.09-15.43.32:305][890]Log file closed, 06/09/16 11:43:32
