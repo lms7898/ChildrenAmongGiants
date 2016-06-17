@@ -1,9 +1,9 @@
-﻿Log file open, 06/17/16 11:08:41
+﻿Log file open, 06/17/16 12:07:41
 LogInit:Display: Running engine for game: WhisperOfALullaby
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(402175887) SRandInit(402175889).
+LogInit:Display: RandInit(308024408) SRandInit(308024410).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-LogStats: Stats thread started at 0.071271
+LogStats: Stats thread started at 0.070501
 LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
@@ -29,660 +29,459 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.06.17-15.08.41:348][  0]LogInit: Selected Device Profile: [Windows]
-[2016.06.17-15.08.41:348][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.06.17-15.08.41:357][  0]LogInit: Computer: MAGIC07
-[2016.06.17-15.08.41:357][  0]LogInit: User: MagicUser
-[2016.06.17-15.08.41:357][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.06.17-15.08.41:357][  0]LogInit: High frequency timer resolution =3.613282 MHz
-[2016.06.17-15.08.41:357][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.06.17-15.08.41:357][  0]LogMemory: Platform Memory Stats for Windows
-[2016.06.17-15.08.41:357][  0]LogMemory: Process Physical Memory: 313.64 MB used, 313.64 MB peak
-[2016.06.17-15.08.41:357][  0]LogMemory: Process Virtual Memory: 314.85 MB used, 314.85 MB peak
-[2016.06.17-15.08.41:357][  0]LogMemory: Physical Memory: 4903.94 MB used, 16302.16 MB total
-[2016.06.17-15.08.41:357][  0]LogMemory: Virtual Memory: 653.23 MB used, 134217728.00 MB total
-[2016.06.17-15.08.41:386][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.06.17-15.08.41:716][  0]LogD3D11RHI: D3D11 adapters:
-[2016.06.17-15.08.41:743][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
-[2016.06.17-15.08.41:743][  0]LogD3D11RHI:       3013MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 2 output[s]
-[2016.06.17-15.08.41:744][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.06.17-15.08.41:744][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
-[2016.06.17-15.08.41:744][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.06.17-15.08.41:749][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.06.17-15.08.41:749][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
-[2016.06.17-15.08.41:749][  0]LogD3D11RHI:   Driver Version: 10.18.13.6191 (internal 10.18.13.6191)
-[2016.06.17-15.08.41:749][  0]LogD3D11RHI:      Driver Date: 2-8-2016
-[2016.06.17-15.08.41:749][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.06.17-15.08.41:761][  0]LogD3D11RHI: Async texture creation enabled
-[2016.06.17-15.08.41:777][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Intermediate/Shaders/WorkingDirectory/4808/).
-[2016.06.17-15.08.41:777][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MAGICU~1/AppData/Local/Temp/UnrealShaderWorkingDir/49F606204FE821D5B95CD580AEBC80FF/'.
-[2016.06.17-15.08.41:777][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.06.17-15.08.42:640][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.06.17-15.08.42:644][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.06.17-15.08.42:648][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.06.17-15.08.42:652][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.06.17-15.08.42:656][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.06.17-15.08.42:658][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.06.17-15.08.42:660][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.06.17-15.08.42:663][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.06.17-15.08.42:667][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.06.17-15.08.42:669][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.06.17-15.08.42:672][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.06.17-15.08.42:677][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.06.17-15.08.42:677][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.06.17-15.08.42:678][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.06.17-15.08.42:694][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.06.17-15.08.42:696][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.06.17-15.08.42:699][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.06.17-15.08.42:702][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.06.17-15.08.42:704][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.06.17-15.08.42:704][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.06.17-15.08.42:770][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.06.17-15.08.42:813][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.06.17-15.08.42:813][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.06.17-15.08.42:814][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.06.17-15.08.42:814][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.06.17-15.08.42:814][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.06.17-15.08.42:814][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.06.17-15.08.42:826][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.06.17-15.08.42:838][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MagicUser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.06.17-15.08.42:990][  0]LogInit: Selected Device Profile: [Windows]
-[2016.06.17-15.08.42:991][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.06.17-15.08.43:024][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.06.17-15.08.43:129][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.06.17-15.08.43:129][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.06.17-15.08.43:129][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.06.17-15.08.43:333][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.06.17-15.08.43:333][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.06.17-15.08.43:333][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.06.17-15.08.43:338][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.06.17-15.08.43:414][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.06.17-15.08.43:414][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.06.17-15.08.43:495][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.06.17-15.08.43:495][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.06.17-15.08.43:495][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.06.17-15.08.43:495][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.06.17-15.08.43:496][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.06.17-15.08.43:496][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.06.17-15.08.43:968][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2016.06.17-15.08.43:977][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.06.17-15.08.44:078][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
-[2016.06.17-15.08.44:235][  0]SourceControl: Info Source control is disabled
-[2016.06.17-15.08.44:272][  0]SourceControl: Info Source control is disabled
-[2016.06.17-15.08.44:281][  0]SourceControl: Info Source control is disabled
-[2016.06.17-15.08.44:290][  0]SourceControl: Info Source control is disabled
-[2016.06.17-15.08.44:427][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.06.17-15.08.44:510][  0]LogEngine: Initializing Engine...
-[2016.06.17-15.08.44:629][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.06.17-15.08.44:634][  0]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.06.17-15.08.44:645][  0]LogInit: FAudioDevice initialized.
-[2016.06.17-15.08.44:668][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.06.17-15.08.44:673][  0]LogInit: Texture streaming: Enabled
-[2016.06.17-15.08.44:694][  0]LogInit: Transaction tracking system initialized
-[2016.06.17-15.08.44:714][  0]BlueprintLog: New page: Editor Load
-[2016.06.17-15.08.44:786][  0]LocalizationService: Info Localization service is disabled
-[2016.06.17-15.08.44:852][  0]LogConsoleResponse:Display: 
-[2016.06.17-15.08.44:944][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.06.17-15.08.44:944][  0]LogCook:Display: Mobile HDR setting 1
-[2016.06.17-15.08.44:944][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.06.17-15.08.44:991][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/' took 0.02s
-[2016.06.17-15.08.44:991][  0]SourceControl: Info Source control is disabled
-[2016.06.17-15.08.44:991][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.17-15.08.44:992][  0]LightingResults: New page: Lighting Build
-[2016.06.17-15.08.44:995][  0]MapCheck: New page: Map Check
-[2016.06.17-15.08.44:995][  0]LightingResults: New page: Lighting Build
-[2016.06.17-15.08.45:606][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning 'Item' is already a 'Manager', you don't need  Cast To Manager .
-[2016.06.17-15.08.45:608][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.97] Compile of CrowdSpawner_Blueprint successful, but with 1 Warning(s) [in 4 ms]
-[2016.06.17-15.08.45:608][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.97] Compile of CrowdSpawner_Blueprint successful, but with 2 Warning(s) [in 0 ms]
-[2016.06.17-15.08.45:608][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.97] Compile of CrowdSpawner_Blueprint successful, but with 3 Warning(s) [in 0 ms]
-[2016.06.17-15.08.45:644][  0]LogBlueprint:Warning: [compiler Manager] Warning Can't connect pins  Target Array  and  Out Actors : Array of References is not compatible with Array of Actor References.
-[2016.06.17-15.08.45:644][  0]LogBlueprint:Warning: [compiler Manager] Warning Can't connect pins  Out Actors  and  Target Array : Array of Actor References is not compatible with Array of References.
-[2016.06.17-15.08.45:644][  0]LogBlueprint:Error: [compiler Manager] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
-[2016.06.17-15.08.45:655][  0]LogBlueprint:Warning: [compiler Manager] Warning [0005.02] Compile of Manager failed. 1 Fatal Issue(s) 2 Warning(s) [in 26 ms]
-[2016.06.17-15.08.45:655][  0]LogBlueprint:Warning: [compiler Manager] Warning [0005.02] Compile of Manager failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
-[2016.06.17-15.08.45:655][  0]LogBlueprint:Warning: [compiler Manager] Warning [0005.02] Compile of Manager failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
-[2016.06.17-15.08.45:659][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning 'Item' is already a 'Manager', you don't need  Cast To Manager .
-[2016.06.17-15.08.45:661][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0005.03] Compile of CrowdSpawner_Blueprint successful, but with 1 Warning(s) [in 4 ms]
-[2016.06.17-15.08.45:661][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0005.03] Compile of CrowdSpawner_Blueprint successful, but with 2 Warning(s) [in 0 ms]
-[2016.06.17-15.08.45:661][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0005.03] Compile of CrowdSpawner_Blueprint successful, but with 3 Warning(s) [in 0 ms]
-[2016.06.17-15.08.49:310][  0]Warning: Unknown property in Dialogue_TableItem: DataTable=None,RowName=) 
-[2016.06.17-15.08.49:310][  0]Warning: Unknown property in Dialogue_TableItem: RowName=) 
-[2016.06.17-15.08.50:998][  0]Warning: Unknown property in Dialogue_TableItem: DataTable=None,RowName=) 
-[2016.06.17-15.08.50:998][  0]Warning: Unknown property in Dialogue_TableItem: RowName=) 
-[2016.06.17-15.08.53:508][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.06.17-15.08.53:572][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.17-15.08.53:573][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.17-15.08.53:643][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.106ms to complete.
-[2016.06.17-15.08.53:643][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 8.652
-[2016.06.17-15.08.53:756][  0]LogCollectionManager: Loaded 0 collections in 0.001920 seconds
-[2016.06.17-15.08.53:799][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/Collections/' took 0.01s
-[2016.06.17-15.08.53:799][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Developers/MagicUser/Collections/' took 0.01s
-[2016.06.17-15.08.53:799][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Collections/' took 0.01s
-[2016.06.17-15.08.53:799][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.06.17-15.08.53:806][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 1994 classes and 349 folders.
-[2016.06.17-15.08.53:810][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.06.17-15.08.53:810][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.06.17-15.08.53:810][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
-[2016.06.17-15.08.53:816][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.06.17-15.08.53:822][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.06.17-15.08.53:862][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.06.17-15.08.53:867][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.06.17-15.08.53:878][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.06.17-15.08.53:883][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.06.17-15.08.53:909][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.06.17-15.08.53:910][  0]LogLoad: Full Startup: 13.28 seconds (BP compile: 2.74 seconds)
-[2016.06.17-15.08.53:910][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.06.17-15.08.53:910][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.06.17-15.08.53:919][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.06.17-15.08.53:919][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.06.17-15.08.53:919][  0]LogOcInput: OculusInput pre-init called
-[2016.06.17-15.08.53:967][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.06.17-15.08.54:191][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
-[2016.06.17-15.08.54:309][  1]LogAssetRegistry: Asset discovery search completed in 10.2527 seconds
-[2016.06.17-15.08.54:309][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.06.17-15.08.54:309][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
-[2016.06.17-15.09.31:841][ 64]LogAIModule: Creating AISystem for world ClocktowerArea
-[2016.06.17-15.09.31:842][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.06.17-15.09.31:842][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.BPC_UseScanner_GEN_VARIABLE) Not registered. Aborting.
-[2016.06.17-15.09.31:842][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2016.06.17-15.09.31:842][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2016.06.17-15.09.31:842][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
-[2016.06.17-15.09.31:842][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2016.06.17-15.09.31:842][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
-[2016.06.17-15.09.31:842][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.06.17-15.09.41:630][986]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.06.17-15.09.42:905][986]LogSavePackage: Save=8.72ms
-[2016.06.17-15.09.42:905][986]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/ClockTower2F19133D4BF6E03A996E4A86413EE27F.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ClockTower.umap'
-[2016.06.17-15.09.42:908][986]LogSavePackage: Total save time: 11.32ms
-[2016.06.17-15.09.42:908][986]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ClockTower.umap
-[2016.06.17-15.09.42:908][986]LogFileHelpers: Saving map 'ClockTower' took 0.096
-[2016.06.17-15.09.42:911][986]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ClockTower.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.17-15.09.42:911][986]LightingResults: New page: Lighting Build
-[2016.06.17-15.09.42:932][986]LoadErrors: New page: Loading map: ClockTower.umap
-[2016.06.17-15.09.42:932][986]MapCheck: New page: Map Check
-[2016.06.17-15.09.42:932][986]LightingResults: New page: Lighting Build
-[2016.06.17-15.09.42:958][986]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.17-15.09.42:959][986]LogAIModule: Creating AISystem for world ClockTower
-[2016.06.17-15.09.42:994][986]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.17-15.09.43:054][986]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.14ms to complete.
-[2016.06.17-15.09.43:055][986]LogFileHelpers: Loading map 'ClockTower' took 0.146
-[2016.06.17-15.09.56:365][784]Cmd: EDIT PASTE
-[2016.06.17-15.09.56:387][784]Warning: Unable to find function BndEvt__TriggerBox_1_K2Node_ActorBoundEvent_6_ActorBeginOverlapSignature__DelegateSignature in object Clocktower_C_1 for delegate (found class: None)
-[2016.06.17-15.09.56:390][784]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2016.06.17-15.09.59:543][141]MapCheck: New page: Map Check
-[2016.06.17-15.09.59:559][141]Cmd: MAP REBUILD ALLVISIBLE
-[2016.06.17-15.09.59:559][141]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2016.06.17-15.09.59:574][141]LightingResults: New page: Lighting Build - Jun 17, 2016, 6:09:59 AM
-[2016.06.17-15.09.59:604][141]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2016.06.17-15.09.59:660][141]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2016.06.17-15.09.59:670][141]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2016.06.17-15.10.00:177][141]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2016.06.17-15.10.00:177][141]LogSwarmInterface: [TryOpenConnection] Local Process ID is 4808
-[2016.06.17-15.10.01:199][141]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2016.06.17-15.10.01:199][141]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2016.06.17-15.10.01:199][141]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2016.06.17-15.10.01:199][141]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2016.06.17-15.10.01:199][141]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2016.06.17-15.10.01:199][141]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2016.06.17-15.10.01:339][141]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2016.06.17-15.10.01:339][141]MapCheck: New page: ClockTower - Jun 17, 2016, 6:10:01 AM
-[2016.06.17-15.10.01:340][141]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
-[2016.06.17-15.10.01:402][141]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 63.03ms to complete.
-[2016.06.17-15.10.01:425][141]LogEditorBuildUtils: Build time 0:00:01
-[2016.06.17-15.10.01:663][142]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.06.17-15.10.03:102][237]Job is a success!
-[2016.06.17-15.10.03:444][238]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2016.06.17-15.10.03:444][238]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2016.06.17-15.10.03:444][238]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2016.06.17-15.10.03:444][238]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2016.06.17-15.10.03:444][238]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
-[2016.06.17-15.10.03:444][238]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
-[2016.06.17-15.10.03:514][238]Lightmass on MAGIC07: 1.20 sec total, 100 ms importing, 129 ms setup, 270 ms photons, 677 ms processing, 0 ms extra exporting [52/52 mappings]. Threads: 4.58 sec total, 1.33 sec processing.
-[2016.06.17-15.10.03:561][238]LogStaticLightingSystem: Illumination: 3.95 sec (129 ms encoding lightmaps, 146 ms encoding shadowmaps)
-[2016.06.17-15.10.03:561][238]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (0.1 MB streaming, 2.0 MB non-streaming), 4 textures
-[2016.06.17-15.10.03:561][238]LogStaticLightingSystem: Shadowmap texture memory: 2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 2 textures
-[2016.06.17-15.10.04:209][239]Cmd: MAP CHECK NOTIFYRESULTS
-[2016.06.17-15.10.04:209][239]MapCheck: New page: ClockTower - Jun 17, 2016, 6:10:04 AM
-[2016.06.17-15.10.04:274][239]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.701ms to complete.
-[2016.06.17-15.10.13:638][327]LogSavePackage: Save=68.43ms
-[2016.06.17-15.10.13:638][327]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/ClockTowerC73ED58A46EA5944922A5097720574BC.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ClockTower.umap'
-[2016.06.17-15.10.13:641][327]LogSavePackage: Total save time: 76.07ms
-[2016.06.17-15.10.13:641][327]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ClockTower.umap
-[2016.06.17-15.10.16:899][653]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 108 classes and 0 folders.
-[2016.06.17-15.10.40:293][790]BlueprintLog: New page: Compile ClockTower
-[2016.06.17-15.10.43:480][ 65]LogSavePackage: Save=151.38ms
-[2016.06.17-15.10.43:480][ 65]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/ClockTowerBF293F084D127E54DD5F73908D0AFD37.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ClockTower.umap'
-[2016.06.17-15.10.43:482][ 65]LogSavePackage: Total save time: 157.67ms
-[2016.06.17-15.10.43:482][ 65]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ClockTower.umap
-[2016.06.17-15.10.44:279][137]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ClockTower.ClockTower:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ClockTower.ClockTower:PersistentLevel.ClockTower' with GeneratedClass '/Game/Maps/ClockTower.ClockTower_C' with ClassGeneratedBy '/Game/Maps/ClockTower.ClockTower:PersistentLevel.ClockTower'
-[2016.06.17-15.10.44:280][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.17-15.10.44:280][137]PIE: New page: PIE session: ClockTower (Jun 17, 2016, 6:10:44 AM)
-[2016.06.17-15.10.44:283][137]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ClockTower
-[2016.06.17-15.10.44:288][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004341s)
-[2016.06.17-15.10.44:288][137]LogAIModule: Creating AISystem for world ClockTower
-[2016.06.17-15.10.44:288][137]LogPlayLevel: PIE: World Init took: (0.000589s)
-[2016.06.17-15.10.44:288][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ClockTower.ClockTower to /Game/Maps/UEDPIE_0_ClockTower.ClockTower (0.005122s)
-[2016.06.17-15.10.44:316][137]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.06.17-15.10.44:320][137]LogInit: FAudioDevice initialized.
-[2016.06.17-15.10.44:382][137]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2016.06.17-15.10.44:386][137]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ClockTower.ClockTower up for play (max tick rate 0) at 2016.06.17-11.10.44
-[2016.06.17-15.10.44:387][137]LogWorld: Bringing up level for play took: 0.003161
-[2016.06.17-15.10.44:391][137]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 9 classes and 0 folders.
-[2016.06.17-15.10.44:393][137]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue2 out of bounds [0/0]!
-[2016.06.17-15.10.44:394][137]PIE:Warning: Warning ThirdPersonCharacter_C_6.StaticMeshComponent_9 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
-[2016.06.17-15.10.44:398][137]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ClockTower -0.74
-[2016.06.17-15.10.44:399][137]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ClockTower.ClockTower:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ClockTower.ClockTower:PersistentLevel.ClockTower' with GeneratedClass '/Game/Maps/ClockTower.ClockTower_C' with ClassGeneratedBy '/Game/Maps/ClockTower.ClockTower:PersistentLevel.ClockTower'
-[2016.06.17-15.10.45:300][232]LogNet: Browse: /Game/Maps/Town
-[2016.06.17-15.10.45:301][232]LogLoad: LoadMap: /Game/Maps/Town
-[2016.06.17-15.10.45:301][232]PIE:Warning: Warning ThirdPersonCharacter_C_6.StaticMeshComponent_9 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
-[2016.06.17-15.10.45:302][232]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue out of bounds [0/0]!
-[2016.06.17-15.10.45:328][232]Cmd: MEM
-[2016.06.17-15.10.45:352][232]LogMemory: Platform Memory Stats for Windows
-[2016.06.17-15.10.45:352][232]LogMemory: Process Physical Memory: 1419.13 MB used, 1422.93 MB peak
-[2016.06.17-15.10.45:352][232]LogMemory: Process Virtual Memory: 2006.02 MB used, 2008.67 MB peak
-[2016.06.17-15.10.45:352][232]LogMemory: Physical Memory: 7003.29 MB used, 16302.16 MB total
-[2016.06.17-15.10.45:352][232]LogMemory: Virtual Memory: 3243.30 MB used, 134217728.00 MB total
-[2016.06.17-15.10.45:352][232]LogMemory: 
-[2016.06.17-15.10.45:352][232]Allocator Stats for TBB: (not implemented)
-[2016.06.17-15.10.45:950][232]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.17-15.10.45:950][232]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.17-15.10.45:965][232]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.17-15.10.45:967][232]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.17-15.10.45:968][232]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.17-15.10.49:178][232]LogAIModule: Creating AISystem for world Town
-[2016.06.17-15.10.49:178][232]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2016.06.17-15.10.49:268][232]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2016.06.17-11.10.49
-[2016.06.17-15.10.49:275][232]LogWorld: Bringing up level for play took: 0.095659
-[2016.06.17-15.10.49:277][232]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue2 out of bounds [0/0]!
-[2016.06.17-15.10.49:278][232]PIE:Warning: Warning ThirdPersonCharacter_C_7.StaticMeshComponent_11 MatineeCam_SM has to have 'Simulate Physics' enabled if you'd like to GetMass. 
-[2016.06.17-15.10.53:252][578]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ClockTower.ClockTower:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ClockTower.ClockTower:PersistentLevel.ClockTower' with GeneratedClass '/Game/Maps/ClockTower.ClockTower_C' with ClassGeneratedBy '/Game/Maps/ClockTower.ClockTower:PersistentLevel.ClockTower'
-[2016.06.17-15.10.53:347][578]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ClockTower.ClockTower:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ClockTower.ClockTower:PersistentLevel.ClockTower' with GeneratedClass '/Game/Maps/ClockTower.ClockTower_C' with ClassGeneratedBy '/Game/Maps/ClockTower.ClockTower:PersistentLevel.ClockTower'
-[2016.06.17-15.10.55:383][750]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2016.06.17-15.11.36:590][339]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2016.06.17-15.11.36:618][339]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2016.06.17-15.11.36:655][339]LogAIModule: Creating AISystem for world Castle_L1PartB
-[2016.06.17-15.11.36:659][339]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/BlueprintParticles/P_DamagingSandStart.P_DamagingSandStart Component=/Game/Maps/Castle_L1PartB.Castle_L1PartB:PersistentLevel.FallingSand2.SandStart
-[2016.06.17-15.11.36:659][339]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/BlueprintParticles/P_DamagingSandStart.P_DamagingSandStart Component=/Game/Maps/Castle_L1PartB.Castle_L1PartB:PersistentLevel.FallingSand3_1611.SandStart
-[2016.06.17-15.11.36:659][339]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/BlueprintParticles/P_DamagingSandStart.P_DamagingSandStart Component=/Game/Maps/Castle_L1PartB.Castle_L1PartB:PersistentLevel.FallingSand_843.SandStart
-[2016.06.17-15.11.36:663][339]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/BlueprintParticles/P_DamagingSandStart.P_DamagingSandStart Component=/Game/Maps/Castle_L1PartB.Castle_L1PartB:PersistentLevel.FallingSand2.SandStart
-[2016.06.17-15.11.36:663][339]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/BlueprintParticles/P_DamagingSandStart.P_DamagingSandStart Component=/Game/Maps/Castle_L1PartB.Castle_L1PartB:PersistentLevel.FallingSand2.SandStart
-[2016.06.17-15.11.36:664][339]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/BlueprintParticles/P_DamagingSandStart.P_DamagingSandStart Component=/Game/Maps/Castle_L1PartB.Castle_L1PartB:PersistentLevel.FallingSand3_1611.SandStart
-[2016.06.17-15.11.36:664][339]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/BlueprintParticles/P_DamagingSandStart.P_DamagingSandStart Component=/Game/Maps/Castle_L1PartB.Castle_L1PartB:PersistentLevel.FallingSand3_1611.SandStart
-[2016.06.17-15.11.36:664][339]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/BlueprintParticles/P_DamagingSandStart.P_DamagingSandStart Component=/Game/Maps/Castle_L1PartB.Castle_L1PartB:PersistentLevel.FallingSand_843.SandStart
-[2016.06.17-15.11.36:664][339]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/BlueprintParticles/P_DamagingSandStart.P_DamagingSandStart Component=/Game/Maps/Castle_L1PartB.Castle_L1PartB:PersistentLevel.FallingSand_843.SandStart
-[2016.06.17-15.11.36:707][339]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Castle_L1PartB.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.17-15.11.36:707][339]LightingResults: New page: Lighting Build
-[2016.06.17-15.11.36:727][339]LoadErrors: New page: Loading map: Castle_L1PartB.umap
-[2016.06.17-15.11.36:728][339]MapCheck: New page: Map Check
-[2016.06.17-15.11.36:728][339]LightingResults: New page: Lighting Build
-[2016.06.17-15.11.36:770][339]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.17-15.11.36:803][339]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.17-15.11.36:888][339]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.262ms to complete.
-[2016.06.17-15.11.36:889][339]LogFileHelpers: Loading map 'Castle_L1PartB' took 0.184
-[2016.06.17-15.11.47:810][632]LogEditorActor: Deleted Actor: PointLight
-[2016.06.17-15.11.47:811][632]LogEditorActor: Deleted Actor: PointLight
-[2016.06.17-15.11.47:812][632]LogEditorActor: Deleted Actor: PointLight
-[2016.06.17-15.11.47:813][632]LogEditorActor: Deleted Actor: PointLight
-[2016.06.17-15.11.47:814][632]LogEditorActor: Deleted Actor: PointLight
-[2016.06.17-15.11.47:815][632]LogEditorActor: Deleted Actor: PointLight
-[2016.06.17-15.11.47:816][632]LogEditorActor: Deleted Actor: PointLight
-[2016.06.17-15.11.47:817][632]LogEditorActor: Deleted Actor: PointLight
-[2016.06.17-15.11.47:818][632]LogEditorActor: Deleted Actor: PointLight
-[2016.06.17-15.11.47:818][632]LogEditorActor: Deleted Actor: PointLight
-[2016.06.17-15.11.47:819][632]LogEditorActor: Deleted Actor: PointLight
-[2016.06.17-15.11.47:820][632]LogEditorActor: Deleted Actor: PointLight
-[2016.06.17-15.11.47:821][632]LogEditorActor: Deleted Actor: PointLight
-[2016.06.17-15.11.47:822][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.06.17-15.11.47:849][632]LogEditorActor: Deleted 13 Actors (0.042 secs)
-[2016.06.17-15.12.18:964][303]MapCheck: New page: Map Check
-[2016.06.17-15.12.18:991][303]Cmd: MAP REBUILD ALLVISIBLE
-[2016.06.17-15.12.18:991][303]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2016.06.17-15.12.19:206][303]LightingResults: New page: Lighting Build - Jun 17, 2016, 6:12:19 AM
-[2016.06.17-15.12.19:218][303]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2016.06.17-15.12.19:220][303]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2016.06.17-15.12.19:220][303]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2016.06.17-15.12.19:221][303]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2016.06.17-15.12.19:221][303]LogSwarmInterface: [TryOpenConnection] Local Process ID is 4808
-[2016.06.17-15.12.20:870][303]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2016.06.17-15.12.20:870][303]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2016.06.17-15.12.20:870][303]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2016.06.17-15.12.20:870][303]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2016.06.17-15.12.20:870][303]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2016.06.17-15.12.20:970][303]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2016.06.17-15.12.20:970][303]MapCheck: New page: Castle_L1PartB - Jun 17, 2016, 6:12:20 AM
-[2016.06.17-15.12.21:056][303]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 86.064ms to complete.
-[2016.06.17-15.12.21:078][303]LogEditorBuildUtils: Build time 0:00:02
-[2016.06.17-15.12.21:126][304]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.06.17-15.12.25:236][633]Job is a success!
-[2016.06.17-15.12.25:798][634]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2016.06.17-15.12.25:798][634]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2016.06.17-15.12.25:798][634]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2016.06.17-15.12.25:798][634]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2016.06.17-15.12.25:798][634]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2016.06.17-15.12.25:798][634]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2016.06.17-15.12.25:844][634]Lightmass on MAGIC07: 4.25 sec total, 107 ms importing, 134 ms setup, 1.06 sec photons, 2.92 sec processing, 0 ms extra exporting [465/465 mappings]. Threads: 20.3 sec total, 13.0 sec processing.
-[2016.06.17-15.12.25:875][634]LogStaticLightingSystem: Illumination: 6.64 sec (290 ms encoding lightmaps, 0 ms encoding shadowmaps)
-[2016.06.17-15.12.25:875][634]LogStaticLightingSystem: Lightmap texture memory:  4.1 MB (0.1 MB streaming, 4.0 MB non-streaming), 6 textures
-[2016.06.17-15.12.25:875][634]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2016.06.17-15.12.26:879][635]Cmd: MAP CHECK NOTIFYRESULTS
-[2016.06.17-15.12.26:879][635]MapCheck: New page: Castle_L1PartB - Jun 17, 2016, 6:12:26 AM
-[2016.06.17-15.12.26:965][635]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 86.363ms to complete.
-[2016.06.17-15.13.00:089][754]LogSavePackage: Save=9.09ms
-[2016.06.17-15.13.00:089][754]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/Castle_L1PartAF7E3FC7C43AB7B6C0C5E4CBB911A308B.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Castle_L1PartA.umap'
-[2016.06.17-15.13.00:091][754]LogSavePackage: Total save time: 11.40ms
-[2016.06.17-15.13.00:091][754]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Castle_L1PartA.umap
-[2016.06.17-15.13.00:091][754]LogFileHelpers: Saving map 'Castle_L1PartA' took 0.129
-[2016.06.17-15.13.00:626][754]LogSavePackage: Save=412.19ms
-[2016.06.17-15.13.00:627][754]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/Castle_L1PartB004EEFFA4C484240A8842BB7C2909DAC.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Castle_L1PartB.umap'
-[2016.06.17-15.13.00:630][754]LogSavePackage: Total save time: 427.93ms
-[2016.06.17-15.13.00:630][754]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Castle_L1PartB.umap
-[2016.06.17-15.13.00:703][754]LogFileHelpers: Saving map 'Castle_L1PartB' took 0.612
-[2016.06.17-15.13.00:715][754]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Castle_L1PartA.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.17-15.13.00:715][754]LightingResults: New page: Lighting Build
-[2016.06.17-15.13.00:737][754]LoadErrors: New page: Loading map: Castle_L1PartA.umap
-[2016.06.17-15.13.00:739][754]MapCheck: New page: Map Check
-[2016.06.17-15.13.00:739][754]LightingResults: New page: Lighting Build
-[2016.06.17-15.13.00:773][754]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.17-15.13.00:773][754]LogAIModule: Creating AISystem for world Castle_L1PartA
-[2016.06.17-15.13.00:806][754]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.17-15.13.00:886][754]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.476ms to complete.
-[2016.06.17-15.13.00:886][754]LogFileHelpers: Loading map 'Castle_L1PartA' took 0.182
-[2016.06.17-15.13.15:983][ 37]Cmd: EDIT PASTE
-[2016.06.17-15.13.21:656][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.06.17-15.13.21:828][685]LogSavePackage: Save=17.52ms
-[2016.06.17-15.13.21:828][685]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/Castle_L1PartA32AAFF5E44F21A50BCBCF089D6B67AD2.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Castle_L1PartA.umap'
-[2016.06.17-15.13.21:831][685]LogSavePackage: Total save time: 25.26ms
-[2016.06.17-15.13.21:831][685]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Castle_L1PartA.umap
-[2016.06.17-15.13.21:862][685]LogFileHelpers: Saving map 'Castle_L1PartA' took 0.170
-[2016.06.17-15.13.22:904][784]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.17-15.13.22:904][784]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.17-15.13.22:906][784]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.17-15.13.22:907][784]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.17-15.13.22:907][784]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.06.17-15.13.23:378][784]LogLevelStreaming:Display: Failed to find streaming level package file: /Game/Maps/ClocktowerArea. This streaming level may not load or save properly.
-[2016.06.17-15.13.23:397][784]LogAIModule: Creating AISystem for world Town
-[2016.06.17-15.13.23:406][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint7_794.ActiveParticles
-[2016.06.17-15.13.23:406][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint7_794.DeactiveParticles
-[2016.06.17-15.13.23:406][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint8_2189.ActiveParticles
-[2016.06.17-15.13.23:406][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint8_2189.DeactiveParticles
-[2016.06.17-15.13.23:407][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint16_706.ActiveParticles
-[2016.06.17-15.13.23:407][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint16_706.DeactiveParticles
-[2016.06.17-15.13.23:409][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_4346.ActiveParticles
-[2016.06.17-15.13.23:409][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_4346.DeactiveParticles
-[2016.06.17-15.13.23:409][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_5365.ActiveParticles
-[2016.06.17-15.13.23:409][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_5365.DeactiveParticles
-[2016.06.17-15.13.23:409][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_6064.ActiveParticles
-[2016.06.17-15.13.23:409][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_6064.DeactiveParticles
-[2016.06.17-15.13.23:410][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_7011.ActiveParticles
-[2016.06.17-15.13.23:410][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_7011.DeactiveParticles
-[2016.06.17-15.13.23:410][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_7878.ActiveParticles
-[2016.06.17-15.13.23:410][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_7878.DeactiveParticles
-[2016.06.17-15.13.23:412][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Water_Spout.P_Water_Spout Component=/Game/Maps/Town.Town:PersistentLevel.Fountain_542.ParticleSystem
-[2016.06.17-15.13.23:419][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint7_794.DeactiveParticles
-[2016.06.17-15.13.23:419][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint7_794.ActiveParticles
-[2016.06.17-15.13.23:420][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint7_794.DeactiveParticles
-[2016.06.17-15.13.23:420][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint7_794.ActiveParticles
-[2016.06.17-15.13.23:420][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint8_2189.DeactiveParticles
-[2016.06.17-15.13.23:420][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint8_2189.ActiveParticles
-[2016.06.17-15.13.23:420][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint8_2189.DeactiveParticles
-[2016.06.17-15.13.23:421][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint8_2189.ActiveParticles
-[2016.06.17-15.13.23:422][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint16_706.DeactiveParticles
-[2016.06.17-15.13.23:422][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint16_706.ActiveParticles
-[2016.06.17-15.13.23:422][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint16_706.DeactiveParticles
-[2016.06.17-15.13.23:422][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint16_706.ActiveParticles
-[2016.06.17-15.13.23:425][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_4346.DeactiveParticles
-[2016.06.17-15.13.23:425][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_4346.ActiveParticles
-[2016.06.17-15.13.23:425][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_4346.DeactiveParticles
-[2016.06.17-15.13.23:425][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_4346.ActiveParticles
-[2016.06.17-15.13.23:426][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_5365.DeactiveParticles
-[2016.06.17-15.13.23:426][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_5365.ActiveParticles
-[2016.06.17-15.13.23:426][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_5365.DeactiveParticles
-[2016.06.17-15.13.23:426][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_5365.ActiveParticles
-[2016.06.17-15.13.23:427][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_6064.DeactiveParticles
-[2016.06.17-15.13.23:427][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_6064.ActiveParticles
-[2016.06.17-15.13.23:427][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_6064.DeactiveParticles
-[2016.06.17-15.13.23:427][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_6064.ActiveParticles
-[2016.06.17-15.13.23:427][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_7011.DeactiveParticles
-[2016.06.17-15.13.23:427][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_7011.ActiveParticles
-[2016.06.17-15.13.23:428][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_7011.DeactiveParticles
-[2016.06.17-15.13.23:428][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_7011.ActiveParticles
-[2016.06.17-15.13.23:428][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_7878.DeactiveParticles
-[2016.06.17-15.13.23:428][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_7878.ActiveParticles
-[2016.06.17-15.13.23:428][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_7878.DeactiveParticles
-[2016.06.17-15.13.23:428][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_7878.ActiveParticles
-[2016.06.17-15.13.23:433][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Water_Spout.P_Water_Spout Component=/Game/Maps/Town.Town:PersistentLevel.Fountain_542.ParticleSystem
-[2016.06.17-15.13.23:433][784]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Water_Spout.P_Water_Spout Component=/Game/Maps/Town.Town:PersistentLevel.Fountain_542.ParticleSystem
-[2016.06.17-15.13.23:482][784]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.17-15.13.23:482][784]LightingResults: New page: Lighting Build
-[2016.06.17-15.13.23:504][784]LoadErrors: New page: Loading map: Town.umap
-[2016.06.17-15.13.23:504][784]MapCheck: New page: Map Check
-[2016.06.17-15.13.23:504][784]LightingResults: New page: Lighting Build
-[2016.06.17-15.13.24:513][784]LogStreaming:Error: Couldn't find file for package /Game/Maps/ClocktowerArea.
-[2016.06.17-15.13.24:522][784]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.17-15.13.24:572][784]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.17-15.13.24:656][784]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.021ms to complete.
-[2016.06.17-15.13.24:656][784]LogFileHelpers: Loading map 'Town' took 1.176
-[2016.06.17-15.13.24:717][785]Cmd: UpdateLandscapeEditorData -warnings
-[2016.06.17-15.13.24:718][785]Cmd: UpdateLandscapeEditorData
-[2016.06.17-15.13.26:933][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.06.17-15.13.27:046][ 41]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.06.17-15.13.27:047][ 41]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.06.17-15.13.27:219][ 42]Cmd: QUIT_EDITOR
-[2016.06.17-15.13.27:426][ 42]LogExit: Preparing to exit.
-[2016.06.17-15.13.28:265][ 42]LogExit: Editor shut down
-[2016.06.17-15.13.28:265][ 42]LogExit: Transaction tracking system shut down
-[2016.06.17-15.13.28:481][ 42]LogObj: Freed 0b from 0 cluster array pools.
-[2016.06.17-15.13.28:482][ 42]LogExit: Object subsystem successfully closed.
-[2016.06.17-15.13.28:493][ 42]LogD3D11RHI: Shutdown
-[2016.06.17-15.13.28:493][ 42]LogD3D11RHI: CleanupD3DDevice
-[2016.06.17-15.13.28:576][ 42]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.06.17-15.13.28:607][ 42]LogDerivedDataCache: Shutdown
-[2016.06.17-15.13.28:607][ 42]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (208)
-[2016.06.17-15.13.28:607][ 42]LogModuleManager: Shutting down and abandoning module BlueprintGraph (207)
-[2016.06.17-15.13.28:607][ 42]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (206)
-[2016.06.17-15.13.28:607][ 42]LogModuleManager: Shutting down and abandoning module CrashTracker (205)
-[2016.06.17-15.13.28:607][ 42]LogModuleManager: Shutting down and abandoning module SceneOutliner (204)
-[2016.06.17-15.13.28:607][ 42]LogModuleManager: Shutting down and abandoning module SuperSearch (203)
-[2016.06.17-15.13.28:607][ 42]LogModuleManager: Shutting down and abandoning module WidgetCarousel (202)
-[2016.06.17-15.13.28:607][ 42]LogModuleManager: Shutting down and abandoning module AddContentDialog (201)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module GameplayTags (200)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module EditorWidgets (199)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module CollectionManager (198)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module StatsViewer (197)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module FoliageEdit (196)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module LandscapeEditor (195)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module ActorPickerMode (194)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module GeometryMode (193)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module TextureAlignMode (192)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module BspMode (191)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module PlacementMode (190)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module AutomationWorker (189)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module CharacterAI (188)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module SmartSnapping (187)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module ViewportSnapping (186)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module LogVisualizer (185)
-[2016.06.17-15.13.28:608][ 42]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (184)
-[2016.06.17-15.13.28:609][ 42]LogModuleManager: Shutting down and abandoning module IntroTutorials (183)
-[2016.06.17-15.13.28:609][ 42]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (182)
-[2016.06.17-15.13.28:609][ 42]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (181)
-[2016.06.17-15.13.28:609][ 42]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (180)
-[2016.06.17-15.13.28:609][ 42]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (179)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (178)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (177)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (176)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module MergeActors (175)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module SizeMap (174)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module TreeMap (173)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module ReferenceViewer (172)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module LocalizationService (171)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (170)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module HardwareTargeting (169)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (168)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module UndoHistory (167)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module UserFeedback (166)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module XmlParser (165)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module Blutility (164)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (163)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (162)
-[2016.06.17-15.13.28:914][ 42]LogModuleManager: Shutting down and abandoning module InputBindingEditor (161)
-[2016.06.17-15.13.28:915][ 42]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (160)
-[2016.06.17-15.13.28:915][ 42]LogModuleManager: Shutting down and abandoning module SettingsEditor (159)
-[2016.06.17-15.13.28:915][ 42]LogModuleManager: Shutting down and abandoning module ProjectLauncher (158)
-[2016.06.17-15.13.28:915][ 42]LogModuleManager: Shutting down and abandoning module SessionFrontend (157)
-[2016.06.17-15.13.28:915][ 42]LogModuleManager: Shutting down and abandoning module ProfilerClient (156)
-[2016.06.17-15.13.28:915][ 42]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (155)
-[2016.06.17-15.13.28:915][ 42]LogModuleManager: Shutting down and abandoning module DeviceManager (154)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module AutomationController (153)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module AutomationWindow (152)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module Layers (151)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (150)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module DetailCustomizations (149)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module PackagesDialog (148)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module Persona (147)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module Kismet (146)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module GraphEditor (145)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module ClassViewer (144)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module Toolbox (143)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module ModuleUI (142)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module MovieSceneTools (141)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module OutputLog (140)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module GammaUI (139)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module Documentation (138)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (137)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module AnalyticsET (136)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module Analytics (135)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module PortalServices (134)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module PortalRpc (133)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module MessagingRpc (132)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module GameplayDebugger (130)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module AIModule (129)
-[2016.06.17-15.13.28:957][ 42]LogModuleManager: Shutting down and abandoning module ProfilerService (128)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module TaskGraph (127)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module SubstanceEditor (126)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module SlateRemote (125)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module SteamVRController (124)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module SteamVR (123)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (122)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module OculusLibrary (121)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module OculusInput (120)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (119)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module CableComponent (118)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (117)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (116)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module HTML5Networking (115)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module SourceControl (106)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
-[2016.06.17-15.13.28:986][ 42]LogModuleManager: Shutting down and abandoning module HotReload (100)
-[2016.06.17-15.13.28:987][ 42]LogModuleManager: Shutting down and abandoning module MainFrame (99)
-[2016.06.17-15.13.28:987][ 42]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
-[2016.06.17-15.13.28:987][ 42]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (97)
-[2016.06.17-15.13.28:988][ 42]LogModuleManager: Shutting down and abandoning module AssetRegistry (96)
-[2016.06.17-15.13.29:165][ 42]LogModuleManager: Shutting down and abandoning module ContentBrowser (95)
-[2016.06.17-15.13.29:166][ 42]LogModuleManager: Shutting down and abandoning module Paper2DEditor (94)
-[2016.06.17-15.13.29:166][ 42]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module Paper2D (90)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module Media (88)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module Sequencer (75)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module AssetTools (74)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module UMG (72)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module Slate (70)
-[2016.06.17-15.13.29:267][ 42]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module SessionServices (68)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module Networking (63)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module Core (62)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module CookingStats (58)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
-[2016.06.17-15.13.29:269][ 42]LogDerivedDataCache: Shutdown
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.06.17-15.13.29:269][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.06.17-15.13.29:270][ 42]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.06.17-15.13.31:272][ 42]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.06.17-15.13.31:272][ 42]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.06.17-15.13.31:272][ 42]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.06.17-15.13.31:272][ 42]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.06.17-15.13.31:272][ 42]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.06.17-15.13.31:272][ 42]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.06.17-15.13.31:272][ 42]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.06.17-15.13.31:274][ 42]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.06.17-15.13.31:274][ 42]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.06.17-15.13.31:274][ 42]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.06.17-15.13.31:274][ 42]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.06.17-15.13.31:274][ 42]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.06.17-15.13.31:274][ 42]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.06.17-15.13.31:274][ 42]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.06.17-15.13.31:274][ 42]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.06.17-15.13.31:274][ 42]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.06.17-15.13.31:274][ 42]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.06.17-15.13.31:275][ 42]LogExit: Exiting.
-[2016.06.17-15.13.31:276][ 42]Log file closed, 06/17/16 11:13:31
+[2016.06.17-16.07.41:239][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.17-16.07.41:239][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.06.17-16.07.41:248][  0]LogInit: Computer: MAGIC07
+[2016.06.17-16.07.41:248][  0]LogInit: User: MagicUser
+[2016.06.17-16.07.41:248][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.06.17-16.07.41:248][  0]LogInit: High frequency timer resolution =3.613282 MHz
+[2016.06.17-16.07.41:248][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.06.17-16.07.41:248][  0]LogMemory: Platform Memory Stats for Windows
+[2016.06.17-16.07.41:248][  0]LogMemory: Process Physical Memory: 313.29 MB used, 313.29 MB peak
+[2016.06.17-16.07.41:248][  0]LogMemory: Process Virtual Memory: 314.86 MB used, 314.86 MB peak
+[2016.06.17-16.07.41:248][  0]LogMemory: Physical Memory: 4816.43 MB used, 16302.16 MB total
+[2016.06.17-16.07.41:248][  0]LogMemory: Virtual Memory: 653.23 MB used, 134217728.00 MB total
+[2016.06.17-16.07.41:278][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.06.17-16.07.41:617][  0]LogD3D11RHI: D3D11 adapters:
+[2016.06.17-16.07.41:649][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2016.06.17-16.07.41:649][  0]LogD3D11RHI:       3013MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 2 output[s]
+[2016.06.17-16.07.41:650][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.06.17-16.07.41:650][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
+[2016.06.17-16.07.41:650][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.06.17-16.07.41:654][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.06.17-16.07.41:654][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2016.06.17-16.07.41:654][  0]LogD3D11RHI:   Driver Version: 10.18.13.6191 (internal 10.18.13.6191)
+[2016.06.17-16.07.41:654][  0]LogD3D11RHI:      Driver Date: 2-8-2016
+[2016.06.17-16.07.41:654][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.06.17-16.07.41:666][  0]LogD3D11RHI: Async texture creation enabled
+[2016.06.17-16.07.41:682][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Intermediate/Shaders/WorkingDirectory/12204/).
+[2016.06.17-16.07.41:682][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MAGICU~1/AppData/Local/Temp/UnrealShaderWorkingDir/6B8186F0499F91182BB945A5BDF2BC41/'.
+[2016.06.17-16.07.41:682][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.06.17-16.07.42:524][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.06.17-16.07.42:528][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.06.17-16.07.42:532][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.06.17-16.07.42:536][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.06.17-16.07.42:539][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.06.17-16.07.42:542][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.06.17-16.07.42:545][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.06.17-16.07.42:547][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.06.17-16.07.42:550][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.06.17-16.07.42:552][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.06.17-16.07.42:555][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.06.17-16.07.42:560][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.06.17-16.07.42:560][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.06.17-16.07.42:561][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.06.17-16.07.42:577][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.06.17-16.07.42:579][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.06.17-16.07.42:582][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.06.17-16.07.42:584][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.06.17-16.07.42:587][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.06.17-16.07.42:587][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.06.17-16.07.42:650][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.06.17-16.07.42:693][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.17-16.07.42:693][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.06.17-16.07.42:693][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.06.17-16.07.42:693][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.06.17-16.07.42:693][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.06.17-16.07.42:693][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.06.17-16.07.42:705][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.06.17-16.07.42:717][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MagicUser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.06.17-16.07.42:871][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.17-16.07.42:872][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.06.17-16.07.42:904][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.06.17-16.07.43:008][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.06.17-16.07.43:008][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.06.17-16.07.43:008][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.06.17-16.07.43:205][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.06.17-16.07.43:205][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.06.17-16.07.43:206][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.06.17-16.07.43:211][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.17-16.07.43:285][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.17-16.07.43:285][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.17-16.07.43:368][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.17-16.07.43:368][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.17-16.07.43:368][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.17-16.07.43:368][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.17-16.07.43:368][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.17-16.07.43:368][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.17-16.07.43:832][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.06.17-16.07.43:841][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.06.17-16.07.43:943][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2016.06.17-16.07.44:088][  0]SourceControl: Info Source control is disabled
+[2016.06.17-16.07.44:119][  0]SourceControl: Info Source control is disabled
+[2016.06.17-16.07.44:133][  0]SourceControl: Info Source control is disabled
+[2016.06.17-16.07.44:141][  0]SourceControl: Info Source control is disabled
+[2016.06.17-16.07.44:249][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.06.17-16.07.44:323][  0]LogEngine: Initializing Engine...
+[2016.06.17-16.07.44:433][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.06.17-16.07.44:439][  0]LogInit: XAudio2 using 'DELL S2240T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.17-16.07.44:450][  0]LogInit: FAudioDevice initialized.
+[2016.06.17-16.07.44:470][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/MagicUser/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.17-16.07.44:476][  0]LogInit: Texture streaming: Enabled
+[2016.06.17-16.07.44:494][  0]LogInit: Transaction tracking system initialized
+[2016.06.17-16.07.44:513][  0]BlueprintLog: New page: Editor Load
+[2016.06.17-16.07.44:571][  0]LocalizationService: Info Localization service is disabled
+[2016.06.17-16.07.44:630][  0]LogConsoleResponse:Display: 
+[2016.06.17-16.07.44:718][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.06.17-16.07.44:718][  0]LogCook:Display: Mobile HDR setting 1
+[2016.06.17-16.07.44:718][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.06.17-16.07.44:764][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/' took 0.02s
+[2016.06.17-16.07.44:764][  0]SourceControl: Info Source control is disabled
+[2016.06.17-16.07.44:764][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.17-16.07.44:764][  0]LightingResults: New page: Lighting Build
+[2016.06.17-16.07.44:767][  0]MapCheck: New page: Map Check
+[2016.06.17-16.07.44:767][  0]LightingResults: New page: Lighting Build
+[2016.06.17-16.07.45:357][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning 'Item' is already a 'Manager', you don't need  Cast To Manager .
+[2016.06.17-16.07.45:358][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.80] Compile of CrowdSpawner_Blueprint successful, but with 1 Warning(s) [in 4 ms]
+[2016.06.17-16.07.45:358][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.80] Compile of CrowdSpawner_Blueprint successful, but with 2 Warning(s) [in 0 ms]
+[2016.06.17-16.07.45:358][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.80] Compile of CrowdSpawner_Blueprint successful, but with 3 Warning(s) [in 0 ms]
+[2016.06.17-16.07.45:392][  0]LogBlueprint:Warning: [compiler Manager] Warning Can't connect pins  Target Array  and  Out Actors : Array of References is not compatible with Array of Actor References.
+[2016.06.17-16.07.45:393][  0]LogBlueprint:Warning: [compiler Manager] Warning Can't connect pins  Out Actors  and  Target Array : Array of Actor References is not compatible with Array of References.
+[2016.06.17-16.07.45:393][  0]LogBlueprint:Error: [compiler Manager] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.06.17-16.07.45:403][  0]LogBlueprint:Warning: [compiler Manager] Warning [0004.84] Compile of Manager failed. 1 Fatal Issue(s) 2 Warning(s) [in 25 ms]
+[2016.06.17-16.07.45:403][  0]LogBlueprint:Warning: [compiler Manager] Warning [0004.84] Compile of Manager failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.06.17-16.07.45:403][  0]LogBlueprint:Warning: [compiler Manager] Warning [0004.84] Compile of Manager failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.06.17-16.07.45:408][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning 'Item' is already a 'Manager', you don't need  Cast To Manager .
+[2016.06.17-16.07.45:409][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.85] Compile of CrowdSpawner_Blueprint successful, but with 1 Warning(s) [in 4 ms]
+[2016.06.17-16.07.45:409][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.85] Compile of CrowdSpawner_Blueprint successful, but with 2 Warning(s) [in 0 ms]
+[2016.06.17-16.07.45:410][  0]LogBlueprint:Warning: [compiler CrowdSpawner_Blueprint] Warning [0004.85] Compile of CrowdSpawner_Blueprint successful, but with 3 Warning(s) [in 0 ms]
+[2016.06.17-16.07.48:936][  0]Warning: Unknown property in Dialogue_TableItem: DataTable=None,RowName=) 
+[2016.06.17-16.07.48:936][  0]Warning: Unknown property in Dialogue_TableItem: RowName=) 
+[2016.06.17-16.07.50:575][  0]Warning: Unknown property in Dialogue_TableItem: DataTable=None,RowName=) 
+[2016.06.17-16.07.50:575][  0]Warning: Unknown property in Dialogue_TableItem: RowName=) 
+[2016.06.17-16.07.52:980][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.06.17-16.07.53:044][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.17-16.07.53:044][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.17-16.07.53:115][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.549ms to complete.
+[2016.06.17-16.07.53:115][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 8.351
+[2016.06.17-16.07.53:225][  0]LogCollectionManager: Loaded 0 collections in 0.001715 seconds
+[2016.06.17-16.07.53:269][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/Collections/' took 0.01s
+[2016.06.17-16.07.53:269][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Developers/MagicUser/Collections/' took 0.01s
+[2016.06.17-16.07.53:269][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Collections/' took 0.01s
+[2016.06.17-16.07.53:269][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.06.17-16.07.53:276][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 1994 classes and 349 folders.
+[2016.06.17-16.07.53:280][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.06.17-16.07.53:280][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.06.17-16.07.53:280][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.06.17-16.07.53:286][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.06.17-16.07.53:292][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.06.17-16.07.53:332][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.06.17-16.07.53:336][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.06.17-16.07.53:346][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.06.17-16.07.53:351][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.06.17-16.07.53:377][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.06.17-16.07.53:378][  0]LogLoad: Full Startup: 12.82 seconds (BP compile: 2.65 seconds)
+[2016.06.17-16.07.53:378][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.06.17-16.07.53:378][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.06.17-16.07.53:717][  0]LogOcInput: OculusInput pre-init called
+[2016.06.17-16.07.53:762][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.06.17-16.07.53:901][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.06.17-16.07.54:068][  1]LogAssetRegistry: Asset discovery search completed in 10.1467 seconds
+[2016.06.17-16.07.54:068][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.06.17-16.07.54:068][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2016.06.17-16.08.07:220][107]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.17-16.08.07:220][107]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.17-16.08.07:222][107]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.17-16.08.07:224][107]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.17-16.08.07:224][107]LogLinker:Warning: Asset '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.17-16.08.07:773][107]LogLevelStreaming:Display: Failed to find streaming level package file: /Game/Maps/ClocktowerArea. This streaming level may not load or save properly.
+[2016.06.17-16.08.07:890][107]LogAIModule: Creating AISystem for world Town
+[2016.06.17-16.08.07:899][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint7_794.ActiveParticles
+[2016.06.17-16.08.07:899][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint7_794.DeactiveParticles
+[2016.06.17-16.08.07:899][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint8_2189.ActiveParticles
+[2016.06.17-16.08.07:899][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint8_2189.DeactiveParticles
+[2016.06.17-16.08.07:900][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint16_706.ActiveParticles
+[2016.06.17-16.08.07:900][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint16_706.DeactiveParticles
+[2016.06.17-16.08.07:902][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_4346.ActiveParticles
+[2016.06.17-16.08.07:902][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_4346.DeactiveParticles
+[2016.06.17-16.08.07:902][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_5365.ActiveParticles
+[2016.06.17-16.08.07:902][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_5365.DeactiveParticles
+[2016.06.17-16.08.07:902][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_6064.ActiveParticles
+[2016.06.17-16.08.07:902][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_6064.DeactiveParticles
+[2016.06.17-16.08.07:902][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_7011.ActiveParticles
+[2016.06.17-16.08.07:902][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_7011.DeactiveParticles
+[2016.06.17-16.08.07:902][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_7878.ActiveParticles
+[2016.06.17-16.08.07:903][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_7878.DeactiveParticles
+[2016.06.17-16.08.07:906][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Water_Spout.P_Water_Spout Component=/Game/Maps/Town.Town:PersistentLevel.Fountain_542.ParticleSystem
+[2016.06.17-16.08.07:913][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint7_794.DeactiveParticles
+[2016.06.17-16.08.07:913][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint7_794.ActiveParticles
+[2016.06.17-16.08.07:913][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint7_794.DeactiveParticles
+[2016.06.17-16.08.07:913][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint7_794.ActiveParticles
+[2016.06.17-16.08.07:913][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint8_2189.DeactiveParticles
+[2016.06.17-16.08.07:913][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint8_2189.ActiveParticles
+[2016.06.17-16.08.07:914][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint8_2189.DeactiveParticles
+[2016.06.17-16.08.07:914][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint8_2189.ActiveParticles
+[2016.06.17-16.08.07:915][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint16_706.DeactiveParticles
+[2016.06.17-16.08.07:915][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint16_706.ActiveParticles
+[2016.06.17-16.08.07:915][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint16_706.DeactiveParticles
+[2016.06.17-16.08.07:915][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint16_706.ActiveParticles
+[2016.06.17-16.08.07:918][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_4346.DeactiveParticles
+[2016.06.17-16.08.07:918][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_4346.ActiveParticles
+[2016.06.17-16.08.07:918][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_4346.DeactiveParticles
+[2016.06.17-16.08.07:918][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint_4346.ActiveParticles
+[2016.06.17-16.08.07:919][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_5365.DeactiveParticles
+[2016.06.17-16.08.07:919][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_5365.ActiveParticles
+[2016.06.17-16.08.07:919][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_5365.DeactiveParticles
+[2016.06.17-16.08.07:919][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint2_5365.ActiveParticles
+[2016.06.17-16.08.07:919][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_6064.DeactiveParticles
+[2016.06.17-16.08.07:919][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_6064.ActiveParticles
+[2016.06.17-16.08.07:919][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_6064.DeactiveParticles
+[2016.06.17-16.08.07:919][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint3_6064.ActiveParticles
+[2016.06.17-16.08.07:920][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_7011.DeactiveParticles
+[2016.06.17-16.08.07:920][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_7011.ActiveParticles
+[2016.06.17-16.08.07:921][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_7011.DeactiveParticles
+[2016.06.17-16.08.07:921][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint4_7011.ActiveParticles
+[2016.06.17-16.08.07:921][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_7878.DeactiveParticles
+[2016.06.17-16.08.07:921][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_7878.ActiveParticles
+[2016.06.17-16.08.07:921][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_7878.DeactiveParticles
+[2016.06.17-16.08.07:921][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Fire.P_Fire Component=/Game/Maps/Town.Town:PersistentLevel.checkpoint5_7878.ActiveParticles
+[2016.06.17-16.08.07:926][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Water_Spout.P_Water_Spout Component=/Game/Maps/Town.Town:PersistentLevel.Fountain_542.ParticleSystem
+[2016.06.17-16.08.07:926][107]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Particles/P_Water_Spout.P_Water_Spout Component=/Game/Maps/Town.Town:PersistentLevel.Fountain_542.ParticleSystem
+[2016.06.17-16.08.07:943][107]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.17-16.08.08:199][107]Cmd: MAP LOAD FILE="../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.17-16.08.08:202][107]LightingResults: New page: Lighting Build
+[2016.06.17-16.08.08:223][107]LoadErrors: New page: Loading map: Town.umap
+[2016.06.17-16.08.08:224][107]MapCheck: New page: Map Check
+[2016.06.17-16.08.08:224][107]LightingResults: New page: Lighting Build
+[2016.06.17-16.08.08:315][107]LogStreaming:Error: Couldn't find file for package /Game/Maps/ClocktowerArea.
+[2016.06.17-16.08.08:316][107]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.17-16.08.08:409][107]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.17-16.08.08:484][107]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.226ms to complete.
+[2016.06.17-16.08.08:484][107]LogFileHelpers: Loading map 'Town' took 0.286
+[2016.06.17-16.08.08:563][108]Cmd: UpdateLandscapeEditorData -warnings
+[2016.06.17-16.08.08:565][108]Cmd: UpdateLandscapeEditorData
+[2016.06.17-16.08.16:291][ 14]LogEditorActor: Deleted Actor: LevelStreamingVolume
+[2016.06.17-16.08.19:432][ 14]LogEditorActor: Deleted Actor: TriggerBox
+[2016.06.17-16.08.19:433][ 14]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.17-16.08.19:454][ 14]LogEditorActor: Deleted 2 Actors (3.167 secs)
+[2016.06.17-16.08.23:961][458]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 108 classes and 0 folders.
+[2016.06.17-16.08.31:690][927]BlueprintLog: New page: Compile Town
+[2016.06.17-16.08.31:780][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.17-16.08.31:780][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.06.17-16.08.31:780][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.06.17-16.08.31:780][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2016.06.17-16.08.31:780][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.06.17-16.08.35:884][ 88]LogSavePackage: Save=1704.80ms
+[2016.06.17-16.08.35:884][ 88]LogSavePackage: Moving '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Saved/TownBAE27CF440A0B3D9C9226BACCA94984B.tmp' to '../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap'
+[2016.06.17-16.08.35:888][ 88]LogSavePackage: Total save time: 1730.43ms
+[2016.06.17-16.08.35:888][ 88]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MagicUser/Desktop/WoaL/ChildrenAmongGiants/WhisperOfALullaby/Content/Maps/Town.umap
+[2016.06.17-16.08.41:689][510]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.06.17-16.08.41:689][510]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.06.17-16.08.41:885][511]Cmd: QUIT_EDITOR
+[2016.06.17-16.08.41:964][511]LogExit: Preparing to exit.
+[2016.06.17-16.08.43:051][511]LogExit: Editor shut down
+[2016.06.17-16.08.43:051][511]LogExit: Transaction tracking system shut down
+[2016.06.17-16.08.43:229][511]LogObj: Freed 0b from 0 cluster array pools.
+[2016.06.17-16.08.43:229][511]LogExit: Object subsystem successfully closed.
+[2016.06.17-16.08.43:242][511]LogD3D11RHI: Shutdown
+[2016.06.17-16.08.43:242][511]LogD3D11RHI: CleanupD3DDevice
+[2016.06.17-16.08.43:311][511]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.17-16.08.43:747][511]LogDerivedDataCache: Shutdown
+[2016.06.17-16.08.43:747][511]LogModuleManager: Shutting down and abandoning module BlueprintGraph (207)
+[2016.06.17-16.08.43:747][511]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (206)
+[2016.06.17-16.08.43:747][511]LogModuleManager: Shutting down and abandoning module CrashTracker (205)
+[2016.06.17-16.08.43:747][511]LogModuleManager: Shutting down and abandoning module SceneOutliner (204)
+[2016.06.17-16.08.43:747][511]LogModuleManager: Shutting down and abandoning module SuperSearch (203)
+[2016.06.17-16.08.43:747][511]LogModuleManager: Shutting down and abandoning module WidgetCarousel (202)
+[2016.06.17-16.08.43:747][511]LogModuleManager: Shutting down and abandoning module AddContentDialog (201)
+[2016.06.17-16.08.43:747][511]LogModuleManager: Shutting down and abandoning module GameplayTags (200)
+[2016.06.17-16.08.43:747][511]LogModuleManager: Shutting down and abandoning module EditorWidgets (199)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module CollectionManager (198)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module StatsViewer (197)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module FoliageEdit (196)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module LandscapeEditor (195)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module ActorPickerMode (194)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module GeometryMode (193)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module TextureAlignMode (192)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module BspMode (191)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module PlacementMode (190)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module AutomationWorker (189)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module CharacterAI (188)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module SmartSnapping (187)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module ViewportSnapping (186)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module LogVisualizer (185)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (184)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module IntroTutorials (183)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (182)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (181)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (180)
+[2016.06.17-16.08.43:748][511]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (179)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (178)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (177)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (176)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module MergeActors (175)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module SizeMap (174)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module TreeMap (173)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module ReferenceViewer (172)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module LocalizationService (171)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (170)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module HardwareTargeting (169)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (168)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module UndoHistory (167)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module UserFeedback (166)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module XmlParser (165)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module Blutility (164)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (163)
+[2016.06.17-16.08.44:617][511]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (162)
+[2016.06.17-16.08.44:618][511]LogModuleManager: Shutting down and abandoning module InputBindingEditor (161)
+[2016.06.17-16.08.44:618][511]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (160)
+[2016.06.17-16.08.44:618][511]LogModuleManager: Shutting down and abandoning module SettingsEditor (159)
+[2016.06.17-16.08.44:618][511]LogModuleManager: Shutting down and abandoning module ProjectLauncher (158)
+[2016.06.17-16.08.44:618][511]LogModuleManager: Shutting down and abandoning module SessionFrontend (157)
+[2016.06.17-16.08.44:618][511]LogModuleManager: Shutting down and abandoning module ProfilerClient (156)
+[2016.06.17-16.08.44:618][511]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (155)
+[2016.06.17-16.08.44:618][511]LogModuleManager: Shutting down and abandoning module DeviceManager (154)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module AutomationController (153)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module AutomationWindow (152)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module Layers (151)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (150)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module DetailCustomizations (149)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module PackagesDialog (148)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module Persona (147)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module Kismet (146)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module GraphEditor (145)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module ClassViewer (144)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module Toolbox (143)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module ModuleUI (142)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module MovieSceneTools (141)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module OutputLog (140)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module GammaUI (139)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module Documentation (138)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (137)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module AnalyticsET (136)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module Analytics (135)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module PortalServices (134)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module PortalRpc (133)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module MessagingRpc (132)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module GameplayDebugger (130)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module AIModule (129)
+[2016.06.17-16.08.44:661][511]LogModuleManager: Shutting down and abandoning module ProfilerService (128)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module TaskGraph (127)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module SubstanceEditor (126)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module SlateRemote (125)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module SteamVRController (124)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module SteamVR (123)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (122)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module OculusLibrary (121)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module OculusInput (120)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (119)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module CableComponent (118)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (117)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (116)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module HTML5Networking (115)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.06.17-16.08.44:839][511]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.06.17-16.08.44:840][511]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.06.17-16.08.44:840][511]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (97)
+[2016.06.17-16.08.44:840][511]LogModuleManager: Shutting down and abandoning module AssetRegistry (96)
+[2016.06.17-16.08.45:032][511]LogModuleManager: Shutting down and abandoning module ContentBrowser (95)
+[2016.06.17-16.08.45:032][511]LogModuleManager: Shutting down and abandoning module Paper2DEditor (94)
+[2016.06.17-16.08.45:032][511]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.06.17-16.08.45:133][511]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.06.17-16.08.45:135][511]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.06.17-16.08.45:135][511]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.06.17-16.08.45:135][511]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.06.17-16.08.45:135][511]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.06.17-16.08.45:135][511]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.06.17-16.08.45:135][511]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.06.17-16.08.45:135][511]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.06.17-16.08.45:135][511]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.06.17-16.08.45:135][511]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.06.17-16.08.45:135][511]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.06.17-16.08.45:135][511]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.06.17-16.08.45:135][511]LogDerivedDataCache: Shutdown
+[2016.06.17-16.08.45:135][511]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.06.17-16.08.45:135][511]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.06.17-16.08.45:136][511]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.06.17-16.08.46:139][511]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.06.17-16.08.46:139][511]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.06.17-16.08.46:139][511]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.17-16.08.46:139][511]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.06.17-16.08.46:139][511]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.17-16.08.46:139][511]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.17-16.08.46:139][511]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.17-16.08.46:141][511]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.17-16.08.46:141][511]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.17-16.08.46:141][511]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.17-16.08.46:141][511]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.17-16.08.46:141][511]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.17-16.08.46:141][511]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.17-16.08.46:141][511]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.17-16.08.46:141][511]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.17-16.08.46:141][511]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.17-16.08.46:141][511]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.17-16.08.46:142][511]LogExit: Exiting.
+[2016.06.17-16.08.46:143][511]Log file closed, 06/17/16 12:08:46
