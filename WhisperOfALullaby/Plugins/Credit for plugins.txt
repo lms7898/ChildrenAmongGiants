@@ -1,0 +1,3 @@
+Give credit to Rama for GamepadUMGPlugin and for VictoryPlugin.
+VictoryPlugin link: https://forums.unrealengine.com/showthread.php?3851-(39)-Rama-s-Extra-Blueprint-Nodes-for-You-as-a-Plugin-No-C-Required!
+GamepadUMGPlugin link: https://forums.unrealengine.com/showthread.php?86981-Gamepad-Friendly-UMG-Control-Cursor-with-Gamepad-Analog-Stick!-Easily-Click-Buttons!
