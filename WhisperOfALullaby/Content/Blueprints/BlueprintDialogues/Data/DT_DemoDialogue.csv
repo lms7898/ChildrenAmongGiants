@@ -1,0 +1,135 @@
+---,SpeakerId_98_4545BC1649FF961776C879814ED04482,Text_2_304456A840A1E72479BBA190DEC32D20,ResponseText_111_FDCE04EF439B7039860F51B389752F40,Branches_101_EB181D3D4BACBDDA6BD19EA115A76FF2,Traits_108_CF1C343E44F731ACC3FA90AB0BA698FA,Conditions_110_7AFA096940B02E71BDBFE88BB5E3F381,PreAction_116_88FD9BDE4C99F3B78CD29FA5BB3A236C,PostAction_117_BDEC452548220DE27B5C93A0991D6CB3,AudioClip_121_92CC0AA3427642A7B3FCFEBCF9EC7989
+TownStart1_MK,Starlight,Follow me.,,TownStart2;,,,,UseMKControls();,None
+TownStart1_XB360,Starlight,Follow me.,,TownStart2;,,,,UseXB360Controls();,None
+TownStart2,Instructions,"Use the $MoveControls$ to move, and the $LookControls$ to look around.",,,,,,close();,None
+FenceJump1_MK,Starlight,"Hey, I was just here!",,FenceJump2;,,,,UseMKControls();,None
+FenceJump1_XB360,Starlight,"Hey, I was just here!",,FenceJump2;,,,,UseXB360Controls();,None
+FenceJump2,Starlight,I totally knew this is where we would end up.,,FenceJump3;,,,,,None
+FenceJump3,Starlight,Auuuugh!,,FenceJump4;,,,,,None
+FenceJump4,Dusk,...?!?,,FenceJump5;,,,,,None
+FenceJump5,Starlight,"Alright, so. There are other kids in this world, right? I told you about that.",,FenceJump6;,,,,,None
+FenceJump6,Starlight,"These kids need help. Right before I stumbled across you, I was right here with my friend. ",,FenceJump7;,,,,,None
+FenceJump7,Starlight,I was trying to help her find her home. But I guess she went on without me.,,FenceJump8;,,,,,None
+FenceJump8,Starlight,Follow me.,,FenceJump9;,,,,,None
+FenceJump9,Dusk,?,,FenceJump10;,,,,,None
+FenceJump10,Starlight,The heck is wrong with you kid?,,FenceJump11;,,,,,None
+FenceJump11,Starlight,Haven't you ever hopped a fence before?,,FenceJump12;,,,,,None
+FenceJump12,Dusk,...?,,FenceJump13;,,,,,None
+FenceJump13,Starlight,Forget it. I don't have time for this.,,FenceJump14;,,,,,None
+FenceJump14,Starlight,"Follow me when you're ready, I'll be up ahead.",,FenceJump15;,,,,,None
+FenceJump15,Instructions,Press the $JumpControls$ to jump.,,,,,,close();,None
+TK1_MK,Starlight,She must have jumped right over. Figures.,,TK2;,,,,UseMKControls();,None
+TK1_XB360,Starlight,She must have jumped right over. Figures.,,TK2,,,,UseXB360Controls();,None
+TK2,Starlight,If only we had some way of moving it?,,TK3,,,,,None
+TK3,Instructions,"Use the $TelekinesisPickUpControls$ to pick up objects, and the $TelekinesisThrowControls$ to throw them.",,TK4,,,,close();,None
+TK4,Starlight,"Oh, hey Dusk.",,TK5,,,,,None
+TK5,Starlight,Hey! You jumped the fence! I knew you could do it.,,TK6,,,,,None
+TK6,Starlight,"I was just saying, I'm pretty sure my friend went this way. I bet she jumped right over this wall.",,TK7,,,,,None
+TK7,Dusk,?,,TK8,,,,,None
+TK8,Starlight,"Oh, no no! My friend is good at jumping. She's not weird or anything.",,TK9,,,,,None
+TK9,Starlight,Everyone here in this world is special. They each have some kind of power.,,TK10,,,,,None
+TK10,Starlight,"Like, my power is light. I can control it.",,TK11,,,,,None
+TK11,Starlight,I wonder what your power will be!,,TK12,,,,,None
+TK12,Starlight,"Alright, time to show this wall who's boss.",,TK13,,,,,None
+TK13,Dusk,..!,,TK14,,,,,None
+TK14,Starlight,Ugh?.,,TK15,,,,,None
+TK15,Starlight,Dusk!,,TK16,,,,,None
+TK16,Dusk,?!,,TK17,,,,,None
+TK17,Starlight,Dusk! That's your power! You can move stuff with you mind?? So cool!,,TK18,,,,,None
+TK18,Starlight,And you saved me! Thank you!,,TK19,,,,,None
+TK19,Starlight,"We make a good team, ya know? I think from now on we should travel together!",,TK20,,,,,None
+TK20,Dusk,..?,,TK21,,,,,None
+TK21,Starlight,I bet you're confused. I'll show you what I mean,,TK22,,,,,None
+TK22,Dusk,?,,TK23,,,,,None
+TK23,Starlight,"Hey, it's me!",,TK24,,,,,None
+TK24,Starlight,Don't freak out! I'm just hitching a ride in your? uh?,,TK25,,,,,None
+TK25,Starlight,Just don't worry about it.,,,,,,close();,None
+ClocktowerObjective1,Starlight,I see Elliana on the clocktower. We need to get to her.,,,,,,close();,None
+ToTheClockTower1_Universal,Starlight,There she is! But how are we going to get up there?,,,,,,close();,None
+FirstBlockPuzzle1,Starlight,Hmm. Where do we go from here?,,FirstBlockPuzzle2,,,,,None
+FirstBlockPuzzle2,Starlight,Maybe we can use these boxes?,,FirstBlockPuzzle3,,,,,None
+FirstBlockPuzzle3,Starlight,"You're smart, I'm sure you'll figure something out.",,,,,,close();,None
+EllianaIntro1,Starlight,Elli?,,EllianaIntro2,,,,RestorePower(); close();,None
+EllianaIntro2,Elliana,Hi Starlight!,,EllianaIntro3,,,,,None
+EllianaIntro3,Starlight,What happened to you? I told you I would be right back!,,EllianaIntro4,,,,,None
+EllianaIntro4,Elliana,Oh!,,EllianaIntro5,,,,,None
+EllianaIntro5,Elliana,You were taking too long. I decided to look for my home on my own.,,EllianaIntro6,,,,,None
+EllianaIntro6,Elliana,I don't think it's here though.,,EllianaIntro7,,,,,None
+EllianaIntro7,Starlight,"Well, if you actually feel like having company this time, we can help you look for your home again.",,EllianaIntro8,,,,,None
+EllianaIntro8,Elliana,Hey! I haven't seen you around before!,,EllianaIntro9,,,,close();,None
+EllianaIntro9,Elliana,"Nice to meet you! My name's Elliana! Wow, you look so fluffy!",,EllianaIntro10,,,,,None
+EllianaIntro10,Starlight,That's Dusk! I just found him in the Void.,,EllianaIntro11,,,,,None
+EllianaIntro11,Starlight,"He's pretty cool. Can't speak though, but he can do the thing!",,EllianaIntro12,,,,,None
+EllianaIntro12,Starlight,"The thing that lets us travel with him? Or, in him I guess? Yeah.",,EllianaIntro13,,,,,None
+EllianaIntro13,Elliana,Really? I can come with you right? You'll help me find my home?,,EllianaIntro14,,,,,None
+EllianaIntro14,Dusk,?,,EllianaIntro15,,,,,None
+EllianaIntro15,Elliana,"Yay! Thanks! Let's go, we have to find out where my home is!",,,,,,close();,None
+EllianaIntroPartB1,Elliana,"I already searched this area, which is why I came up here to get a better view.",,EllianaIntroPartB2,,,,,None
+EllianaIntroPartB2,Elliana, It looks like there's a neighborhood beyond the marketplace nearby. Let's look over there.,,EllianaIntroPartB3,,,,,None
+EllianaIntroPartB3,Elliana,I'll share my power with you to help you get around! ,,EllianaIntroPartB4,,,,,None
+EllianaIntroPartB4,Elliana,"After you jump once, jump again and you'll go even higher! Go ahead and try it out.",,,,,,close();,None
+MarketIntro1,Elliana,"Great, now what do we do?",,MarketIntro2,,,,,None
+MarketIntro2,Starlight,"Wild guess here, I think we need keys.",,,,,,close();,None
+PostMarket1,Elliana,...,BLAH,PostMarket2,,,,,None
+PostMarket2,Starlight,...,,PostMarket3,,,,,None
+PostMarket3,Dusk,...,,PostMarket4,,,,,None
+PostMarket4,Starlight,... Let's do that again!,,PostMarket5,,,,,None
+PostMarket5,Elliana,That's it! That's gotta be home!,,PostMarket6,,,,GoToFirstHouse();,None
+PostMarket6,Starlight,"Ugh? she always does this? Well, come on. Let's go catch up!",,,,,,close();,None
+EllianaFirstHouse1_Universal,Elliana,This doesn't feel right?,,EllianaFirstHouse2_Universal;,,,,,None
+EllianaFirstHouse2_Universal,Elliana,Maybe it's that other one.,,,,,,GoToSecondHouse(); close();,None
+EllianaSecondHouse1_Universal,Elliana,I guess its not this one.,,EllianaSecondHouse2_Universal;,,,,,None
+EllianaSecondHouse2_Universal,Elliana,Oh! But what about that other one..?,,,,,,GoToThirdhouse(); close();,None
+EllianaThirdHouse1,Elliana,But it had to be this one?,,EllianaThirdHouse2;,,,,,None
+EllianaThirdHouse2,Elliana,It's not here?,,EllianaThirdHouse3;,,,,,None
+EllianaThirdHouse3,Starlight,"Okay, so your home isn't here, but so what? We'll keep looking.",,EllianaThirdHouse4;,,,,,None
+EllianaThirdHouse4,Starlight,"It's gotta be aroudn here somewhere, right?",,EllianaThirdHouse5;,,,,,None
+EllianaThirdHouse5,Elliana,"Yeah, I guess you're right. Let's keep going.",,EllianaThirdHouse6;,,,,,None
+EllianaThirdHouse6,Starlight,That's the spirit!,,EllianaThirdHouse7;,,,,GoToMarket(); close();,None
+Monsters1_MK,Starlight,Don't worry. These things aren't real.,,Monsters2;,,,,UseMKControls();,None
+Monsters1_XB360,Starlight,Don't worry. These things aren't real.,,Monsters2;,,,,UseXB360Controls();,None
+Monsters2,Starlight,They're just imaginary. They shouldn't bother us.,,,,,,close();,None
+Monsters3,Starlight,Uh oh. They're turning into nightmares. Elli must be getting upset?,,Monsters4;,,,,,None
+Monsters4,Starlight,You can use my light.,,Monsters5;,,,,,None
+Monsters5,Instructions,Press the $LightAbilityControls$ to toggle your light on and off.,,,,,,close();,None
+LevelFinal,Elliana,Yay you did it! Let's go check those houses!,,,,,,GoToFirstHouse(); close();,None
+HeliosDiscovery1,Helios,Hey!,,HeliosDiscovery2,,,,,None
+HeliosDiscovery2,Helios,What are you doing in my castle?!,,HeliosDiscovery3,,,,,None
+HeliosDiscovery3,Helios,You're coming with me staight to my dungeon! Or I'm gonna set you on fire!,,HeliosDiscovery4,,,,,None
+HeliosDiscovery4,Starlight,"Whoa, whoa! No need for that. We'll go with you!",,HeliosDiscovery5,,,,,None
+HeliosDiscovery5,Starlight,Just follow my lead okay?,,,,,,close();,None
+Dungeon1,Elliana,Why did you let him lock us up here Starlight?,,Dungeon2,,,,,None
+Dungeon2,Elliana,We shouldn't have let him boss us around. This is MY castle. He can't do this kind of stuff.,,Dungeon3,,,,,None
+Dungeon3,Starlight,"I think he needs our help. After all, he's here in this world with the rest of us. Something must be wrong.",,Dungeon4,,,,,None
+Dungeon4,Elliana,We could have helped him without letting him lock us up.,,Dungeon5,,,,,None
+Dungeon5,Starlight,This place doesn't seem so stable…,,Dungeon6,,,,,None
+Dungeon6,Elliana,Guess this can't be my castle then. No way my home would be this crumbly.,,Dungeon7,,,,,None
+Dungeon7,Starlight,"Well, we have to get out of here. Helios needs to know the castle's falling apart.",,Dungeon8,,,,,None
+Dungeon8,Elliana,What are you talking about? Who cares what happens to that jerk?,,Dungeon9,,,,,None
+Dungeon9,Starlight,"I care, and you should too!",,Dungeon10,,,,,None
+Dungeon10,Elliana,All I care about is getting out of here!,,Dungeon11,,,,,None
+Dungeon11,Starlight,We all want to get out of here but we have to take him with us!,,Dungeon12,,,,,None
+Dungeon12,Elliana,He'll find his own way out!,,Dungeon13,,,,,None
+Dungeon13,Starlight,"Not now, Dusk.",,,,,,close();,None
+ThroneRoom1,Helios,How did you break free from your prison?!,,ThroneRoom2,,,,,None
+ThroneRoom2,Starlight,"Helios, listen to me. Your castle is falling apart. You need to leave with us before you get hurt.",,ThroneRoom3,,,,,None
+ThroneRoom3,Helios,"My castle isn't falling apart… Even if it was, I can't leave yet. I'm waiting for my sister to show up. And I can't leave my castle alone because the ocean might knock it down!",,ThroneRoom4,,,,,None
+ThroneRoom4,Starlight,We'll help you find your sister! Just come with us somewhere safe first. Trust me!,,ThroneRoom5,,,,,None
+ThroneRoom5,Elliana,"There's no way your suster is here! You would have seen her by now if she was, so come on!",,ThroneRoom6,,,,,None
+ThroneRoom6,Elliana,Not to mention that the ocean isn't event close to your dumb castle.,,ThroneRoom7,,,,,None
+ThroneRoom7,Starlight,Come on! We have to go!,,ThroneRoom8,,,,,None
+ThroneRoom8,Elliana,How are we gonna get out of here if it's all falling apart?,,ThroneRoom9,,,,,None
+ThroneRoom9,Helios,Psh! Every king has a secret passage!,,ThroneRoom10,,,,,None
+ThroneRoom10,Starlight,So show us!,,ThroneRoom11,,,,,None
+ThroneRoom11,Starlight,Yes! Let's go!,,ThroneRoom12,,,,,None
+ThroneRoom12,Helios,Follow me!,,,,,,close();,None
+PostCollapse1,Starlight,"Well, that was something, wasn't it it? Good work, team!",,PostCollapse2,,,,,None
+PostCollapse2,Helios,My castle…,,PostCollapse3,,,,,None
+PostCollapse3,Helios,"I knew that the ocean would get it! You didn't believe me, but now look what happened!",,PostCollapse4,,,,,None
+PostCollapse4,Helios,I just want to find my sister okay?! She would believe me!,,PostCollapse5,,,,,None
+PostCollapse5,Starlight,Hey.,,PostCollapse6,,,,,None
+PostCollapse6,Starlight,Let's go find your sister.,,PostCollapse7,,,,,None
+PostCollapse7,Starlight,"We'll be pals in no time, you'll see!",,PostCollapse8,,,,,None
+PostCollapse8,Starlight,"We're all here for you, okay? Together we'll find your sister in no time.",,PostCollapse9,,,,,None
+PostCollapse9,Helios,I guess you guys aren't TERRIBLE. I'll let you travel with me for now.,,PostCollapse10,,,,,None
+PostCollapse10,Starlight,"Come on, we have a sister to find!",,,,,,close();,None
