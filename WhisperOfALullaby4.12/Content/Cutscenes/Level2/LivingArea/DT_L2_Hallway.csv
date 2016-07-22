@@ -1,7 +1,0 @@
----,SpeakerId_98_4545BC1649FF961776C879814ED04482,Text_2_304456A840A1E72479BBA190DEC32D20,ResponseText_111_FDCE04EF439B7039860F51B389752F40,Branches_101_EB181D3D4BACBDDA6BD19EA115A76FF2,Traits_108_CF1C343E44F731ACC3FA90AB0BA698FA,Conditions_110_7AFA096940B02E71BDBFE88BB5E3F381,PreAction_116_88FD9BDE4C99F3B78CD29FA5BB3A236C,PostAction_117_BDEC452548220DE27B5C93A0991D6CB3,AudioClip_121_92CC0AA3427642A7B3FCFEBCF9EC7989
-BreakIn0,Hidden,,,BreakIn1,,,,PlaySequence();,None
-BreakIn1,Elliana,"NSLOCTEXT("""", ""C0D4EE44413D214DC7469EA2C2EF360A"", ""We\'re finally here! come on Dusk!"")",,BreakIn2,,,,PlaySequence();,None
-BreakIn2,Elliana,"NSLOCTEXT("""", ""D9330CC644FCA709455659A434F4EC7B"", ""Uh oh.."")",,BreakIn3,,,,PlaySequence();,None
-BreakIn3,Starlight,"NSLOCTEXT("""", ""68D45CB346FE57CD0FC1D8A5D942084E"", ""Poor Elli. She must have forgotten she can\'t travel in this dream without you."")",,BreakIn4,,,,PlaySequence();,None
-BreakIn4,Elliana,"NSLOCTEXT("""", ""AE20C01F43553BB85D35B2BE9EC9FA26"", ""I\'m sorry Dusk. I should have known better than to run off alone like that."")",,BreakIn5,,,,PlaySequence();,None
-BreakIn5,Elliana,"NSLOCTEXT("""", ""D9D6CEC6435A83BA7B60FFA5D1A33EE9"", ""Come on, let\'s keep going."")",,,,,,PlaySequence(); Close();,None
