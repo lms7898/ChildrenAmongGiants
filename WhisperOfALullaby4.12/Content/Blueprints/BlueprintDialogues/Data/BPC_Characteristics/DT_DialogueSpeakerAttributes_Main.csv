@@ -8,15 +8,15 @@ Player,"NSLOCTEXT("""", ""7B7C5E7240ECD59F6981E68FE43D7436"", ""Dusk"")",Texture
 Helios,"NSLOCTEXT("""", ""196E4F4048004F426C478B9C9CE5F9F3"", ""Helios"")",Texture2D'/Game/Blueprints/BlueprintDialogues/Textures/DialogueHeliosPlaceholder.DialogueHeliosPlaceholder',FALSE,FALSE
 Hidden,,None,FALSE,FALSE
 HeliosUnknown,"NSLOCTEXT("""", ""15A2F54B499BB4AEEFF323BF7D8D3D64"", ""Unkown"")",Texture2D'/Game/Blueprints/BlueprintDialogues/Textures/DialogueHeliosPlaceholder.DialogueHeliosPlaceholder',FALSE,FALSE
-ElliLookUpHappy,Elliana,Texture2D'/Game/2DNonDiegetic/Portraits/ElliLookUpHappy.ElliLookUpHappy',FALSE,FALSE
-ElliLookUpHopeful,Elliana,Texture2D'/Game/2DNonDiegetic/Portraits/ElliLookUpHopeful.ElliLookUpHopeful',FALSE,FALSE
-ElliLookUpUpset,Elliana,Texture2D'/Game/2DNonDiegetic/Portraits/ElliLookUpUpset.ElliLookUpUpset',FALSE,FALSE
-ElliShocked,Elliana,Texture2D'/Game/2DNonDiegetic/Portraits/ElliShocked.ElliShocked',FALSE,FALSE
-HeliosConfident1,Helios,Texture2D'/Game/2DNonDiegetic/Portraits/HeliosConfident1.HeliosConfident1',FALSE,FALSE
-HeliosContainedRage,Helios,Texture2D'/Game/2DNonDiegetic/Portraits/HeliosContainedRage.HeliosContainedRage',FALSE,FALSE
-HeliosLookDown,Helios,Texture2D'/Game/2DNonDiegetic/Portraits/HeliosLookDown.HeliosLookDown',FALSE,FALSE
-HeliosYellDown,Helios,Texture2D'/Game/2DNonDiegetic/Portraits/HeliosYellDown.HeliosYellDown',FALSE,FALSE
-StarlightEvilPlan,Starlight,Texture2D'/Game/2DNonDiegetic/Portraits/StarlightEvilPlan.StarlightEvilPlan',FALSE,FALSE
-StarlightHandsOnHips,Starlight,Texture2D'/Game/2DNonDiegetic/Portraits/StarlightHandsOnHips.StarlightHandsOnHips',FALSE,FALSE
-StarlightLookDown,Starlight,Texture2D'/Game/2DNonDiegetic/Portraits/StarlightLookDown.StarlightLookDown',FALSE,FALSE
-StarlightLookUpMad,Starlight,Texture2D'/Game/2DNonDiegetic/Portraits/StarlightLookUpMad.StarlightLookUpMad',FALSE,FALSE
+ElliLookUpHappy,"NSLOCTEXT("""", ""10BD1D194E9AF933D7F768AAE3396A36"", ""Elliana"")",Texture2D'/Game/2DNonDiegetic/Portraits/ElliLookUpHappy.ElliLookUpHappy',FALSE,FALSE
+ElliLookUpHopeful,"NSLOCTEXT("""", ""70F8E4324B6AF9E1CED5EB93A57DA2F2"", ""Elliana"")",Texture2D'/Game/2DNonDiegetic/Portraits/ElliLookUpHopeful.ElliLookUpHopeful',FALSE,FALSE
+ElliLookUpUpset,"NSLOCTEXT("""", ""58F6FA484132A669EDD17E8FE1A25B1C"", ""Elliana"")",Texture2D'/Game/2DNonDiegetic/Portraits/ElliLookUpUpset.ElliLookUpUpset',FALSE,FALSE
+ElliShocked,"NSLOCTEXT("""", ""35AACFB14BE212100060329DB0373760"", ""Elliana"")",Texture2D'/Game/2DNonDiegetic/Portraits/ElliShocked.ElliShocked',FALSE,FALSE
+HeliosConfident1,"NSLOCTEXT("""", ""D12F214548D9F182F66635BCA0F60618"", ""Helios"")",Texture2D'/Game/2DNonDiegetic/Portraits/HeliosConfident1.HeliosConfident1',FALSE,FALSE
+HeliosContainedRage,"NSLOCTEXT("""", ""17919A3B4F041C7FEC816A871BB7B117"", ""Helios"")",Texture2D'/Game/2DNonDiegetic/Portraits/HeliosContainedRage.HeliosContainedRage',FALSE,FALSE
+HeliosLookDown,"NSLOCTEXT("""", ""A3BC2025413B954ABD514C85B038AE20"", ""Helios"")",Texture2D'/Game/2DNonDiegetic/Portraits/HeliosLookDown.HeliosLookDown',FALSE,FALSE
+HeliosYellDown,"NSLOCTEXT("""", ""D0A3176543C62D3EFB8D20A324842C9E"", ""Helios"")",Texture2D'/Game/2DNonDiegetic/Portraits/HeliosYellDown.HeliosYellDown',FALSE,FALSE
+StarlightEvilPlan,"NSLOCTEXT("""", ""7A1BB36C4E0909D20EB764AE5DC4642A"", ""Starlight"")",Texture2D'/Game/2DNonDiegetic/Portraits/StarlightEvilPlan.StarlightEvilPlan',FALSE,FALSE
+StarlightHandsOnHips,"NSLOCTEXT("""", ""38C351CC47720360FB3C5F81C1EF3AA2"", ""Starlight"")",Texture2D'/Game/2DNonDiegetic/Portraits/StarlightHandsOnHips.StarlightHandsOnHips',FALSE,FALSE
+StarlightLookDown,"NSLOCTEXT("""", ""D570A44E4502D7E88B0AFF97FE987210"", ""Starlight"")",Texture2D'/Game/2DNonDiegetic/Portraits/StarlightLookDown.StarlightLookDown',FALSE,FALSE
+StarlightLookUpMad,"NSLOCTEXT("""", ""056490FA497B58FA561154B12D25FB13"", ""Starlight"")",Texture2D'/Game/2DNonDiegetic/Portraits/StarlightLookUpMad.StarlightLookUpMad',FALSE,FALSE
